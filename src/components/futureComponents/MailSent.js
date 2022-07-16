@@ -5,7 +5,7 @@ const MailSent = () => {
   useEffect(() => {
     setTimeout(function () {
       setShowElement(false);
-    }, 4000);
+    }, 3000);
   }, []);
 
   return (
