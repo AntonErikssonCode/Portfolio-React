@@ -1,0 +1,30 @@
+.skillContainer{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  justify-content: center;
+  gap: 7rem;
+  
+
+}
+
+.skillSection{
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 15%;
+
+}
+.skillSection h2{
+  color: white;
+  font-size: 4vw;
+}
+
+.skillRow{
+  display: flex;
+  flex-direction: row;
+  gap: 2vw;
+  flex-wrap: wrap;
+
+}

@@ -1,0 +1,51 @@
+
+.titleDiv{
+  position: absolute;
+  top: 14%;
+}
+
+
+h1 {
+  font-size:5vw;
+  text-align: center;
+  font-weight: 600;
+  color: #353239;
+  margin-top: 7rem;
+}
+
+h1 span span {
+  
+  position: relative;
+  bottom: 0em;
+  opacity: 0;
+  animation: move-text 0.3s forwards;
+}
+/* h1 span span:nth-child(2n) { color: lightseagreen; }
+h1 span span:nth-child(3n) { color: orange; }
+h1 span span:nth-child(4n) { color: dodgerblue; }
+h1 span span:nth-child(5n) { color: blueviolet; } */
+
+@keyframes move-text {
+  0% {
+    color: rgb(173, 173, 173);
+/*     bottom: -0.2em;
+ */    opacity: 0;
+  }
+  
+  50% {
+    /* bottom: 0.2em; */
+  }
+
+  100% {
+    color: rgb(255, 255, 255);
+/*     bottom: 0;
+ */    opacity: 1;
+  }
+}
+
+
+@media screen and (max-width: 500px) {
+  body {
+    transform: scale(0.75);
+  }
+}

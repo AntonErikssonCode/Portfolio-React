@@ -1,0 +1,98 @@
+.projectItem {
+  margin: auto;
+  background: linear-gradient(45deg, black, rgb(44, 44, 44));
+  color: rgb(188, 188, 188);
+  box-shadow: rgb(49, 49, 49) 10px 10px 20px;
+  transition: all 0.5s;
+ 
+  
+}
+
+.projectItem-big{
+  width: 90%;
+}
+.projectItem-small{
+  width: 80%;
+}
+.projectItem:hover {
+  
+  color: rgb(255, 255, 255);
+  transform: scale(1.02);
+}
+.itemContent{
+  height: auto;
+  
+  display: flex;
+  
+}
+.itemContent-right{
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+.itemContent-left{
+  flex-direction: reverse;
+
+}
+
+.imageContainer{
+  position: relative;
+  width: 20vw;
+  
+}
+.imageContainer::after{
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+}
+.image{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+ 
+}
+
+
+
+
+.rightPart{
+  width: 70%;
+  display: flex;
+  
+  flex-direction: column;
+  padding: 1rem 2rem;
+}
+
+.rightPartTitle{
+  font-size: 2.2vw;
+  margin: 0;
+}
+.rightPartTheme{
+  font-size: 1.8vw;
+  margin: 0;
+  color: rgb(188, 188, 188);
+}
+.rightPartDescription{
+  font-size: 1.4vw;
+}
+
+.collapsible .content {
+  padding: 1rem;
+  background: linear-gradient(45deg, black, rgba(0, 0, 0, 0.6));
+
+  margin-top: 0rem;
+  
+}
+.collapsible .header {
+  cursor: pointer;
+}
+.collapseField {
+  height: 4rem;
+  margin-top: -4rem;
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}

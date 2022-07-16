@@ -1,0 +1,167 @@
+.sliderBackground {
+  z-index: 1000;
+  width: 100vw;
+  height: 100vh;
+  margin: 0rem;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  
+ 
+
+  pointer-events: none;
+
+}
+
+.sliderDiv {
+
+ 
+}
+.sliderBar {
+  pointer-events: auto;
+  backdrop-filter: blur(6px);
+  z-index: 20;
+
+
+  background-color: rgba(255, 255, 255, 0.155);
+  height: 15vw;
+  width: 47vw;
+  min-width: rem;
+  display: flex;
+  gap: 1vw;
+  padding: 1vw;
+  border-radius: 1vw;
+  box-shadow: rgba(0, 0, 0, 0.438) 8px 8px 20px;
+  transition: all 1s;
+
+}
+.sliderBar:hover{
+transform: scale(1.05);
+}
+
+.sliderStates {
+  color: rgba(223, 223, 223, 0.92);
+  background-color: rgba(205, 25, 25, 0);
+  height: 15vw;
+  width: 15vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1vw;
+  transition: all 0.5s;
+  font-size: 1.8vw;
+}
+.sliderStates:hover {
+  background-color: rgba(211, 211, 211, 0);
+
+  color: #fff;
+  
+ 
+}
+
+.slider {
+  color: rgb(255, 255, 255);
+  background: linear-gradient(-45deg, rgb(0, 0, 0) 0%, rgb(82, 82, 82) 100%);
+/*  background: linear-gradient(54deg, rgba(200,67,182,1) 30%, rgb(7, 184, 220) 70%); */
+  height: 15vw;
+  width: 15vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  transform: translateX(0);
+  transition: transform 0.5s ease;
+  transform: opacity 0.5s;
+
+  border-radius: 1vw;
+  box-shadow: rgba(0, 0, 0, 0.438) 4px 4px 10px;
+  font-size: 1.8vw;
+}
+
+
+.sliderDivIn {
+  padding-top: 5rem;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  animation:  AnimateSliderDivIn 0.6s forwards; 
+
+}
+
+
+.sliderDivOut {
+  
+  position:relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  
+  animation:  AnimateSliderDivOut 0.6s forwards; 
+  
+
+ 
+
+}
+.sliderBarOut{
+  background-color: rgb(255, 255, 255);
+  color: black;
+
+
+
+}
+.sliderBarIn{
+  
+  
+
+
+}
+
+.sliderStatesDown{
+  color: rgba(0, 0, 0, 0.678);
+
+}
+.sliderStatesDown:hover{
+  color: rgb(0, 0, 0);
+
+}
+
+
+
+@keyframes AnimateSliderDivOut {
+  0%{
+    top: 0%;
+    transform: scale(1);
+    
+
+  }
+  100%{
+    top: -42%;
+  
+    transform: scale(0.4);
+    
+  }
+  
+}
+
+@keyframes AnimateSliderDivIn {
+  0%{
+    top: -42%;
+    transform: scale(0.4);
+
+  }
+  100%{
+    top: 0%;
+    transform: scale(1);
+    
+  }
+  
+}
+
+
+

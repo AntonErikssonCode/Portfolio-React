@@ -1,0 +1,26 @@
+.projectContainer{
+  
+  width: 100%;
+  height: auto;
+  margin: 0;
+  
+  font-size: 4.5rem;
+  display: flex;
+  flex-direction: column;
+  z-index: 10;
+  gap: 4rem;
+  padding-bottom: 6rem;
+
+}
+
+.projectsTitle{
+  
+  width: 100%;
+  
+  margin: 2rem 0rem;
+  margin-top: -8rem;
+  
+  color: rgb(255, 255, 255);
+  font-size: 6vw;
+
+}
