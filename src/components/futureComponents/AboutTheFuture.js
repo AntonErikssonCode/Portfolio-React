@@ -2,6 +2,7 @@ import "./AboutTheFuture.css";
 import Title from "../features/Title";
 import { motion } from "framer-motion";
 import Contact from "./Contact";
+import Me from "./Me";
 function AboutTheFuture() {
   
 
@@ -14,6 +15,7 @@ function AboutTheFuture() {
         botText="FUTURE"
       />
       <Contact/>
+      <Me/>
 
     </div>
   );
