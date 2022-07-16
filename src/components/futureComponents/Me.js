@@ -1,12 +1,12 @@
 import "./Me.css";
 
-function Me(){
-  return(
+function Me() {
+  return (
     <div>
-
-<img className="me-img" src={require('./me.jpg')} />
-
+      <div className="me-img-container">
+        <img className="me-img" src={require("./me.jpg")} />
+      </div>
     </div>
-  )
+  );
 }
 export default Me;
