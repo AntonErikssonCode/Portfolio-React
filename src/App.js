@@ -4,17 +4,17 @@ import FuturePage from "./pages/Future";
 import PastPage from "./pages/Past";
 import PresentPage from "./pages/Present";
 import Layout from "./components/layout/Layout";
-import ScrollToTop from "./components/navigation/ScrollToTop";
-function App() {
+/* import ScrollToTop from "./components/navigation/ScrollToTop";
+ */function App() {
   return (
     <Layout>
-{     <ScrollToTop/>
-}    <Routes>
-        <Route path="/" element={<PastPage />} />
-        <Route path="past" element={<PastPage />} />
-        <Route path="present" element={<PresentPage />} />
-        <Route path="future" element={<FuturePage />} />
-        <Route path="future/contact-me" element={<FuturePage />} />
+{/* {     <ScrollToTop/>
+ */}  <Routes>
+        <Route path="/" exact  xact element={<PastPage />} />
+        <Route path="past"  exact  element={<PastPage />} />
+        <Route path="present" exact  element={<PresentPage />} />
+        <Route path="future" exact  element={<FuturePage />} />
+        <Route path="future/contact-me" exact   element={<FuturePage />} />
       </Routes>
     </Layout>
   );

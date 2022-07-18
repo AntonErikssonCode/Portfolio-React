@@ -14,8 +14,9 @@ function AboutTheFuture() {
         topText="But What About The "
         botText="FUTURE"
       />
+            <Me/>
       <Contact/>
-      <Me/>
+
 
     </div>
   );

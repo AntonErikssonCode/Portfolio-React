@@ -56,7 +56,7 @@
 .login-box .user-box textarea:valid ~ label {
   top: -32px;
   left: 0;
-  color: var(--mainColor);
+  color: var(--secondColor);
   font-size: 1vw;
   font-weight: bold;
 }

@@ -1,17 +1,17 @@
 .MainContent {
   /* background-color: rgb(154, 154, 154); */
   width: 100%;
-  height: auto;
+  height: 100%;
   display: flex;
   justify-content: center;
- 
+
   box-shadow: rgb(255, 255, 255) -5px -5px 50px;
-  
+
   z-index: 0;
   margin: 0;
 
   flex-direction: column;
-  
+  position: relative;
 }
 
 .wave {
@@ -23,29 +23,26 @@
   left: -150vh;
   border-radius: 35%;
   background: linear-gradient(rgb(0, 0, 0), rgb(255, 255, 255), rgb(0, 0, 0));
-/*   animation: wave 60s infinite linear; */
+  /*   animation: wave 60s infinite linear; */
 
- 
- margin-top: 40vh;
- 
+  margin-top: 40vh;
+
   -webkit-box-shadow: 0 0 200px #fff;
   box-shadow: 0 0 200px #fff;
   transform: rotate(10deg);
+
 }
 
 .wrapper {
-  position: relative;
-  
-  
-  margin: 0;
   padding: 0;
   width: 100vw;
-  height: 500vh;
+  height: calc(100%+100vh);
   position: absolute;
-  top: 30vh;
+
   left: -100;
   pointer-events: none;
-
+  bottom: 0;
+  top: -95vh;
   overflow: hidden;
   z-index: 0;
 }

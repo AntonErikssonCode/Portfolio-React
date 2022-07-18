@@ -4,6 +4,7 @@ html, body{
   overflow-x: hidden;
   width:100vw;
   letter-spacing: 0.05rem;
+  background-color: #000;
 }
 
 
@@ -15,6 +16,8 @@ html { font-family: 'Inter', sans-serif; }
 
 
 :root{
-  --mainColor: rgba(105,63,255,1);
-  --secondColor: rgba(255,51,0,1);
+  --mainColor: rgb(79, 10, 217);
+  --secondColor: rgba(18, 247, 209, 0.991);
+  --black: #000;
+  --lessBlack:  rgb(48, 48, 48);
 }

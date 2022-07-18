@@ -33,7 +33,7 @@
   padding: 1vw;
   border-radius: 1vw;
   box-shadow: rgba(0, 0, 0, 0.438) 8px 8px 20px;
-  transition: all 1s;
+  transition: all 0.4s;
 
 }
 .sliderBar:hover{
@@ -41,6 +41,8 @@ transform: scale(1.05);
 }
 
 .sliderStates {
+  
+
   color: rgba(223, 223, 223, 0.92);
   background-color: rgba(205, 25, 25, 0);
   height: 15vw;
@@ -51,6 +53,12 @@ transform: scale(1.05);
   border-radius: 1vw;
   transition: all 0.5s;
   font-size: 1.8vw;
+}
+.sliderStates h2, .slider h2{
+  -webkit-user-select: none; /* Safari */        
+-moz-user-select: none; /* Firefox */
+-ms-user-select: none; /* IE10+/Edge */
+user-select: none; /* Standard */
 }
 .sliderStates:hover {
   background-color: rgba(211, 211, 211, 0);

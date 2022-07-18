@@ -15,7 +15,7 @@ function PresentPage() {
         <title>Antons Present</title>
       </MetaTags>
       <IntroBackground color={backgroundGradient} />
-      <MainContent color={backgroundGradient}>
+      <MainContent color={backgroundGradient} wrapperHeight="400vh">
         <ImgBoardContainer />
         <SecondContent  color={backgroundGradient}>
           <SkillsContainer/>

@@ -17,7 +17,7 @@ function FuturePage() {
       </MetaTags>
       <IntroBackground color={backgroundGradient} />
 
-      <MainContent color={backgroundGradient}>
+      <MainContent color={backgroundGradient} wrapperHeight="380vh">
         <AboutTheFuture />
       </MainContent>
       <Footer />

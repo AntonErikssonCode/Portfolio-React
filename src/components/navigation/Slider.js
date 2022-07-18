@@ -1,21 +1,49 @@
 import classes from "./Slider.module.css";
-import { useState, useLayoutEffect, useRef } from "react";
+import { useState, useLayoutEffect, useRef, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import SliderTitle from "./SliderTitle";
+import { useLocation } from "react-router-dom";
 
 function Slider() {
   const [sliderState, setSliderState] = useState("/past");
   const [silderDown, setsilderDown] = useState(true);
-
   const sliderBackground = useRef();
   const sliderDiv = useRef();
   const sliderRef = useRef();
-  // Set Up Navigation
+  const { pathname } = useLocation();
 
+  // Set Up Navigation
   const navigate = useNavigate();
   function navigateTo(where) {
     navigate(where);
   }
+
+  //Set load in  position based on url
+  useEffect(() => {
+    const slider = document.getElementById("slider");
+    if (pathname == "/present") {
+      slider.style.transform = "translateX(16vw)";
+      slider.firstChild.innerHTML = "PRESENT";
+      setSliderState("/present");
+      navigateTo("present");
+    }
+    if (pathname == "/future" || pathname == "/future/contact-me") {
+      slider.style.transform = "translateX(32vw)";
+      setSliderState("/future");
+      slider.firstChild.innerHTML = "FUTURE";
+      navigateTo(pathname);
+    }
+  }, []);
+
+  useEffect(() => {
+    const slider = document.getElementById("slider");
+    if (pathname == "/future/contact-me") {
+      slider.style.transform = "translateX(32vw)";
+      setSliderState("/future");
+      slider.firstChild.innerHTML = "FUTURE";
+      navigateTo(pathname);
+    }
+  }, [pathname]);
 
   // Detect an animate slider position depending on position
   const scrolledDown = useWindowPosition();
@@ -70,7 +98,6 @@ function Slider() {
         setSliderState("/future");
         navigateTo("future");
       }
-
       // FUTURE
       if (sliderState == "/future" && click == "Past") {
         slider.style.transform = "translateX(0vw)";

@@ -31,11 +31,11 @@
 }
 .movingBackground{
   position:absolute;
-  left:-100vh;
+  left:-150vh;
  
   /* background: linear-gradient(44deg,var(--mainColor)35%, var(--secondColor)70%); */
-  width: 200vw;
-  height: 200vw;
+  width: 300vw;
+  height: 300vw;
   /* animation: rotate 10s infinite linear; */
   transition: transform 2s;
  

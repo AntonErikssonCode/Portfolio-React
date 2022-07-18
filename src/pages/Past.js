@@ -18,7 +18,7 @@ function PastPage() {
         <title>Antons Past</title>
       </MetaTags>
       <IntroBackground color={backgroundGradient} />
-      <MainContent color={backgroundGradient}>
+      <MainContent color={backgroundGradient} wrapperHeight="500vh">
         <ProjectContainer />
         <SecondContent color={backgroundGradient}>
           <Timeline />
