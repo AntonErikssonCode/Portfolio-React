@@ -9,8 +9,9 @@ import Quote from "../components/pastComponents/Quote";
 
 function PastPage() {
   const backgroundGradient =
-    "linear-gradient(54deg, rgba(2,0,36,1) 0%, rgba(200,67,182,1) 30%, rgb(7, 184, 220) 70%)";
+    "linear-gradient(54deg, rgba(2,0,36,1) 0%, var(--mainColor) 30%,var(--secondColor) 70%)";
 
+    
 
   return (
     <div>

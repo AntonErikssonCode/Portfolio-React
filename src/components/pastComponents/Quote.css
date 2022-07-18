@@ -3,6 +3,8 @@
   width: 100%;
   margin-top: 30rem;
   display: block;
+  height: 200vh;
+
   
 }
 .quote-background{
@@ -26,6 +28,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  ;
   
 }
 .quote{
@@ -37,7 +40,7 @@
   display: flex;
   flex-direction: column;
   box-shadow: rgb(49, 49, 49) 10px 10px 20px;
-  
+  border-radius: 0.5rem;
 }
 .quote-bot{
   display: flex;
@@ -47,7 +50,7 @@
   margin:0;
 }
 .quote p {font-size: 1.8vw;
-  line-height:3rem}
+ }
 .quote h4 {font-size: 1.8vw;
 margin:0; }
 .quote h5 {font-size: 1.8vw;margin:1rem;

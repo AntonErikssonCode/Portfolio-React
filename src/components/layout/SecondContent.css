@@ -13,7 +13,6 @@
   overflow: hidden;
   width: 250vw;
   height: 250vw;
-  background: linear-gradient(54deg, rgba(2,0,36,1) 0%, rgba(200,67,182,1) 30%, rgb(7, 184, 220) 70%);
   transform: rotate(10deg);
   left: -30%;
   top: 10%;
