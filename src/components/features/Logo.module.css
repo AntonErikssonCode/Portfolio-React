@@ -2,8 +2,8 @@
 .heading{
   position: absolute;
   margin: 0;
-  top: 2vw;
-  left: 2vw;
+  top: 1vw;
+  left: 1vw;
   text-align: left;
   display: flex;
   flex-direction: column;
@@ -29,7 +29,9 @@
 .portfolio{
   font-weight: bold;
   font-size: 2.7vw;
-  color: rgb(173, 173, 173);
+  color: rgb(255, 255, 255);
+  letter-spacing: 0.6rem;
+  
 }
 
 @keyframes tilt-n-move-shaking {

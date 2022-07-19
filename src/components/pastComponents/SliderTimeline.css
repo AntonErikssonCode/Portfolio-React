@@ -1,5 +1,5 @@
 .sliderTimeline-container{
-  margin: 10rem 0rem;
+  margin-bottom: 10rem;
 
 }
 .sliderTimeline-container h3{
@@ -7,6 +7,7 @@
   color: white;
   font-size: 4vw;
   margin-bottom: 1rem;
+  margin-top: 0;
 }
 .sliderTimeline{
  width: 100%;
