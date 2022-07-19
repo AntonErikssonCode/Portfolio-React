@@ -2,8 +2,8 @@ import "./Quote.css";
 
 function Quote() {
   return (
-    <div className="quote-container">
-      <div className="quote-background"></div>
+ 
+     
       <div className="quote-div">
         <div className="quote">
           <p>
@@ -19,7 +19,7 @@ function Quote() {
           </div>
         </div>
       </div>
-    </div>
+
   );
 }
 export default Quote;

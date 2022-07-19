@@ -6,12 +6,10 @@ import Footer from "../components/layout/Footer";
 import Timeline from "../components/pastComponents/Timeline";
 import MetaTags from "react-meta-tags";
 import Quote from "../components/pastComponents/Quote";
-
+import PastContainer from "../components/pastComponents/PastContainer";
 function PastPage() {
   const backgroundGradient =
     "linear-gradient(54deg, rgba(2,0,36,1) 0%, var(--mainColor) 30%,var(--secondColor) 70%)";
-
-    
 
   return (
     <div>
@@ -20,11 +18,9 @@ function PastPage() {
       </MetaTags>
       <IntroBackground color={backgroundGradient} />
       <MainContent color={backgroundGradient} wrapperHeight="500vh">
-        <ProjectContainer />
-        <SecondContent color={backgroundGradient}>
-          <Timeline />
-          <Quote />
-        </SecondContent>
+        <PastContainer>
+        
+        </PastContainer>
       </MainContent>
       <Footer />
     </div>

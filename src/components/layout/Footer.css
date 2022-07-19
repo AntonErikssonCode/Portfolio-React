@@ -1,10 +1,9 @@
 footer{
   overflow: hidden;
   height: 70vh;
-    background: linear-gradient(  45deg,  rgb(0, 0, 0), var(--lessBlack));
+  background: linear-gradient(  45deg,  rgb(0, 0, 0), var(--lessBlack));
     
-    background: linear-gradient(45deg, black, rgb(44, 44, 44));
-    box-shadow: -10px -10px 20px;
+    
     color: white;
     display: flex;
     align-items: center;
@@ -38,7 +37,7 @@ footer{
     align-items: center;
   }
   .footer-bold{
-    font-weight:900;
+    font-weight:600;
   }
 
   footer h4{
@@ -48,7 +47,7 @@ footer{
   }
   .footer-contactMe:hover{
   
-    transform: scale(1.2);
+    transform: scale(1.05);
   }
 
   .footer-contactMe{
@@ -56,4 +55,5 @@ footer{
     text-decoration: none;
            color: white;
            font-size: 3vw;
+           margin: 0;
   }

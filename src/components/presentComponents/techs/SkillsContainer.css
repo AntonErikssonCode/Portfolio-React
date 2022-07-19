@@ -16,9 +16,10 @@
   margin-left: 15%;
 
 }
-.skillSection h2{
+.skillSection h3{
   color: white;
   font-size: 4vw;
+  margin-bottom: 1rem;
 }
 
 .skillRow{

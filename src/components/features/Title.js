@@ -2,10 +2,7 @@ import "./Title.css";
 import React, { useEffect } from "react";
 import { useAnimation, motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
-const squareVariants = {
-  visible: { opacity: 1, scale: 4, transition: { duration: 1 } },
-  hidden: { opacity: 0, scale: 0 },
-};
+
 
 function Title(props) {
   const topTextSize = props.topTextSize;
@@ -19,10 +16,10 @@ function Title(props) {
   useEffect(() => {
     if (inView) {
       titleAnimation.start({
-        y: -200,
+        y: 0,
         opacity:1,
         transition: {
-          duration: 1,
+          duration: 2,
           type:'spring'
         },
       });
@@ -32,7 +29,7 @@ function Title(props) {
         y: 0,
         opacity:0,
         transition: {
-          duration: 1,
+          duration: 2,
         },
       });
 

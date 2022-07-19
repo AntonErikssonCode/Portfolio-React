@@ -1,0 +1,7 @@
+.futureContainer{
+  width: 100%;
+  background-color: rgba(255, 153, 0, 0);
+  height: auto;
+  z-index: 2000000;
+  margin-bottom: 20rem;
+}

@@ -1,0 +1,39 @@
+.timelineInstance{
+  width: 100%;
+}
+ .timelineInstance-top2, .timelineInstance-top3 {
+  
+  display: flex;
+justify-content: space-between;
+
+gap: 20vw;
+}
+
+.timelineInstance-top1 h4, .timelineInstance-top2 h4, .timelineInstance-top3 h4, .timelineInstance-top4 ul, .timelineInstance-top5 h4{
+  margin: 0.8rem;
+  font-size: 1.4rem;
+  font-weight: 300;}
+.timelineInstance-top4, .timelineInstance-top5{
+  display: flex;
+  justify-content: center;
+
+}
+
+.timelineInstance-top1 {
+  font-size: 2rem;
+
+  display: flex;
+  justify-content: center;
+}
+.timelineInstance-top1 h4{
+  margin-top: 2REM;
+  font-size: 2rem;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+}
+
+
+.timelineInstance-top4 li{
+  font-size: 1.2rem;
+}

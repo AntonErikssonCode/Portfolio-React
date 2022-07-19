@@ -1,5 +1,5 @@
 import classes from "./MainContent.module.css";
-
+import Title from "../features/Title";
 function MainContent(props) {
   const wrapperHeight = props.wrapperHeight;
   return (
@@ -8,6 +8,7 @@ function MainContent(props) {
       <div className={classes.wave} ></div>
       
       </div>
+    
 
       {props.children}
     </div>

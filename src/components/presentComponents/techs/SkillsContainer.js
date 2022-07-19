@@ -5,7 +5,7 @@ function SkillsContainer() {
   return (
     <div className="skillContainer">
       <section className="skillSection">
-        <h2>Technologies I'm Good At</h2>
+        <h3>Technologies I'm Good At</h3>
         <div className="skillRow">
           <Skill></Skill>
           <Skill></Skill>
@@ -13,7 +13,7 @@ function SkillsContainer() {
         </div>
       </section>
       <section className="skillSection">
-        <h2>Technologies I Know</h2>
+        <h3>Technologies I Know</h3>
         <div className="skillRow">
           <Skill></Skill>
           <Skill></Skill>
@@ -22,7 +22,7 @@ function SkillsContainer() {
       </section>
 
       <section className="skillSection">
-        <h2>Technologies I've Used</h2>
+        <h3>Technologies I've Used</h3>
         <div className="skillRow">
           <Skill></Skill>
           <Skill></Skill>

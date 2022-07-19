@@ -2,21 +2,19 @@ import IntroBackground from "../components/layout/IntroBackground";
 import MainContent from "../components/layout/MainContent";
 import Footer from "../components/layout/Footer";
 import MetaTags from "react-meta-tags";
-import AboutTheFuture from "../components/futureComponents/AboutTheFuture";
-
+import FutureContainer from "../components/futureComponents/FutureContainer";
 function FuturePage() {
   const backgroundGradient =
     "linear-gradient(54deg, rgba(255,51,0,1) 11%, rgba(105,63,255,1) 100%)";
 
   return (
     <div>
-      <MetaTags >
-      <title>Antons Future</title>
+      <MetaTags>
+        <title>Antons Future</title>
       </MetaTags>
       <IntroBackground color={backgroundGradient} />
-
       <MainContent color={backgroundGradient} wrapperHeight="380vh">
-        <AboutTheFuture />
+        <FutureContainer />
       </MainContent>
       <Footer />
     </div>
