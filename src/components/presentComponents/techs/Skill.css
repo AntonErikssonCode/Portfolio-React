@@ -1,8 +1,8 @@
 .skill{
-  background: linear-gradient(-20deg, #242424 40%, rgb(0, 0, 0)45%);
+  background: linear-gradient(5deg, black, rgb(44, 44, 44));
   width: 400px;
   height: 200px;
-  border: 0.5rem black solid;
+  border: 0.5rem rgba(31, 31, 31, 0.995) solid;
   color: white;
   display: flex;
   transition: transform 0.3s;

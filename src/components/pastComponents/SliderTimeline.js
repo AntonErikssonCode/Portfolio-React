@@ -12,7 +12,7 @@ const monthValues = {
   7: "August",
   8: "September",
   9: "October",
-  10: "Novermber",
+  10: "November",
   11: "December",
 };
 
@@ -64,9 +64,10 @@ function SliderTimeline() {
         <TimlineInstance time={timeValue} />
       </div>
       <div className="sliderTimeline-dates">
-       
+        <h4>{month}-{year}</h4>
+ {/*       
        <h4>Year: <span className="sliderTimeline-notBold"> {year}</span></h4>
-       <h4>Month:  <span className="sliderTimeline-notBold"> {month}</span></h4>
+       <h4>Month:  <span className="sliderTimeline-notBold"> {month}</span></h4> */}
      </div>
       <input
         type="range"
