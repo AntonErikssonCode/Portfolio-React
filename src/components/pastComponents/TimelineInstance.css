@@ -1,10 +1,12 @@
 .timelineInstance{
   width: 100%;
+  position: relative;
 }
  .timelineInstance-top2, .timelineInstance-top3 {
   
   display: flex;
 justify-content: space-between;
+
 
 gap: 20vw;
 }
@@ -36,4 +38,5 @@ gap: 20vw;
 
 .timelineInstance-top4 li{
   font-size: 1.2rem;
+  margin: 1rem;
 }

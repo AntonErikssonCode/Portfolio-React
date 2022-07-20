@@ -7,6 +7,7 @@ import { useLocation } from "react-router-dom";
 function Slider() {
   const [sliderState, setSliderState] = useState("/past");
   const [silderDown, setsilderDown] = useState(true);
+  const [keyPress, setKeyPress] = useState(false);
   const sliderBackground = useRef();
   const sliderDiv = useRef();
   const sliderRef = useRef();
@@ -16,6 +17,17 @@ function Slider() {
   const navigate = useNavigate();
   function navigateTo(where) {
     navigate(where);
+  }
+
+  //Handle Keydown Event
+  document.onkeydown = checkKey;
+  function checkKey(e) {
+    e = e || window.event;
+    if (e.keyCode == "37") {
+      clickHandler("left");
+    } else if (e.keyCode == "39") {
+      clickHandler("right");
+    }
   }
 
   //Set load in  position based on url
@@ -69,16 +81,23 @@ function Slider() {
   function clickHandler(click) {
     const slider = document.getElementById("slider");
 
-    if (click != sliderState) {
+    if (click != sliderState || keyPress) {
+      console.dir(click);
       // PAST
-      if (sliderState == "/past" && click == "Present") {
+      if (
+        (sliderState == "/past" && click == "Present") ||
+        (sliderState == "/past" && click == "right")
+      ) {
         slider.style.transform = "translateX(16vw)";
         slider.firstChild.innerHTML = "PRESENT";
         setSliderState("/present");
         navigateTo("present");
       }
 
-      if (sliderState == "/past" && click == "Future") {
+      if (
+        (sliderState == "/past" && click == "Future") ||
+        (sliderState == "/past" && click == "left")
+      ) {
         slider.style.transform = "translateX(32vw)";
         setSliderState("/future");
         slider.firstChild.innerHTML = "FUTURE";
@@ -86,26 +105,38 @@ function Slider() {
       }
 
       // PRESENT
-      if (sliderState == "/present" && click == "Past") {
+      if (
+        (sliderState == "/present" && click == "Past") ||
+        (sliderState == "/present" && click == "left")
+      ) {
         slider.style.transform = "translateX(0)";
         slider.firstChild.innerHTML = "PAST";
         setSliderState("/past");
         navigateTo("past");
       }
-      if (sliderState == "/present" && click == "Future") {
+      if (
+        (sliderState == "/present" && click == "Future") ||
+        (sliderState == "/present" && click == "right")
+      ) {
         slider.style.transform = "translateX(32vw)";
         slider.firstChild.innerHTML = "FUTURE";
         setSliderState("/future");
         navigateTo("future");
       }
       // FUTURE
-      if (sliderState == "/future" && click == "Past") {
+      if (
+        (sliderState == "/future" && click == "Past") ||
+        (sliderState == "/future" && click == "right")
+      ) {
         slider.style.transform = "translateX(0vw)";
         slider.firstChild.innerHTML = "PAST";
         setSliderState("/past");
         navigateTo("past");
       }
-      if (sliderState == "/future" && click == "Present") {
+      if (
+        (sliderState == "/future" && click == "Present") ||
+        (sliderState == "/future" && click == "left")
+      ) {
         slider.style.transform = "translateX(16vw)";
         slider.firstChild.innerHTML = "PRESENT";
         setSliderState("/present");

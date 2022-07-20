@@ -12,7 +12,7 @@
 }
 
 .login-box h2 {
-  font-size: 3vw;
+  font-size: 3rem;
   margin: 0 0 48px;
   padding: 0;
   color: #fff;
@@ -27,7 +27,7 @@
 .login-box .user-box textarea {
   width: 100%;
   padding: 10px 0;
-  font-size: 1.2vw;
+  font-size: 1.2rem;
   font-weight: 100;
   color: #fff;
   margin-bottom: 50px;
@@ -44,7 +44,7 @@
   top: 0;
   left: 0;
   padding: 10px 0;
-  font-size: 1.2vw;
+  font-size: 1.4rem;
   color: #fff;
   pointer-events: none;
   transition: 0.5s;
@@ -56,8 +56,8 @@
 .login-box .user-box textarea:valid ~ label {
   top: -32px;
   left: 0;
-  color: var(--secondColor);
-  font-size: 1vw;
+  color: var(--mainColor);
+  font-size: 1rem;
   font-weight: bold;
 }
 /* .formButton{
@@ -75,7 +75,7 @@ background: linear-gradient(126deg, rgba(22,210,34,1) 0%, rgba(0,40,255,1) 100%)
   display: inline-block;
   padding: 10px 20px;
   background-color: rgba(255, 255, 255, 0);
-  font-size: 2.6vw;
+  font-size: 2rem;
   text-decoration: none;
   text-transform: uppercase;
   overflow: hidden;
@@ -83,6 +83,14 @@ background: linear-gradient(126deg, rgba(22,210,34,1) 0%, rgba(0,40,255,1) 100%)
   margin-top: 40px;
   letter-spacing: 6px;
   border-radius: 5px;
+
+  font-size: 2rem;
+  padding: 1rem 1.5rem;
+  background: linear-gradient(45deg, black, var(--lessBlack));
+  border-radius: 0.5vw;
+  border: 2px rgba(255, 255, 255, 0.069) solid;
+  font-weight: 300;
+  transition: all 1s;
 }
 
 .login-box button:hover {
@@ -101,6 +109,7 @@ background: linear-gradient(126deg, rgba(22,210,34,1) 0%, rgba(0,40,255,1) 100%)
 .login-box button span {
   position: absolute;
   display: block;
+  
 }
 
 .login-box button span:nth-child(1) {

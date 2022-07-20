@@ -13,9 +13,10 @@ function FutureContainer(props){
         botText="FUTURE"
       />
       <Me/>
+      <Quote />
       <Contact/>
 
-      <Quote />
+      
     </div>
   )
 }

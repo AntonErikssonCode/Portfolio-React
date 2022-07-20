@@ -10,10 +10,10 @@ function IntroBackground(props) {
     "linear-gradient(var(--mainColor)35%, var(--secondColor)70%)";
   const transform = "rotate(" + deg + "deg)";
 
-  useEffect(() => {
+  /* useEffect(() => {
     setDeg(deg + 80);
   }, [pathname]);
-
+ */
   return (
     <div
       id="introBackground"

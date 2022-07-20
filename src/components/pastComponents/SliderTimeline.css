@@ -1,5 +1,5 @@
 .sliderTimeline-container{
-  margin-bottom: 10rem;
+  margin-bottom: 20rem;
 
 }
 .sliderTimeline-container h3{
@@ -12,14 +12,15 @@
 .sliderTimeline{
  width: 100%;
  display: flex;
- justify-content: center;
+ 
  align-items: center;
  flex-direction: column;
  background: linear-gradient(45deg,var(--black), var(--lessBlack));
- width: 80%;
+ width: 70%;
  margin: 0rem auto;
  color: #fff;
  border-radius: 0.5vw;
+ padding: 0% 5%;
 
  
   
@@ -32,12 +33,7 @@
  font-size: 1.6rem;
 }
 
-.sliderTimeline-display{
- 
-}
-.sliderTimeline-slider{
-  width: 100%;
-}
+
 
 
 .sliderTimeline h3 {
@@ -50,7 +46,7 @@
 
 .sliderTimeline-slider {
   margin: 2rem;
-  width: 50%;
+  width: 60%;
   height: 20px;
   -webkit-appearance: none;
  
@@ -70,4 +66,5 @@
   border: 4px solid rgba(255, 255, 255, 0.838);
   box-shadow: -407px 0 0 400px ;
   color: rgb(177, 177, 177);
+  
 }

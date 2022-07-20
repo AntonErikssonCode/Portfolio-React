@@ -1,8 +1,35 @@
 import "./Me.css";
-
+import resume from './resume.pdf';
+import grades from './grades.pdf';
+import thesis from './thesis.pdf';
 function Me() {
   return (
     <div className="me-main">
+      <div className="me-main-bottom">
+        <div className="me-main-bottom-align">
+          <h3>
+            What do I want to be when I <br />
+            grow up?
+          </h3>
+          <div className="me-main-bottom-text">
+            <h4>I dream about an opportunity where I can: </h4>
+            <ul>
+              <li>
+                Get usage of and apply my multidisciplinary knowledge to create
+                amazing refined user experiences.
+              </li>
+              <li>
+                Work in a creative environment where I get usage of my talent
+                for ideation and concept development.
+              </li>
+              <li>Develop unique, intuitive and gorgeous interfaces.</li>
+              <li>Solve complex problems. </li>
+              <li>Contribute to the good of humanity and the environment.</li>
+              <li>Be a part of something grand. </li>
+            </ul>
+          </div>
+        </div>
+      </div>
       <div className="me-container">
         <div className="me-img-container">
           <img className="me-img" src={require("./me-small.jpg")}></img>
@@ -51,11 +78,17 @@ function Me() {
             share you can hit me up.{" "}
           </p>
         </div>
+        
       </div>
-      <div className="me-main-bottom">
-        <h4>So what do I want to be when I grow up?</h4>
-        <p>dasdasd</p>
-        </div>
+      <div className="me-links-container">
+      {/*     <h4>View My</h4> */}
+          <div className="me-links">
+          <a className="me-links-a" href = {resume} target = "_blank">RESUME</a>
+          <a className="me-links-a"href = {grades} target = "_blank">GRADES</a>
+          <a className="me-links-a"href = {thesis} target = "_blank">BCs THESIS</a>
+          </div>
+      </div>
+      
     </div>
   );
 }
