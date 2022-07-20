@@ -1,14 +1,17 @@
 
+
+
 .heading{
   position: absolute;
   margin: 0;
-  top: 1vw;
-  left: 1vw;
+  top: 1rem;
+  left: 2rem;
   text-align: left;
   display: flex;
   flex-direction: column;
   z-index: 1000;
-  
+/*   font-family: Amulya;
+ */  
  
 }
 

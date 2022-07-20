@@ -13,7 +13,10 @@ html { font-family: 'Inter', sans-serif; }
 @supports (font-variation-settings: normal) {
   html { font-family: 'Inter var', sans-serif; }
 }
-
+@font-face {
+  font-family: Amulya;
+  src: url("../src/Fonts/WEB/fonts/Amulya-Bold.ttf");
+}
 
 :root{
   --mainColor: rgb(79, 10, 217);
