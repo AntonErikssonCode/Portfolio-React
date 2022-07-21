@@ -30,7 +30,7 @@ const data = [
     company: " ",
     time: "September 2015 - December 2016",
     lessons: "Independence & English Fluency",
-    description: ["Explored the world and met diffrent cultures and customs. ", "Worked jobs such as waiter, cleaner and famer. "],
+    description: ["Explored the world and met diffrent cultures and customs. ", "Worked jobs such as waiter, cleaner and farmer. "],
     type: "Personal Development",
     location: "South East Asia, Australia & Canada",
   },

@@ -27,6 +27,7 @@ function IntroBackground(props) {
           className={classes.movingBackground}
         ></div>
       </div>
+      
     </div>
   );
 }

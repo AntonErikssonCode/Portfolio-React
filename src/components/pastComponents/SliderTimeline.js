@@ -76,7 +76,7 @@ function SliderTimeline() {
         max="104"
         defaultValue="5"
         /* onChange={(event) => setYear(event.target.value)} */
-        on
+      
         onChange={handleChange}
        
       />

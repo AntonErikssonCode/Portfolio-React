@@ -16,12 +16,12 @@ function Footer() {
         <div className="footer-content-right">
           <h3>
             <a target="_blank" rel="noreferrer" href={"https://bobbyhadz.com/blog/react-add-css-class-on-hover"}>
-            <img src={require('./linkedin-logo.png')} />LinkedIn
+            <img src={require('./linkedin_line.png')} />LinkedIn
             </a>
           </h3>
           <h3>
           <a target="_blank" rel="noreferrer" href={"https://bobbyhadz.com/blog/react-add-css-class-on-hover"}>
-            <img src={require('./facebook.png')} />Facebook
+            <img src={require('./github_fill.png')} />GitHub
             </a>
           </h3>
         </div>

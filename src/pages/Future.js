@@ -1,7 +1,7 @@
 import IntroBackground from "../components/layout/IntroBackground";
 import MainContent from "../components/layout/MainContent";
 import Footer from "../components/layout/Footer";
-import MetaTags from "react-meta-tags";
+import MetaTags from "../components/features/MetaTags";
 import FutureContainer from "../components/futureComponents/FutureContainer";
 function FuturePage() {
   const backgroundGradient =
@@ -9,9 +9,7 @@ function FuturePage() {
 
   return (
     <div>
-      <MetaTags>
-        <title>Antons Future</title>
-      </MetaTags>
+ <MetaTags title="Antons Future"/>
       <IntroBackground color={backgroundGradient} />
       <MainContent color={backgroundGradient} wrapperHeight="380vh">
         <FutureContainer />

@@ -43,7 +43,7 @@ export const ContactUs = () => {
   };
 
   return (
-    <div ref={testRef} id="contactSection" class="login-box">
+    <div ref={testRef} id="contactSection" className="login-box">
       <h2>Contact Me</h2>
       <form ref={form} onSubmit={sendEmail}>
         <div className="user-box">

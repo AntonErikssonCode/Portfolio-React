@@ -23,7 +23,7 @@ function Me() {
                 for ideation and concept development.
               </li>
               <li>Develop unique, intuitive and gorgeous interfaces.</li>
-              <li>Solve complex problems. </li>
+              <li>Solve complex problems and apply my technical proficiency. </li>
               <li>Contribute to the good of humanity and the environment.</li>
               <li>Be a part of something grand. </li>
             </ul>
