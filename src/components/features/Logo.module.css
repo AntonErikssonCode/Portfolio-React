@@ -12,11 +12,13 @@
   z-index: 1000;
 /*   font-family: Amulya;
  */  
- 
+ transition: all 1s;
 }
 
 .heading:hover{
-  animation: tilt-n-move-shaking 0.3s;
+  /* animation: tilt-n-move-shaking 0.3s; */
+
+  transform: scale(1.05);
 }
 .name, .portfolio{
   margin: 0;
@@ -25,13 +27,13 @@
 }
 .name{
   display: block;
-  font-size: 2vw;
+  font-size: 1.4rem;
   color: rgb(255, 255, 255);
 }
 
 .portfolio{
   font-weight: bold;
-  font-size: 2.7vw;
+  font-size: 1.6rem;
   color: rgb(255, 255, 255);
   letter-spacing: 0.6rem;
   

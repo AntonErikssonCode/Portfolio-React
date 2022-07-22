@@ -1,9 +1,11 @@
 import "./ImgBoardContainer.css";
 import ImgBoard from "./ImgBoard.js";
-import Title from "../../features/Title";
+import { ImgboardSVG, ImgboardSVGBot } from "../../layout/SvgBot";
 function ImgBoardContainer() {
   return (
     <div className="ImgBoardContainer">
+            <ImgboardSVG/>
+
       <div className="images">
         <div className="imgContainer">
           <ImgBoard img="./writingSmallSmall.jpg" topBorder={true} />
@@ -34,6 +36,7 @@ function ImgBoardContainer() {
           </h3>
         </div>
       </div>
+      <ImgboardSVGBot/>
     </div>
   );
 }

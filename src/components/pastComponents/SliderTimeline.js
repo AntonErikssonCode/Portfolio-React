@@ -19,13 +19,11 @@ const monthValues = {
 function SliderTimeline() {
   const [year, setYear] = useState(2014);
   const [month, setMonth] = useState("June");
-  const [timeValue, setTimeValue] = useState(5);
+  const [timeValue, setTimeValue] = useState(104);
 
   function handleChange(e) {
     setTimeValue(e.target.value);
-    console.dir(timeValue)
   }
-
   useEffect(() => {
     /* console.dir("target value" + e.target.value); */
     if (timeValue < 12) {
@@ -49,7 +47,6 @@ function SliderTimeline() {
     }
     var remainder = timeValue % 12;
     setMonth(monthValues[remainder]);
-    console.dir(monthValues[remainder])
    
   }, [timeValue]);
 
@@ -74,11 +71,11 @@ function SliderTimeline() {
         className="sliderTimeline-slider"
         min="5"
         max="104"
-        defaultValue="5"
+        defaultValue="104"
         /* onChange={(event) => setYear(event.target.value)} */
       
         onChange={handleChange}
-       
+        
       />
      
     </div>

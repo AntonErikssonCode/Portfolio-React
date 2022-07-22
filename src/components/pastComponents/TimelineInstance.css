@@ -1,42 +1,96 @@
 .timelineInstance{
-  width: 100%;
-  position: relative;
-}
- .timelineInstance-top2, .timelineInstance-top3 {
   
-  display: flex;
-justify-content: space-between;
-
-
-gap: 20vw;
+  height: 450px;
+ font-size: 1.4rem;
+ 
+ 
 }
+.timelineInstance-left{
+  padding: 2%;
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.timelineInstance-right{
+  font-weight: 200;
+  width: 64%;
+  padding: 2%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  
+}
+.timelineInstance-left-img{
+ width: 100%;
+ border-radius: 0.5rem;
+}
+.timelineInstance-name{
+  margin: 0;
+  font-size: 2.4rem;
 
-.timelineInstance-top1 h4, .timelineInstance-top2 h4, .timelineInstance-top3 h4, .timelineInstance-top4 ul, .timelineInstance-top5 h4{
-  margin: 0.8rem;
-  font-size: 1.4rem;
-  font-weight: 300;}
-.timelineInstance-top4, .timelineInstance-top5{
+}
+.timelineInstance-name-container, .timelineInstance-lessons-container{
+  width: 100%;
   display: flex;
   justify-content: center;
+  align-items: center;
 
 }
 
-.timelineInstance-top1 {
-  font-size: 2rem;
 
-  display: flex;
-  justify-content: center;
+
+
+.timelineInstance-type{
+  position: absolute; 
+  right: 4rem;
+  top: 4rem;
+  
+  font-weight: 500;
 }
-.timelineInstance-top1 h4{
-  margin-top: 2REM;
-  font-size: 2rem;
-  font-weight: 600;
-  display: flex;
-  justify-content: center;
+.timelineInstance-time{
+  position: absolute; 
+  right: 4rem;
+  top:  8rem;
+  font-weight: 200;
+
+
+}
+.timelineInstance-location{
+  position: absolute; 
+  left: 4rem;
+  top: 8rem;
+  font-weight: 200;
+
+
+}
+.timelineInstance-company{
+  position: absolute; 
+  left: 4rem;
+  top: 4rem;
+  font-weight: 500;
+}
+.timelineInstance-list{
+  position: absolute;
+  top: 12rem;
+  padding: 2rem;
+  margin-left: 2rem;
+
+
+ 
+
 }
 
-
-.timelineInstance-top4 li{
+.timelineInstance-lessons{
+  position: absolute;
+  top: 24rem;
+  font-weight: 500;
   font-size: 1.2rem;
-  margin: 1rem;
+ 
+ 
 }
+.timelineInstance-list-item{
+margin: 1rem;}

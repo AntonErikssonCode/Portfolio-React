@@ -11,7 +11,7 @@ const data = [
     description: ["Assisted disabled children with their needs and everyday tasks. "],
     type: "Working",
     location: "Norrköping",
-  },
+    image: "./personal-assistant.jpg"  },
   {
     start: 12,
     end: 19,
@@ -22,7 +22,7 @@ const data = [
     description: ["Assisted disabled children with their needs and everyday tasks."],
     type: "Working",
     location: "Norrköping",
-  },
+    image: "./personal-assistant.jpg"  },
   {
     start: 20,
     end: 35,
@@ -33,7 +33,7 @@ const data = [
     description: ["Explored the world and met diffrent cultures and customs. ", "Worked jobs such as waiter, cleaner and farmer. "],
     type: "Personal Development",
     location: "South East Asia, Australia & Canada",
-  },
+    image: "./travel.jpg"  },
   {
     start: 36,
     end: 55,
@@ -44,7 +44,7 @@ const data = [
     description: ["Helped customers with everything from invoices, technical issues to sales of hardware and services. ", "Handled communication by phone, chat, mail and post. "],
     type: "Working",
     location: "Norrköping & Gothenburg",
-  },
+    image: "./phone.jpg"  },
   {
     start: 56,
     end: 90,
@@ -55,17 +55,18 @@ const data = [
     description: ["I gained knowledge of a multitude of cognitive processes, such as perception, attention and memory, and how they are integrated in the human mind. ", "I learned about coding and the underlying structures of AI and Big data. ", " The education developed my skills in research, conduction of scientific studies, critical thinking and of course cooperation."],
     type: "Studying",
     location: "Gothenburg",
-  },
+    image: "./brain.jpg"  },
   {
     start: 91,
     end: 104,
-    name: "MSc Interaction design and technologies ",
+    name: "MSc Interaction Design ",
     company: "Chalmers University of Technology",
     time: "August 2021 - Present",
     lessons: "Design Principles,  Iterative Development & Creative Playfulness",
     description: ["Gaining a deeper understanding of the design process and developing my skills in prototyping, wireframing, user research and information visualization. ", "Have intentionally sought after and included courses that involve coding, such as Computer Graphics and Web Development: Scripts and Databases."],
     type: "Studying",
     location: "Gothenburg",
+    image: "./design-small.png"
   },
 ];
 
@@ -78,31 +79,37 @@ function TimelineInstance(props) {
 
   return (
     <div className="timelineInstance">
-      <div className="timelineInstance-top1">
-        <h4>{selectedInstance[0].name}</h4>
+      <div className="timelineInstance-left">
+        <img className="timelineInstance-left-img" src={require(`${selectedInstance[0].image}`)} />
+      </div>
+      <div className="timelineInstance-right"> 
+        <div className="timelineInstance-name-container">   <h4 className="timelineInstance-name">{selectedInstance[0].name}</h4></div>
+     
       
-      </div>
-      <div className="timelineInstance-top2">
-        <h4>{selectedInstance[0].company}</h4>
-        <h4>{selectedInstance[0].type}</h4>
+ 
+   
+        <h4 className="timelineInstance-company">{selectedInstance[0].company}</h4>
+        <h4 className="timelineInstance-type">{selectedInstance[0].type}</h4>
     
-      </div>
-      <div className="timelineInstance-top3">
-        <h4>{selectedInstance[0].location}</h4>
-        <h4>{selectedInstance[0].time}</h4>
-      </div>
-      <div className="timelineInstance-top4">
-        <ul>
+    
+   
+        <h4 className="timelineInstance-location">{selectedInstance[0].location}</h4>
+        <h4 className="timelineInstance-time">{selectedInstance[0].time}</h4>
+      
+
+        <ul className="timelineInstance-list">
           {selectedInstance[0].description.map(function (item, i) {
            
-            return <li key={i} >{item}</li>;
+            return <li className="timelineInstance-list-item" key={i} >{item}</li>;
           })}
         </ul>
-      </div>
-      <div className="timelineInstance-top5">
-      <h4>{selectedInstance[0].lessons}</h4>
-      </div>
+
+        <div className="timelineInstance-lessons-container">        <h4 className="timelineInstance-lessons">{selectedInstance[0].lessons}</h4></div>
+     
       
+
+    
+        </div>
     </div>
   );
 }

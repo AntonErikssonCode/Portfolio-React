@@ -1,16 +1,14 @@
 import classes from "./MainContent.module.css";
-import Title from "../features/Title";
+
+import {SvgBot} from "./SvgBot";
 function MainContent(props) {
   const wrapperHeight = props.wrapperHeight;
   return (
     <div className={classes.MainContent}>
-      <div className={classes.wrapper} /* style={{height: wrapperHeight}} */>
-      <div className={classes.wave} ></div>
-      
-      </div>
-    
+ 
 
       {props.children}
+      <SvgBot/>
     </div>
   );
 }

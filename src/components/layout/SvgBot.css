@@ -1,0 +1,76 @@
+
+
+  .custom-shape-divider-bottom-1658445101 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+    z-index: 100000;
+}
+
+.custom-shape-divider-bottom-1658445101 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 300px;
+}
+
+.custom-shape-divider-bottom-1658445101 .shape-fill {
+    fill: var(--secondColor);
+}
+
+
+
+
+
+.ImgboardSVG {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+    z-index: 100000;
+    margin-top: -300px;
+}
+
+.ImgboardSVG svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 300px;
+}
+
+.ImgboardSVG .shape-fill {
+    fill: white;
+}
+
+
+
+.ImgboardSVGBot {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(0deg);
+    z-index: 100000;
+    margin-bottom: -300px;
+}
+
+.ImgboardSVGBot svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 300px;
+    
+}
+
+.ImgboardSVGBot .shape-fill {
+    fill: rgb(255, 255, 255);
+}

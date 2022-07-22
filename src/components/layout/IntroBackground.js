@@ -1,7 +1,7 @@
 import classes from "./IntroBackground.module.css";
 import { useLocation } from "react-router-dom";
 import { useEffect, useState } from "react";
-
+import svgImage from "./wave-haikei.svg";
 function IntroBackground(props) {
   const { pathname } = useLocation();
 
@@ -20,14 +20,7 @@ function IntroBackground(props) {
       className={classes.IntroBackground} /*  style= {{background: color}} */
     >
       <div className={classes.topShadow}></div>
-      <div className={classes.movingBackgroundContainer}>
-        {" "}
-        <div
-          style={{ background: background, transform: transform }}
-          className={classes.movingBackground}
-        ></div>
-      </div>
-      
+        <img className={classes.svgIMG} src={svgImage} alt="SVG logo image" />
     </div>
   );
 }
