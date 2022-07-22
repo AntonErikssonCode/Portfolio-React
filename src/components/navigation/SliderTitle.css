@@ -3,7 +3,9 @@
   position: absolute;
   top: 14%;
 }
-
+h3{
+  text-shadow: 1px 1px 7px black;
+}
 
 h1 {
   font-size:5vw;
@@ -11,6 +13,7 @@ h1 {
   font-weight: 600;
   color: #353239;
   margin-top: 7rem;
+
 }
 
 h1 span span {

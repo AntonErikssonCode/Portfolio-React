@@ -9,7 +9,7 @@ function ProjectItem(props) {
   const image = props.image;
   const description = props.description;
   const alignment = props.alignment;
-
+  const component = props.component;
   const [isExpanded, setExpanded] = useState(false);
   const { getCollapseProps, getToggleProps } = useCollapse({ isExpanded });
 
@@ -45,7 +45,7 @@ function ProjectItem(props) {
         </div>
         <div {...getCollapseProps()}>
           <div className="content">
-            <p>Her is all open content</p>
+           {component}
           </div>
         </div>
       </div>

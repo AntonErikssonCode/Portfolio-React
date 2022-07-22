@@ -13,8 +13,9 @@ function PastContainer(props) {
         topText="What I've Done In The "
         botText="PAST"
       />
-      <SliderTimeline />
+     
       <ProjectContainer />
+      <SliderTimeline />
     
     </div>
   );

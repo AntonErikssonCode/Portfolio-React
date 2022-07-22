@@ -54,7 +54,7 @@
 .timelineInstance-time{
   position: absolute; 
   right: 4rem;
-  top:  8rem;
+  top:  6rem;
   font-weight: 200;
 
 
@@ -62,7 +62,7 @@
 .timelineInstance-location{
   position: absolute; 
   left: 4rem;
-  top: 8rem;
+  top: 6rem;
   font-weight: 200;
 
 
@@ -75,7 +75,7 @@
 }
 .timelineInstance-list{
   position: absolute;
-  top: 12rem;
+  top: 8rem;
   padding: 2rem;
   margin-left: 2rem;
 
@@ -93,4 +93,4 @@
  
 }
 .timelineInstance-list-item{
-margin: 1rem;}
+margin: 0.5rem;}

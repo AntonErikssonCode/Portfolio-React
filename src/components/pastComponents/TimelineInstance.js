@@ -32,7 +32,7 @@ const data = [
     lessons: "Independence & English Fluency",
     description: ["Explored the world and met diffrent cultures and customs. ", "Worked jobs such as waiter, cleaner and farmer. "],
     type: "Personal Development",
-    location: "South East Asia, Australia & Canada",
+    location: "Asia, Australia & Canada",
     image: "./travel.jpg"  },
   {
     start: 36,

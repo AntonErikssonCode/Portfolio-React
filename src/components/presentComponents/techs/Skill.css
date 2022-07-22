@@ -7,6 +7,9 @@
   display: flex;
   transition: transform 0.3s;
   border-radius: 0.5rem;
+  box-shadow: rgba(0, 0, 0, 0.708) 8px 8px 20px;
+
+
 }
 .skill:hover{
   transform: scale(1.03);
@@ -32,12 +35,17 @@ flex-direction: column;
  margin: 0;
   
 }
+.skill-right ul {
+  margin: 0;
+  padding: 0rem 0rem 0rem 2rem;
+}
 .skill-right ul li{
-  margin: 0rem 0rem 0.6rem 0rem ;
+  margin: 0rem 0rem 0.4rem 0rem ;
   word-wrap: break-word;
+  font-weight: 200;
   
 }
-a{ font-weight: 800;
+a{ font-weight: 500;
   color: white;
   font-size: 1.3rem;
   text-decoration: none;

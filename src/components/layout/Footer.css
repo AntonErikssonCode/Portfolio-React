@@ -30,6 +30,10 @@ footer{
   .footer-content h3{
     font-weight: 300;
   }
+  footer h5{
+    font-size: 1.2rem;
+    font-weight: 300;
+  }
   .footer-content-right a{
     color: white;
     text-decoration: none;
@@ -37,13 +41,14 @@ footer{
     align-items: center;
   }
   .footer-bold{
-    font-weight:600;
+    font-weight:500;
   }
 
   footer h4{
     font-size: 1.4rem;
-    margin-top: 5rem;
+   
     letter-spacing: 0.2rem;
+    font-weight:500;
   }
   .footer-contactMe:hover{
   
@@ -55,5 +60,5 @@ footer{
     text-decoration: none;
            color: white;
            font-size: 2.2rem;
-           margin: 0;
+        
   }

@@ -28,6 +28,7 @@ function Footer() {
       </div>
       <Link to={{pathname:"/future/contact-me"}} className="footer-contactMe"><h2 className="footer-contactMe">Contact Me</h2></Link>
       <h4>I created this website from scratch using react.</h4>
+      <h5>© 2022 Anton Eriksson</h5>
 
     </footer>
   );

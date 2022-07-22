@@ -1,0 +1,88 @@
+.MyWebsite-container{
+  color: white;
+  padding: 5rem 10rem;
+
+}
+
+
+.MyWebsite-container h3{
+  font-size: 3rem;
+  margin: 0%;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+
+  
+}
+
+.MyWebsite-container p, .MyWebsite-container q, .MyWebsite-container ul li{
+  font-size: 1.2rem;
+font-weight: 300;
+margin: 0;
+padding: 0;}
+.MyWebsite-container ul li{
+  margin-bottom: 0.5rem;
+}
+
+.MyWebsite-container ul {
+  margin: 1rem 0rem;
+}
+
+.MyWebsite-inspiration-container, .MyWebsite-userfeedback-container, .MyWebsite-figmaMockup-container{
+  display: flex;
+  gap: 5%;
+  justify-content: space-between;
+  align-items: center;
+}
+.MyWebsite-inspiration-container img{
+  aspect-ratio: 1/1;
+  width: 328px;
+  height: 328px;
+ 
+}
+.MyWebsite-userfeedback-container{
+  margin-bottom: 2rem;
+}
+
+.MyWebsite-userfeedback-container img{
+  aspect-ratio: 1/1;
+  width: 436px;
+  height: 436px;
+ 
+}
+.MyWebsite-inspiration-firstTitle{
+  margin: 0rem;
+}
+
+.MyWebsite-container address{
+  font-size: 2rem;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 1rem;
+  
+}
+.MyWebsite-quote-container{
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  flex-direction: column;
+  
+  padding: 3vw 20%;
+}
+.MyWebsite-quote-container q{
+  font-style: italic;
+}
+
+.noMarginTop{
+  margin-top: 0 !important;
+}
+.centerDiv{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.imgMargin{
+  margin: 5rem 0rem;
+}

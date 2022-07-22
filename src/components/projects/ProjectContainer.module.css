@@ -17,9 +17,10 @@
   
 
 margin-left: 10%;
-color: black;
+color: white;
 font-size: 4vw;
-margin-bottom: 1rem;
+margin-bottom: 2rem;
+text-shadow: 1px 1px 7px black;
 
 }
 

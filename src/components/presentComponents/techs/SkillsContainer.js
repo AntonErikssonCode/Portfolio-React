@@ -23,7 +23,7 @@ function SkillsContainer() {
             name="CSS"
             image="./CSS-icon-small.png"
             text={[
-              "Styled this site in vanilla CSS!",
+              "Styled this site using vanilla CSS!",
               "I know how to center a div ;)",
             ]}
           ></Skill>
@@ -39,7 +39,8 @@ function SkillsContainer() {
             name="FL-Studio"
             image="./FL-icon-small.jpg"
             text={[
-              "Recorded and produced a bunch of groovy tracks with friends and family.",
+              "Engineered spatial and ambient sound for empirical studies. ",
+              "Recorded a bunch of song with friends and family. "
             ]}
           ></Skill>
         </div>
