@@ -4,8 +4,12 @@
   justify-content: center;
   align-items: center;
   height: auto;
-  margin-bottom: 10rem;
   
+  text-shadow: none;
+ 
+  background: linear-gradient(175deg, white 50%, black 80%);
+  position: relative;
+  padding-bottom: 20rem;
 }
 
 
@@ -15,7 +19,7 @@
   display: flex;
 
  gap: 5%;
- 
+  margin-top: 20rem;
   justify-content: center;
   align-items: center
   
@@ -43,33 +47,35 @@
   padding:0;
   
 }
-.me-img-label h3{
-  margin: 1rem;
-}
+
 .me-img-container{
   background-color: black;
   padding: 0.5rem;
-  border-radius: 0.5vw;
-  position: relative;
+  border-radius: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: auto;
 }
 .me-text-container {
   width: 60%;
 }
-.me-text-container h3, .me-main-bottom h3 {
+.me-text-container h3{
   margin-top: 0;
   margin-bottom: 3rem;
   font-size: 5rem;
-
+  text-shadow: none;
 }
 
-.me-text-container h4, .me-main-bottom h4{
+.me-text-container h4{
   margin-top: 0;
   font-size: 2.4rem;
   
   margin-bottom: 0rem;
 
 }
-.me-text-container p, .me-main-bottom p{
+.me-text-container p{
   font-size: 1.4rem;
   line-height: 1.8rem;
 
@@ -82,31 +88,6 @@
 
 }
 
-.me-main-bottom ul li{
-  font-size: 1.4rem;
-  line-height: 2.2rem;
-  margin-left: 2rem;
-
-}
-.me-main-bottom {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content:center;
-  align-items: center;
-  margin: 10rem;
-  margin-bottom: 20rem;
-  color: white;
-}
-.me-main-bottom-text{
- 
-}
-.me-main-bottom-align{
-  display:flex;
-  align-items: flex-start;
-  flex-direction: column;
-  margin-left: 5rem;
-}
 
 
 .me-links-container{
@@ -146,4 +127,36 @@
 }
 .me-links-a:hover{
   transform: scale(1.1);
+}
+
+.me-icon{
+  width: 100px;
+  height: 100px;
+  fill: black;
+ 
+}
+
+.me-icon-alignment{
+  display: flex;
+  gap: 2rem;
+ 
+}
+.me-icon-container{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.me-top-section{
+  display: flex;
+ gap: 5rem;
+  align-items: center;
+
+}
+.me-top-section-text{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
 }

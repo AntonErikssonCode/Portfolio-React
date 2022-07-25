@@ -1,0 +1,36 @@
+
+
+  .SvgBot {
+    position: absolute;
+    
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    
+    z-index: 1000000;
+    background-color: rgba(0, 0, 142, 0);
+}
+
+.SvgBot svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 200px;
+}
+
+.SvgWave-rotaded{
+    transform: rotate(180deg);
+
+}
+
+.SvgWave-top{
+    top: 0;
+    margin-top: -200px;
+
+}
+
+.SvgWave-bot{
+    bottom: 0;
+
+}

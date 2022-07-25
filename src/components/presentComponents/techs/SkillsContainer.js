@@ -1,9 +1,11 @@
 import "./SkillsContainer.css";
 import Skill from "./Skill";
-
+import SvgWave from "../../layout/SvgWave";
 function SkillsContainer() {
   return (
     <div className="skillContainer">
+            <SvgWave rotated={true} color="var(--mainColor)" top={true}/>
+
       <section className="skillSection">
         <h3>Technologies I'm Good At</h3>
         <div className="skillRow">

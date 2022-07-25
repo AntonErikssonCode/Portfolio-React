@@ -6,14 +6,16 @@
 
 .ImgBoardImg{
   max-width: 100%;
-  border: 3vw solid rgb(255, 255, 255);
+  border: 3rem solid rgb(255, 255, 255);
   max-height: 90vh;
   position: relative;
+  
+ 
   
 }
 .ImgBoardImgNoTopBorder{
   max-width: 100%;
-  border: 3vw solid rgb(255, 255, 255);
-  border-top: 3vw;
+  border: 3rem solid rgb(255, 255, 255);
+  border-top: 0rem;
 
 }

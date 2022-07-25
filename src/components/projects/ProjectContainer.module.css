@@ -9,7 +9,10 @@
   flex-direction: column;
   z-index: 10;
   gap: 4rem;
-  padding-bottom: 6rem;
+  padding-bottom: 40rem;
+  background-color: var(--secondColor);
+  position: relative;
+  margin-top: 40rem;
   
 
 }

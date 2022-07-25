@@ -8,9 +8,9 @@
 }
 .quote {
   width: 50%;
-  background-color: rgba(255, 255, 255, 0.671);
+  background: linear-gradient(170deg, rgb(255, 255, 255), rgb(227, 227, 227));
   z-index: 2;
-
+ 
   padding: 4rem;
   display: flex;
   flex-direction: column;
@@ -36,9 +36,15 @@
   font-size: 2rem;
   margin: 1rem;
  
-  color: rgb(94, 94, 94);
+  color: rgb(81, 81, 81);
 }
 
 .bold {
   font-weight: 700;
+}
+
+.quote-icon{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

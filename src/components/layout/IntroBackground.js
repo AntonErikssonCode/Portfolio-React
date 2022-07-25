@@ -1,7 +1,7 @@
 import classes from "./IntroBackground.module.css";
 import { useLocation } from "react-router-dom";
 import { useEffect, useState } from "react";
-import svgImage from "./wave-haikei.svg";
+import svgImage from "./wavesOpacity.svg";
 function IntroBackground(props) {
   const { pathname } = useLocation();
 

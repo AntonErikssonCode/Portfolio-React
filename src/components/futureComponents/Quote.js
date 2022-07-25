@@ -1,11 +1,15 @@
 import "./Quote.css";
-
+import svgTest from "./testimonial.png"
+/* import svgImage2 from "./MeTop.svg"; */
 function Quote() {
   return (
  
      
       <div className="quote-div">
         <div className="quote">
+          <div className="quote-icon">
+            <img src={svgTest}/>
+          </div>
           <p>
             “ Anton är en <span className="bold">driven</span>, <span className="bold">målmedveten</span> person som har <span className="bold">lätt för att lära
             sig</span> och <span className="bold">visar ett stort intresse för arbetet.</span> <span className="bold">Samarbetet fungerar

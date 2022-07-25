@@ -1,17 +1,18 @@
 .ImgBoardContainer{
-  width: 100%;
+  width: 90%;
   height: auto;
   margin: 0;
- 
   font-size: 4.5rem;
   display: flex;
   flex-direction: column;
   z-index: 10;
   gap: 10rem;
-  padding-bottom: 0rem;
-  margin-bottom: 20rem;
-  margin-top: 40rem;
+ 
+  margin-top: 20rem;
   position: relative;
+  padding: 5%;
+  padding-bottom: 40rem;
+  
 }
 
 .imgContainer{
@@ -69,7 +70,6 @@
   font-size: 2vw;
   font-weight: 300;
   letter-spacing: 0.4rem;
-  
 }
 
 

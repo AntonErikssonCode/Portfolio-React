@@ -2,6 +2,7 @@ import './PresentContainer.css'
 import ImgBoardContainer from './boards/ImgBoardContainer';
 import SkillsContainer from './techs/SkillsContainer';
 import Title from '../features/Title';
+import SvgWave from "../layout/SvgWave"
 function PresentContainer(props){
   return(
     <div className='presentContainer'>
@@ -14,6 +15,8 @@ function PresentContainer(props){
   <ImgBoardContainer />
        
        <SkillsContainer/>
+       <SvgWave rotated={true} color="var(--secondColor)" top={false}/>
+
     </div>
   )
 }

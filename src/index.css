@@ -4,7 +4,7 @@ html, body{
   overflow-x: hidden;
   width:100vw;
   letter-spacing: 0.05rem;
-  background-color: rgb(174, 223, 170);
+  background-color: rgb(255, 255, 255);
 }
 
 
@@ -19,8 +19,10 @@ html { font-family: 'Inter', sans-serif; }
 }
 
 :root{
-  --mainColor: rgb(120, 2, 254);
-  --secondColor: rgba(14, 222, 167, 0.991);
+ /*  --mainColor: rgb(120, 2, 254);
+  --secondColor: rgba(14, 222, 167, 0.991); */
+ --mainColor: rgb(120, 2, 254);
+  --secondColor: rgba(54, 229, 144, 0.991);
   --black: #000;
   --lessBlack:  rgb(48, 48, 48);
 }

@@ -1,7 +1,7 @@
 .MainContent {
   /* background-color: rgb(154, 154, 154); */
   width: 100%;
-  height: 100%;
+  height: auto;
   display: flex;
   justify-content: center;
   padding-top: 20rem;
@@ -12,6 +12,5 @@
   position: relative;
   flex-direction: column;
   background: rgb(0,0,0);
-  background: linear-gradient(170deg, rgba(0,0,0,1) 0%, rgb(0, 0, 0) 20%, white 50%, #632dec 65%, #1e0d47 100%);
   }
 
