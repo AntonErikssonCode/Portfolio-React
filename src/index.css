@@ -1,28 +1,37 @@
-html, body{
+html,
+body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
-  width:100vw;
+  width: 100vw;
   letter-spacing: 0.05rem;
   background-color: rgb(255, 255, 255);
 }
 
-
-@import url('https://rsms.me/inter/inter.css');
-html { font-family: 'Inter', sans-serif; }
+@import url("https://rsms.me/inter/inter.css");
+html {
+  font-family: "Inter", sans-serif;
+}
 @supports (font-variation-settings: normal) {
-  html { font-family: 'Inter var', sans-serif; }
-}
-@font-face {
-  font-family: Amulya;
-  src: url("../src/Fonts/WEB/fonts/Amulya-Bold.ttf");
+  html {
+    font-family: "Inter var", sans-serif;
+  }
 }
 
-:root{
- /*  --mainColor: rgb(120, 2, 254);
-  --secondColor: rgba(14, 222, 167, 0.991); */
- --mainColor: rgb(120, 2, 254);
+
+:root {
+  --mainColor: rgb(120, 2, 254);
   --secondColor: rgba(54, 229, 144, 0.991);
   --black: #000;
-  --lessBlack:  rgb(48, 48, 48);
+  --lessBlack: rgb(48, 48, 48);
+  --verySmallText: 1rem;
+  --SmallSmallText: 1.2rem;
+  --SmallText: 1.6rem;
+  --regularText: 1.8rem;
+  --regularBigText: 2.2rem;
+  --bigText: 3rem;
+  --veryBigText:  5rem;
+
+  --regularWeight: 300;
+  --strongWeight: 600;
 }

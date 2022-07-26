@@ -2,7 +2,7 @@ import classes from "./ProjectContainer.module.css";
 import ProjectItem from "./ProjectItem";
 import MyWebsite from "./MyWebsite";
 
-import SvgWave from "../layout/SvgWave"
+import SvgWave from "../../layout/SvgWave"
 
 function ProjectContainer() {
  

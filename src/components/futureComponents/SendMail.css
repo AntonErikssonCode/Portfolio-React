@@ -1,10 +1,6 @@
-
-
-
 .login-box {
   width: 800px;
   padding: 40px;
-
   background: linear-gradient(45deg, black, rgb(44, 44, 44));
   box-sizing: border-box;
   box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
@@ -12,7 +8,7 @@
 }
 
 .login-box h2 {
-  font-size: 3rem;
+  font-size: var(--veryBigText);
   margin: 0 0 48px;
   padding: 0;
   color: #fff;
@@ -27,10 +23,10 @@
 .login-box .user-box textarea {
   width: 100%;
   padding: 10px 0;
-  font-size: 1.2rem;
+  font-size: var( --regularText);
   font-weight: 100;
   color: #fff;
-  margin-bottom: 50px;
+  margin-bottom: 80px;
   border: none;
   border-bottom: 1px solid #fff;
   outline: none;
@@ -44,7 +40,7 @@
   top: 0;
   left: 0;
   padding: 10px 0;
-  font-size: 1.4rem;
+  font-size: var(--SmallText);
   color: #fff;
   pointer-events: none;
   transition: 0.5s;
@@ -54,20 +50,13 @@
 .login-box .user-box input:valid ~ label,
 .login-box .user-box textarea:focus ~ label,
 .login-box .user-box textarea:valid ~ label {
-  top: -32px;
+  top: -36px;
   left: 0;
-  color: var(--mainColor);
-  font-size: 1rem;
+  color: var(--secondColor);
+  font-size: var( --SmallText);
   font-weight: bold;
 }
-/* .formButton{
-  width: 200px;
-  height: 50px;
-  font-size: 3vw;
-  color: white;
-  background: rgb(22,210,34);
-background: linear-gradient(126deg, rgba(22,210,34,1) 0%, rgba(0,40,255,1) 100%);
-} */
+
 
 .login-box form button {
   color: #fff;
@@ -94,22 +83,20 @@ background: linear-gradient(126deg, rgba(22,210,34,1) 0%, rgba(0,40,255,1) 100%)
 }
 
 .login-box button:hover {
-  background: linear-gradient(54deg, var(--secondColor) 11%, var(--mainColor) 100%);
+  background: linear-gradient(
+    54deg,
+    var(--secondColor) 11%,
+    var(--mainColor) 100%
+  );
   color: #fff;
- /*  linear-gradient(54deg, rgba(255,51,0,1) 11%, rgba(105,63,255,1) 100%) */
-  box-shadow: 
-    -5px 5px 10px var(--secondColor),
-    -5px 5px 20px var(--secondColor),
- 
-    5px -5px 20px var(--mainColor),
-    5px -5px 10px var(--mainColor);
-
+  /*  linear-gradient(54deg, rgba(255,51,0,1) 11%, rgba(105,63,255,1) 100%) */
+  box-shadow: -5px 5px 10px var(--secondColor), -5px 5px 20px var(--secondColor),
+    5px -5px 20px var(--mainColor), 5px -5px 10px var(--mainColor);
 }
 
 .login-box button span {
   position: absolute;
   display: block;
-  
 }
 
 .login-box button span:nth-child(1) {
@@ -155,8 +142,8 @@ background: linear-gradient(126deg, rgba(22,210,34,1) 0%, rgba(0,40,255,1) 100%)
   bottom: 0;
   right: -100%;
   width: 100%;
-  height:3px;
-  background: linear-gradient(270deg, transparent,var(--secondColor) );
+  height: 3px;
+  background: linear-gradient(270deg, transparent, var(--secondColor));
   animation: btn-anim3 2s linear infinite;
   animation-delay: 1s;
 }
@@ -194,6 +181,6 @@ input:-webkit-autofill,
 input:-webkit-autofill:hover,
 input:-webkit-autofill:focus,
 input:-webkit-autofill:active {
-    transition: background-color 5000s ease-in-out 0s;
-    -webkit-text-fill-color: #fff !important;
+  transition: background-color 5000s ease-in-out 0s;
+  -webkit-text-fill-color: #fff !important;
 }

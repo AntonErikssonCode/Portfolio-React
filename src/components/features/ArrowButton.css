@@ -1,14 +1,13 @@
-@import 'https://fonts.googleapis.com/css?family=Lato';
-
+@import "https://fonts.googleapis.com/css?family=Lato";
 
 .arrow {
-  
   width: 2.5rem;
   height: 2.5rem;
   display: inline-block;
   position: relative;
   margin: 0 2rem;
 }
+
 .arrow span {
   top: 1rem;
   position: absolute;
@@ -18,16 +17,16 @@
   display: inline-block;
   transition: all 0.2s ease;
 }
+
 .arrow span:first-of-type {
   left: 0;
   transform: rotate(45deg);
-  
 }
+
 .arrow span:last-of-type {
   right: 0;
   transform: rotate(-45deg);
 }
-
 
 .down span:first-of-type {
   transform: rotate(-45deg);

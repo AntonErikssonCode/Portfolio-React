@@ -1,54 +1,30 @@
-.me-main{
+.me-main {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   height: auto;
-  
   text-shadow: none;
- 
   background: linear-gradient(175deg, white 50%, black 80%);
   position: relative;
-  padding-bottom: 20rem;
+  padding-bottom: 10rem;
 }
 
-
-
-.me-container{
+.me-container {
   width: 100%;
   display: flex;
-
- gap: 5%;
   margin-top: 20rem;
   justify-content: center;
-  align-items: center
-  
- }
- .me-img{
- width: 400px;
+  align-items: center;
+}
+
+.me-img {
+  width: 400px;
   height: auto;
   border-radius: 0.5vw;
- ;
-
-
-}
-.me-img-label{
-  background-color: var(--black);
-  color: white;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  left: 0;
-  border-radius: 0vw 0vw 0.5vw 0.5vw;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 2.2rem;
-  padding:0;
-  
 }
 
-.me-img-container{
+.me-img-container {
   background-color: black;
   padding: 0.5rem;
   border-radius: 0.5rem;
@@ -61,62 +37,56 @@
 .me-text-container {
   width: 60%;
 }
-.me-text-container h3{
+.me-text-container h3 {
   margin-top: 0;
   margin-bottom: 3rem;
-  font-size: 5rem;
+  font-size: var(--veryBigText);
   text-shadow: none;
 }
 
-.me-text-container h4{
+.me-text-container h4 {
   margin-top: 0;
-  font-size: 2.4rem;
-  
+  font-size: var(--bigText);
+
   margin-bottom: 0rem;
-
 }
-.me-text-container p{
-  font-size: 1.4rem;
+.me-text-container p {
+  font-size: var(--SmallText);
   line-height: 1.8rem;
-
 }
 
 .me-text-container h5 {
-  font-size: 1.4rem;
+  font-size: var(--regularText);
   margin-bottom: 1rem;
   margin-top: 3rem;
-
+  font-weight: var(--strongWeight);
 }
 
-
-
-.me-links-container{
+.me-links-container {
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
-.me-links{
+.me-links {
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  
+
   gap: 5%;
   margin-top: 5rem;
   margin-bottom: 10rem;
-
 }
-.me-links-container h4{
+.me-links-container h4 {
   margin-top: 0;
-  font-size: 2.4rem;
-  
-  margin-bottom: 0rem;
+  font-size: var(--bigText);
 
+  margin-bottom: 0rem;
 }
-.me-links-a{
-  font-size: 1.6rem;
+.me-links-a {
+  font-size: var(--regularText);
   padding: 1rem 1.5rem;
   background: linear-gradient(45deg, black, var(--lessBlack));
   border-radius: 0.5vw;
@@ -125,36 +95,32 @@
   font-weight: 300;
   transition: all 1s;
 }
-.me-links-a:hover{
+.me-links-a:hover {
   transform: scale(1.1);
 }
 
-.me-icon{
+.me-icon {
   width: 100px;
   height: 100px;
   fill: black;
- 
 }
 
-.me-icon-alignment{
+.me-icon-alignment {
   display: flex;
   gap: 2rem;
- 
 }
-.me-icon-container{
-  display:flex;
+.me-icon-container {
+  display: flex;
   justify-content: center;
   align-items: center;
-
 }
 
-.me-top-section{
+.me-top-section {
   display: flex;
- gap: 5rem;
+  gap: 5rem;
   align-items: center;
-
 }
-.me-top-section-text{
+.me-top-section-text {
   display: flex;
   justify-content: center;
   align-items: flex-start;

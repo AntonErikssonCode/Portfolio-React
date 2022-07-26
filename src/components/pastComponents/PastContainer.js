@@ -1,6 +1,5 @@
 import "./PastContainer.css";
-import Timeline from "./Timeline";
-import ProjectContainer from "../projects/ProjectContainer";
+import ProjectContainer from "./projects/ProjectContainer";
 import Title from "../features/Title";
 import SliderTimeline from "./SliderTimeline";
 import SvgWave from "../layout/SvgWave"

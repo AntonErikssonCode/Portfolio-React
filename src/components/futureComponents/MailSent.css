@@ -1,7 +1,7 @@
-.mailSent-backdrop{
+.mailSent-backdrop {
   width: 100vw;
   height: 100vh;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.854);
   position: fixed;
   top: 0;
   left: 0;
@@ -9,66 +9,63 @@
   display: flex;
   justify-content: center;
   align-items: center;
-
-
 }
-.mailSent-modal{
 
-  padding: 2vw;
-  font-size: 2.2vw;
-  background: linear-gradient(39deg, rgb(21, 218, 21)10%,rgb(10, 191, 115));
-  border-radius: 0.5vw;
+.mailSent-modal {
+  padding: 2rem;
+  font-size: var(--bigText);
+  background: linear-gradient(39deg, rgb(21, 218, 21) 10%, rgb(10, 191, 115));
+  border-radius: 0.5rem;
   color: white;
   text-shadow: inset 5px 5px 5px;
   display: flex;
-  font-weight: bold;
+  font-weight: var(--strongWeight);
   justify-content: center;
   align-items: center;
   animation: modal-bounce 3s;
+  z-index: 2000000000;
 }
-@keyframes modal-bounce  {
-  0%{
+
+@keyframes modal-bounce {
+  0% {
     transform: translateY(-50%);
     opacity: 0;
-    
   }
-  10%{
+  10% {
     transform: translateY(0%);
   }
-  20%{
+  20% {
     transform: translateY(-40%);
   }
-  30%{
+  30% {
     transform: translateY(0%);
   }
-  40%{
+  40% {
     transform: translateY(-30%);
   }
-  50%{
+  50% {
     transform: translateY(0%);
   }
-  60%{
+  60% {
     transform: translateY(-20%);
   }
-  70%{
+  70% {
     transform: translateY(0%);
   }
 
-  75%{
+  75% {
     transform: translateY(-15%);
   }
-  80%{
+  80% {
     transform: translateY(0%);
   }
-  85%{
+  85% {
     transform: translateY(-10%);
   }
-  90%{
+  90% {
     transform: translateY(0);
   }
-  100%{
+  100% {
     transform: translateY(-5%);
-
   }
-
 }

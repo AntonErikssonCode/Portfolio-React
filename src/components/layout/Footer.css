@@ -1,64 +1,65 @@
-footer{
+footer {
   overflow: hidden;
   height: 70vh;
-  background: linear-gradient(  45deg,  rgb(0, 0, 0), var(--lessBlack));
-    
-    
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    letter-spacing: 0.1rem;
-    z-index: 3000000;
-    
-  }
-  footer img{
-    width: 2rem;
-    height: 2rem;
-  }
+  background: linear-gradient(45deg, rgb(0, 0, 0), var(--lessBlack));
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  letter-spacing: 0.1rem;
+  z-index: 3000000;
+}
 
-  .footer-content{
-    width: 80%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 1.2rem;
-    gap: 10%;
+footer img {
+  width: 2rem;
+  height: 2rem;
+}
 
-  }
-  .footer-content h3{
-    font-weight: 300;
-  }
-  footer h5{
-    font-size: 1.2rem;
-    font-weight: 300;
-  }
-  .footer-content-right a{
-    color: white;
-    text-decoration: none;
-    display: flex;
-    align-items: center;
-  }
-  .footer-bold{
-    font-weight:500;
-  }
+.footer-content {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--SmallText);
+  gap: 10%;
+}
 
-  footer h4{
-    font-size: 1.4rem;
-   
-    letter-spacing: 0.2rem;
-    font-weight:500;
-  }
-  .footer-contactMe:hover{
-  
-    transform: scale(1.05);
-  }
+.footer-content h3 {
+  font-weight: var(  --regularWeight);
+}
 
-  .footer-contactMe{
-    transition: transform 0.5s;
-    text-decoration: none;
-           color: white;
-           font-size: 2.2rem;
-        
-  }
+footer h5 {
+  font-size: var(--SmallText);
+  font-weight: var(  --regularWeight);
+}
+
+.footer-content-right a {
+  font-size: var(--SmallText);
+  color: white;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.footer-bold {
+  font-weight: var(--strongWeight);
+}
+
+footer h4 {
+  font-size: var(--regularText);
+  letter-spacing: 0.2rem;
+  font-weight: var(--strongWeight);
+}
+
+.footer-contactMe:hover {
+  transform: scale(1.05);
+}
+
+.footer-contactMe {
+  transition: transform 0.5s;
+  text-decoration: none;
+  color: white;
+  font-size: var(--bigText);
+}

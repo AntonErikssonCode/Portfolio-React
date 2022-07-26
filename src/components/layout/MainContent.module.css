@@ -1,12 +1,9 @@
 .MainContent {
-  /* background-color: rgb(154, 154, 154); */
   width: 100%;
   height: auto;
   display: flex;
   justify-content: center;
   padding-top: 20rem;
-
-  
   z-index: 0;
   margin: 0;
   position: relative;

@@ -1,26 +1,20 @@
-.title-div{
-width: 100vw;
-display: flex;
-justify-content: center;
-align-items: center;
-flex-direction: column;
-color: white;
-text-shadow: rgba(0, 0, 0, 0.6) 5px 5px 10px;
-margin-bottom: 20rem;
-
+.title-div {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  text-shadow: rgba(0, 0, 0, 0.6) 5px 5px 10px;
+  margin-bottom: 20rem;
 }
-.top-text{
+
+.top-text {
   font-weight: 300;
- 
   margin: 0;
-  
-
 }
 
-
-.bot-text{
+.bot-text {
   font-weight: 900;
-  
   margin: 0;
-  
 }

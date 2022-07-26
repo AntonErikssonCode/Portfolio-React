@@ -1,10 +1,14 @@
-.contact-container{
-
+.contact-container {
   width: 100vw;
-  height: auto;
+  
   display: flex;
   align-self: center;
   justify-content: center;
-  background:linear-gradient(170deg, var(--secondColor) 40%, rgba(0, 0, 0, 0.192) 80%);
+  background: linear-gradient(
+    170deg,
+    var(--secondColor) 40%,
+    rgba(0, 0, 0, 0.192) 80%
+  );
   padding: 20rem 0rem 40rem 0rem;
+ 
 }

@@ -1,52 +1,54 @@
-.skill{
+.skill {
   background: linear-gradient(5deg, black, rgb(44, 44, 44));
-  width: 400px;
-  height: 200px;
+  max-width: 400px;
+  min-height: 200px;
   border: 0.5rem rgba(31, 31, 31, 0.995) solid;
   color: white;
   display: flex;
   transition: transform 0.3s;
   border-radius: 0.5rem;
   box-shadow: rgba(0, 0, 0, 0.708) 8px 8px 20px;
-
-
 }
-.skill:hover{
+
+.skill:hover {
   transform: scale(1.03);
 }
-.skill-left{
+
+.skill-left {
   width: 50%;
-
 }
-.skill-left img{
+
+.skill-left img {
   width: 100%;
-
 }
-.skill-right{
+
+.skill-right {
   width: 50%;
   display: flex;
   align-items: center;
-flex-direction: column;
-  
+  flex-direction: column;
 }
 
-.skill-right h3{
- font-size: 2rem;
- margin: 0;
-  
+.skill-right h3 {
+  font-size: var(--regularBigText);
+  margin: 0;
 }
+
 .skill-right ul {
   margin: 0;
   padding: 0rem 0rem 0rem 2rem;
 }
-.skill-right ul li{
-  margin: 0rem 0rem 0.4rem 0rem ;
+
+.skill-right ul li {
+  margin: 0rem 0rem 0.4rem 0rem;
   word-wrap: break-word;
-  font-weight: 200;
-  
+  font-weight: var(--regularWeight);
+  font-size: var(--verySmallText);
 }
-a{ font-weight: 500;
+
+a {
+  font-weight: var(--strongWeight);
   color: white;
-  font-size: 1.3rem;
+  font-size: var(--SmallSmallText);
   text-decoration: none;
 }

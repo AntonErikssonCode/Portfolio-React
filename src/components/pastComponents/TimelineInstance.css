@@ -1,11 +1,11 @@
-.timelineInstance{
+.timelineInstance {
+  min-height: 500px;
+  font-size: var(--SmallText);
+
   
-  height: 450px;
- font-size: 1.4rem;
- 
- 
 }
-.timelineInstance-left{
+
+.timelineInstance-left {
   padding: 2%;
   width: 30%;
   display: flex;
@@ -14,83 +14,80 @@
   position: absolute;
   left: 0;
   top: 0;
+  
 }
-.timelineInstance-right{
-  font-weight: 200;
+
+.timelineInstance-right {
+  font-weight: var(--regularWeight);
   width: 64%;
   padding: 2%;
   position: absolute;
   right: 0;
   top: 0;
-  
 }
-.timelineInstance-left-img{
- width: 100%;
- border-radius: 0.5rem;
-}
-.timelineInstance-name{
-  margin: 0;
-  font-size: 2.4rem;
 
+.timelineInstance-left-img {
+  min-width: 100%;
+  border-radius: 0.5rem;
 }
-.timelineInstance-name-container, .timelineInstance-lessons-container{
+
+.timelineInstance-name {
+  margin: 0;
+  font-size: var(--bigText);
+}
+
+.timelineInstance-name-container,
+.timelineInstance-lessons-container {
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
 
-
-
-
-.timelineInstance-type{
-  position: absolute; 
+.timelineInstance-type {
+  position: absolute;
   right: 4rem;
   top: 4rem;
-  
-  font-weight: 500;
+  font-weight: var(--strongWeight);
 }
-.timelineInstance-time{
-  position: absolute; 
+
+.timelineInstance-time {
+  position: absolute;
   right: 4rem;
-  top:  6rem;
-  font-weight: 200;
-
-
+  top: 6rem;
+  font-weight: var(--regularWeight);
 }
-.timelineInstance-location{
-  position: absolute; 
+
+.timelineInstance-location {
+  position: absolute;
   left: 4rem;
   top: 6rem;
-  font-weight: 200;
-
+  font-weight: var(--regularWeight);
 
 }
-.timelineInstance-company{
-  position: absolute; 
+
+.timelineInstance-company {
+  position: absolute;
   left: 4rem;
   top: 4rem;
-  font-weight: 500;
+  font-weight: var(--strongWeight);
 }
-.timelineInstance-list{
+
+.timelineInstance-list {
   position: absolute;
   top: 8rem;
   padding: 2rem;
   margin-left: 2rem;
-
-
- 
-
+  font-size: var(--SmallSmallText);
 }
 
-.timelineInstance-lessons{
+.timelineInstance-lessons {
   position: absolute;
-  top: 24rem;
-  font-weight: 500;
-  font-size: 1.2rem;
- 
- 
+  top: 28rem;
+  font-weight: var(--strongWeight);
+  font-size: var(--SmallSmallText);
 }
-.timelineInstance-list-item{
-margin: 0.5rem;}
+
+.timelineInstance-list-item {
+  margin: 0.5rem;
+}

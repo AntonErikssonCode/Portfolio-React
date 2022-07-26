@@ -7,42 +7,30 @@
   justify-content: center;
   position: fixed;
   top: 0;
-  
- 
-
   pointer-events: none;
-
 }
 
-.sliderDiv {
-
- 
-}
 .sliderBar {
   pointer-events: auto;
   backdrop-filter: blur(6px);
   z-index: 20;
-
-
   background-color: rgba(255, 255, 255, 0.155);
   height: 15vw;
   width: 47vw;
-  min-width: rem;
   display: flex;
   gap: 1vw;
   padding: 1vw;
   border-radius: 1vw;
   box-shadow: rgba(0, 0, 0, 0.438) 8px 8px 20px;
   transition: all 0.4s;
-
+  margin-top: 8rem;
 }
-.sliderBar:hover{
-transform: scale(1.05);
+
+.sliderBar:hover {
+  transform: scale(1.05);
 }
 
 .sliderStates {
-  
-
   color: rgba(223, 223, 223, 0.92);
   background-color: rgba(205, 25, 25, 0);
   height: 15vw;
@@ -54,24 +42,23 @@ transform: scale(1.05);
   transition: all 0.5s;
   font-size: 1.8vw;
 }
-.sliderStates h2, .slider h2{
-  -webkit-user-select: none; /* Safari */        
--moz-user-select: none; /* Firefox */
--ms-user-select: none; /* IE10+/Edge */
-user-select: none; /* Standard */
+
+.sliderStates h2,
+.slider h2 {
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* Standard */
 }
+
 .sliderStates:hover {
   background-color: rgba(211, 211, 211, 0);
-
   color: #fff;
-  
- 
 }
 
 .slider {
   color: rgb(255, 255, 255);
   background: linear-gradient(-45deg, rgb(0, 0, 0) 0%, rgb(82, 82, 82) 100%);
-/*  background: linear-gradient(54deg, rgba(200,67,182,1) 30%, rgb(7, 184, 220) 70%); */
   height: 15vw;
   width: 15vw;
   display: flex;
@@ -81,12 +68,10 @@ user-select: none; /* Standard */
   transform: translateX(0);
   transition: transform 0.5s ease;
   transform: opacity 0.5s;
-
   border-radius: 1vw;
   box-shadow: rgba(0, 0, 0, 0.438) 4px 4px 10px;
   font-size: 1.8vw;
 }
-
 
 .sliderDivIn {
   padding-top: 5rem;
@@ -96,80 +81,51 @@ user-select: none; /* Standard */
   align-items: center;
   width: 100vw;
   height: 100vh;
-  animation:  AnimateSliderDivIn 0.3s forwards; 
-
+  animation: AnimateSliderDivIn 0.3s forwards;
 }
 
-
 .sliderDivOut {
-  
-  position:relative;
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100vw;
   height: 100vh;
-  
-  animation:  AnimateSliderDivOut 0.3s forwards; 
-  
 
- 
-
+  animation: AnimateSliderDivOut 0.3s forwards;
 }
-.sliderBarOut{
+
+.sliderBarOut {
   background-color: rgb(255, 255, 255);
   color: black;
-
-
-
-}
-.sliderBarIn{
-  
-  
-
-
 }
 
-.sliderStatesDown{
+.sliderStatesDown {
   color: rgba(0, 0, 0, 0.678);
-
 }
-.sliderStatesDown:hover{
+
+.sliderStatesDown:hover {
   color: rgb(0, 0, 0);
-
 }
-
-
 
 @keyframes AnimateSliderDivOut {
-  0%{
+  0% {
     top: 0%;
     transform: scale(1);
-    
-
   }
-  100%{
+  100% {
     top: -42%;
-  
     transform: scale(0.4);
-    
   }
-  
 }
 
 @keyframes AnimateSliderDivIn {
-  0%{
+  0% {
     top: -42%;
     transform: scale(0.4);
-
   }
-  100%{
+  100% {
     top: 0%;
     transform: scale(1);
-    
   }
-  
 }
-
-
-

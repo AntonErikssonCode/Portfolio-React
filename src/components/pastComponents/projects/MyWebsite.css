@@ -1,25 +1,25 @@
-.MyWebsite-container{
+.MyWebsite-container {
   color: white;
   padding: 5rem 10rem;
-
 }
 
-
-.MyWebsite-container h3{
-  font-size: 3rem;
+.MyWebsite-container h3 {
+  font-size: var(--bigText);
   margin: 0%;
   margin-top: 3rem;
   margin-bottom: 1rem;
-
-  
 }
 
-.MyWebsite-container p, .MyWebsite-container q, .MyWebsite-container ul li{
-  font-size: 1.2rem;
-font-weight: 300;
-margin: 0;
-padding: 0;}
-.MyWebsite-container ul li{
+.MyWebsite-container p,
+.MyWebsite-container q,
+.MyWebsite-container ul li {
+  font-size: var(--SmallText);
+  font-weight: var(--regularWeight);
+  margin: 0;
+  padding: 0;
+}
+
+.MyWebsite-container ul li {
   margin-bottom: 0.5rem;
 }
 
@@ -27,62 +27,61 @@ padding: 0;}
   margin: 1rem 0rem;
 }
 
-.MyWebsite-inspiration-container, .MyWebsite-userfeedback-container, .MyWebsite-figmaMockup-container{
+.MyWebsite-inspiration-container,
+.MyWebsite-userfeedback-container,
+.MyWebsite-figmaMockup-container {
   display: flex;
   gap: 5%;
   justify-content: space-between;
   align-items: center;
 }
-.MyWebsite-inspiration-container img{
+.MyWebsite-inspiration-container img {
   aspect-ratio: 1/1;
   width: 328px;
-  height: 328px;
- 
+  min-height: 328px;
 }
-.MyWebsite-userfeedback-container{
+.MyWebsite-userfeedback-container {
   margin-bottom: 2rem;
 }
 
-.MyWebsite-userfeedback-container img{
+.MyWebsite-userfeedback-container img {
   aspect-ratio: 1/1;
   width: 436px;
   height: 436px;
- 
 }
-.MyWebsite-inspiration-firstTitle{
+.MyWebsite-inspiration-firstTitle {
   margin: 0rem;
 }
 
-.MyWebsite-container address{
-  font-size: 2rem;
+.MyWebsite-container address {
+  font-size: var(--regularBigText);
   display: flex;
   align-self: center;
   justify-content: center;
   flex-direction: column;
   margin-top: 1rem;
-  
 }
-.MyWebsite-quote-container{
+.MyWebsite-quote-container {
   display: flex;
   align-self: center;
   justify-content: center;
   flex-direction: column;
-  
+
   padding: 3vw 20%;
 }
-.MyWebsite-quote-container q{
+.MyWebsite-quote-container q {
   font-style: italic;
 }
 
-.noMarginTop{
+.noMarginTop {
   margin-top: 0 !important;
 }
-.centerDiv{
+.centerDiv {
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.imgMargin{
+.imgMargin {
   margin: 5rem 0rem;
 }

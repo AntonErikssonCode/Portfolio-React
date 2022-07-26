@@ -1,23 +1,21 @@
-
-.titleDiv{
+.titleDiv {
   position: absolute;
   top: 10%;
 }
-h3{
+
+h3 {
   text-shadow: 1px 1px 7px black;
 }
 
 h1 {
-  font-size:5vw;
+  font-size: 5vw;
   text-align: center;
   font-weight: 600;
   color: #353239;
-  margin-top: 7rem;
-
+  margin-top: 10rem;
 }
 
 h1 span span {
-  
   position: relative;
   bottom: 0em;
   opacity: 0;
@@ -31,21 +29,22 @@ h1 span span:nth-child(5n) { color: blueviolet; } */
 @keyframes move-text {
   0% {
     color: rgb(173, 173, 173);
-/*     bottom: -0.2em;
- */    opacity: 0;
+    /*     bottom: -0.2em;
+ */
+    opacity: 0;
   }
-  
+
   50% {
     /* bottom: 0.2em; */
   }
 
   100% {
     color: rgb(255, 255, 255);
-/*     bottom: 0;
- */    opacity: 1;
+    /*     bottom: 0;
+ */
+    opacity: 1;
   }
 }
-
 
 @media screen and (max-width: 500px) {
   body {

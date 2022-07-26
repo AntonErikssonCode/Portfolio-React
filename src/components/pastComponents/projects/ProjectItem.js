@@ -1,7 +1,7 @@
 import useCollapse from "react-collapsed";
 import { useState } from "react";
 import "./ProjectItem.css";
-import ArrowButton from "../features/ArrowButton";
+import ArrowButton from "../../features/ArrowButton";
 
 function ProjectItem(props) {
   const title = props.title;

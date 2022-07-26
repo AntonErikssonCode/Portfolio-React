@@ -1,27 +1,21 @@
-.goals-container{
- position: relative;
- margin-top: 40rem;
- 
-
-}
-.goals h3{
-
+.goals-container {
+  position: relative;
+  margin-top: 40rem;
 }
 
-.goals-svgImage-top{
+.goals-svgImage-top {
   transform: rotate(180deg);
   width: 100%;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
- 
   position: absolute;
   height: 300px;
-  
   margin-top: -300px;
 }
-.goals-main{
-  background: linear-gradient( 175deg, var(--secondColor) 30%, black 80%);
+
+.goals-main {
+  background: linear-gradient(175deg, var(--secondColor) 30%, black 80%);
   color: white;
   display: flex;
   flex-direction: column;
@@ -31,53 +25,41 @@
   height: auto;
   padding: 10rem 0rem;
   padding-bottom: 500px;
-  
-
 }
-.goals-main h3{
+
+.goals-main h3 {
   margin: 0rem;
-    text-shadow: none;
+  text-shadow: none;
   margin-top: 0;
   margin-bottom: 3rem;
-  font-size: 5rem;
+  font-size: var(--veryBigText);
   text-shadow: 1px 1px 7px black;
 }
 
-.goals-main h4{
+.goals-main h4 {
   margin-top: 0;
-  font-size: 2.4rem;
+  font-size: var(--bigText);
   text-shadow: 1px 1px 7px black;
   margin-bottom: 0rem;
 }
 
-.goals-main ul li{
-  font-size: 1.6rem;
+.goals-main ul li {
+  font-size: var(--regularText);
   line-height: 2.2rem;
-  
 }
 
-.goals-main ul {
-
-  
-}
-.goals-text-text{
+.goals-text-text {
   margin-left: 10%;
   padding: 0rem 10rem 0rem 10rem;
 }
 
-.goals-svgImage-bot{
-  
+.goals-svgImage-bot {
   width: 100%;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
- 
   position: absolute;
   height: 300px;
   transform: rotate(180deg);
   margin-top: -300px;
-
-  
-
 }
-
