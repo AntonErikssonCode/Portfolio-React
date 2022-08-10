@@ -39,7 +39,7 @@
 }
 .me-text-container h3 {
   margin-top: 0;
-  margin-bottom: 3rem;
+  margin-bottom: 0rem;
   font-size: var(--veryBigText);
   text-shadow: none;
 }
@@ -92,8 +92,8 @@
   border-radius: 0.5vw;
   box-shadow: rgb(49, 49, 49) 5px 5px 10px;
   border: 2px rgba(255, 255, 255, 0.069) solid;
-  font-weight: 300;
-  transition: all 1s;
+  font-weight: 500;
+  transition: all 0.3s;
 }
 .me-links-a:hover {
   transform: scale(1.1);

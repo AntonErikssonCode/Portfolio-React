@@ -13,10 +13,12 @@
 }
 
 .projectContainertitle {
-  margin-left: 10%;
+ 
   color: white;
   font-size: var(--veryBigText);
   margin-bottom: 2rem;
   text-shadow: 1px 1px 7px black;
+  display: flex;
+  justify-content: center;
 }
 

@@ -1,4 +1,5 @@
 import "./Footer.css";
+import "../../index.css";
 import { Link } from "react-router-dom";
 
 function Footer() {
@@ -16,12 +17,12 @@ function Footer() {
         </div>
         <div className="footer-content-right">
           <h3>
-            <a target="_blank" rel="noreferrer" href={"https://bobbyhadz.com/blog/react-add-css-class-on-hover"}>
+            <a target="_blank" rel="noreferrer" href={"https://www.linkedin.com/in/anton-eriksson-4b907b19b/"}>
             <img src={require('./linkedin_line.png')} />LinkedIn
             </a>
           </h3>
           <h3>
-          <a target="_blank" rel="noreferrer" href={"https://bobbyhadz.com/blog/react-add-css-class-on-hover"}>
+          <a target="_blank" rel="noreferrer" href={"https://github.com/AntonErikssonCode"}>
             <img src={require('./github_fill.png')} />GitHub
             </a>
           </h3>

@@ -5,12 +5,14 @@
 }
 
 .sliderTimeline-container h3 {
-  margin-left: 10%;
+  
   color: white;
   font-size:var(--veryBigText);
   margin-bottom: 2rem;
   margin-top: 0;
   text-shadow: 1px 1px 7px black;
+  display: flex;
+  justify-content: center;
 }
 
 .sliderTimeline {

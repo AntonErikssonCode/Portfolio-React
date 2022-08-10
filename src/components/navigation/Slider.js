@@ -12,6 +12,8 @@ function Slider() {
   const sliderDiv = useRef();
   const sliderRef = useRef();
   const { pathname } = useLocation();
+  
+  
 
   // Set Up Navigation
   const navigate = useNavigate();
@@ -34,13 +36,13 @@ function Slider() {
   useEffect(() => {
     const slider = document.getElementById("slider");
     if (pathname == "/present") {
-      slider.style.transform = "translateX(16vw)";
+      slider.style.transform = "translateX(15rem)";
       slider.firstChild.innerHTML = "PRESENT";
       setSliderState("/present");
       navigateTo("present");
     }
     if (pathname == "/future" || pathname == "/future/contact-me") {
-      slider.style.transform = "translateX(32vw)";
+      slider.style.transform = "translateX(32rem)";
       setSliderState("/future");
       slider.firstChild.innerHTML = "FUTURE";
       navigateTo(pathname);
@@ -50,7 +52,7 @@ function Slider() {
   useEffect(() => {
     const slider = document.getElementById("slider");
     if (pathname == "/future/contact-me") {
-      slider.style.transform = "translateX(32vw)";
+      slider.style.transform = "translateX(32rem)";
       setSliderState("/future");
       slider.firstChild.innerHTML = "FUTURE";
       navigateTo(pathname);
@@ -88,7 +90,7 @@ function Slider() {
         (sliderState == "/past" && click == "Present") ||
         (sliderState == "/past" && click == "right")
       ) {
-        slider.style.transform = "translateX(16vw)";
+        slider.style.transform = "translateX(16rem)";
         slider.firstChild.innerHTML = "PRESENT";
         setSliderState("/present");
         navigateTo("present");
@@ -98,7 +100,7 @@ function Slider() {
         (sliderState == "/past" && click == "Future") ||
         (sliderState == "/past" && click == "left")
       ) {
-        slider.style.transform = "translateX(32vw)";
+        slider.style.transform = "translateX(32rem)";
         setSliderState("/future");
         slider.firstChild.innerHTML = "FUTURE";
         navigateTo("future");
@@ -118,7 +120,7 @@ function Slider() {
         (sliderState == "/present" && click == "Future") ||
         (sliderState == "/present" && click == "right")
       ) {
-        slider.style.transform = "translateX(32vw)";
+        slider.style.transform = "translateX(32rem)";
         slider.firstChild.innerHTML = "FUTURE";
         setSliderState("/future");
         navigateTo("future");
@@ -128,7 +130,7 @@ function Slider() {
         (sliderState == "/future" && click == "Past") ||
         (sliderState == "/future" && click == "right")
       ) {
-        slider.style.transform = "translateX(0vw)";
+        slider.style.transform = "translateX(0rem)";
         slider.firstChild.innerHTML = "PAST";
         setSliderState("/past");
         navigateTo("past");
@@ -137,7 +139,7 @@ function Slider() {
         (sliderState == "/future" && click == "Present") ||
         (sliderState == "/future" && click == "left")
       ) {
-        slider.style.transform = "translateX(16vw)";
+        slider.style.transform = "translateX(16rem)";
         slider.firstChild.innerHTML = "PRESENT";
         setSliderState("/present");
         navigateTo("present");

@@ -80,6 +80,7 @@ export const ContactUs = () => {
           />
           <label htmlFor="message">SAY SOMETHING...</label>
         </div>
+        <div className="formButton-container">
         <button className="formButton" id="send" type="submit" value="Send">
           {" "}
           SEND <span></span>
@@ -87,6 +88,7 @@ export const ContactUs = () => {
           <span></span>
           <span></span>
         </button>
+        </div>
       </form>
       {sent? <MailSent/>:""}
     </div>

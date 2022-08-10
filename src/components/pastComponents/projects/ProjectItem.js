@@ -27,7 +27,9 @@ function ProjectItem(props) {
       >
         <div className={`itemContent ${"itemContent-" + alignment}`}>
           <div className="imageContainer">
-            <img className={`image `} src={image} />
+            <img className={`image ${
+          isExpanded ? "image-border-bot" : " "
+        }`} src={image} />
           </div>
 
           <div className="rightPart">
@@ -44,9 +46,7 @@ function ProjectItem(props) {
           )}
         </div>
         <div {...getCollapseProps()}>
-          <div className="content">
-           {component}
-          </div>
+          <div className="content">{component}</div>
         </div>
       </div>
     </div>

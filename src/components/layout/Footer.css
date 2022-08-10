@@ -9,6 +9,7 @@ footer {
   flex-direction: column;
   letter-spacing: 0.1rem;
   z-index: 3000000;
+  padding-top: 5rem;
 }
 
 footer img {
@@ -63,3 +64,4 @@ footer h4 {
   color: white;
   font-size: var(--bigText);
 }
+
