@@ -28,12 +28,16 @@ function MyWebsite() {
             arrow keys, which determines the content of the page.{" "}
           </p>
         </div>
+        <div className="portfolio-img portfolio-img-1">
         <img src={sliderInspiration} />
+        </div>
       </div>
 
       <h3>User Feedback</h3>
       <div className="MyWebsite-userfeedback-container">
+      <div className="portfolio-img portfolio-img-2">
         <img src={sliderOld} />
+        </div>
         <div className="MyWebsite-userfeedback-container-left">
           <p>
             An evening was spent with vanilla JavaScript to create a mockup of
@@ -83,7 +87,9 @@ function MyWebsite() {
       </div>
       <h3 className="noMarginTop">Figma Mockup</h3>
       <div className="MyWebsite-figmaMockup-container">
+      <div className="portfolio-img portfolio-img-3">
         <img src={sliderFigma} />
+        </div>
         <div>
           <p>
             I used figma to redesign the navbar in its new horizontal mode. A
@@ -115,7 +121,9 @@ function MyWebsite() {
         </div>
       </div>
       <div className="centerDiv imgMargin">
+      <div className="portfolio-img portfolio-img-4">
       <img src={sliderFigma2} />
+      </div>
       </div>
 
       <h3>Coding and Iterating </h3>

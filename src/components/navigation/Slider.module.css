@@ -1,22 +1,55 @@
 :root{
   --sliderSize: 47rem;
   --sliderWidth: 15rem;
+  --sliderMovesmall: 16rem;
+  --sliderMoveLarge: 32rem;
   --sliderGap:1rem;
+  --borderRadius: 1rem;
+  --scaleSize: 0.4;
+  --textSize: 2rem;
 }
 
 
 @media screen and (min-width: 300px) and (max-width: 600px) {
   :root{
-    --sliderSize: 17rem;
+    --sliderSize: 16rem;
     --sliderWidth: 5rem;
-    --sliderGap:1rem;
+    --sliderMoveLarge: 11rem;
+    --sliderMovesmall: 5.5rem;
+    --sliderGap:0.5rem;
+    --borderRadius: 0.2rem;
+    --scaleSize: 0.8;
+    --textSize: 0.5rem;
+
   }
  
 }
 @media screen and (min-width: 601px) and (max-width: 900px) {
+  :root{
+    --sliderSize: 22rem;
+    --sliderWidth: 7rem;
+    --sliderMoveLarge: 15rem;
+    --sliderMovesmall: 7.5rem;
+    --sliderGap:0.5rem;
+    --borderRadius: 0.4rem;
+    --scaleSize: 0.8;
+    --textSize: 0.8rem;
+
+  }
   
 }
 @media screen and (min-width: 901px) and (max-width: 1200px) {
+  :root{
+    --sliderSize: 31.6rem;
+    --sliderWidth: 10rem;
+    --sliderMoveLarge: 21.6rem;
+    --sliderMovesmall: 10.8rem;
+    --sliderGap:0.8rem;
+    --borderRadius: 0.6rem;
+    --scaleSize: 0.5;
+    --textSize: 1.2rem;
+
+  }
  
 }
 @media screen and (min-width: 1201px) and (max-width: 2000px) {
@@ -49,7 +82,7 @@
   
   gap: var(--sliderGap);
   padding:var(--sliderGap);
-  border-radius:var(--sliderGap);
+  border-radius: var(--borderRadius);
   box-shadow: rgba(0, 0, 0, 0.438) 8px 8px 20px;
   transition: all 0.4s;
   margin-top: 4rem;
@@ -69,7 +102,7 @@
   align-items: center;
   border-radius: var(--sliderGap);
   transition: all 0.5s;
-  font-size: var(--regularText);
+  font-size: var(--textSize);
 }
 
 .sliderStates h2,
@@ -97,9 +130,9 @@
   transform: translateX(0);
   transition: transform 0.5s ease;
   transform: opacity 0.5s;
-  border-radius:var(--sliderGap);
+  border-radius:var(--borderRadius);
   box-shadow: rgba(0, 0, 0, 0.438) 4px 4px 10px;
-  font-size: var(--regularText);
+  font-size: var(--textSize);
 }
 
 .sliderDivIn {
@@ -144,14 +177,14 @@
   }
   100% {
     top: -42%;
-    transform: scale(0.4);
+    transform: scale(var(--scaleSize));
   }
 }
 
 @keyframes AnimateSliderDivIn {
   0% {
     top: -42%;
-    transform: scale(0.4);
+    transform:scale(var(--scaleSize));
   }
   100% {
     top: 0%;

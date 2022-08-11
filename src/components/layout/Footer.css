@@ -22,6 +22,7 @@ footer img {
   display: flex;
   align-items: center;
   justify-content: center;
+ 
   font-size: var(--SmallText);
   gap: 10%;
 }
@@ -41,6 +42,7 @@ footer h5 {
   text-decoration: none;
   display: flex;
   align-items: center;
+  
   gap: 1rem;
 }
 
@@ -52,6 +54,7 @@ footer h4 {
   font-size: var(--regularText);
   letter-spacing: 0.2rem;
   font-weight: var(--strongWeight);
+  padding: 2rem;
 }
 
 .footer-contactMe:hover {
@@ -65,3 +68,12 @@ footer h4 {
   font-size: var(--bigText);
 }
 
+
+
+
+@media screen and (min-width: 300px) and (max-width: 800px) {
+  .footer-content {
+    
+    flex-direction: column;}
+
+}

@@ -60,6 +60,9 @@ function SliderTimeline() {
       <div className="sliderTimeline-display">
         <TimlineInstance time={timeValue} />
       </div>
+      <div className="slider-timeline-center">
+
+     
       <div className="sliderTimeline-dates">
         <h4>{month}-{year}</h4>
  {/*       
@@ -78,6 +81,7 @@ function SliderTimeline() {
         
       />
      
+    </div>
     </div>
     </div>
   );

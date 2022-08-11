@@ -3,7 +3,7 @@ body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
-  width: 100vw;
+  width: 100%;
   letter-spacing: 0.05rem;
   background-color: rgb(255, 255, 255);
 }
@@ -18,9 +18,7 @@ html {
   }
 }
 
-
 :root {
-
   --mainColor: rgb(120, 2, 254);
   --secondColor: rgba(54, 229, 144, 0.991);
   --black: #000;
@@ -31,7 +29,7 @@ html {
   --regularText: 1.8rem;
   --regularBigText: 2.2rem;
   --bigText: 3rem;
-  --veryBigText:  5rem;
+  --veryBigText: 5rem;
   --regularWeight: 300;
   --strongWeight: 600;
 }
@@ -46,23 +44,40 @@ html {
     --regularText: 1.2rem;
     --regularBigText: 1.4rem;
     --bigText: 1.6rem;
-    --veryBigText:  2rem;
+    --veryBigText: 2rem;
     --regularWeight: 300;
     --strongWeight: 600;
   }
-
 }
 
 @media screen and (min-width: 601px) and (max-width: 900px) {
   :root {
     --mainColor: rgb(57, 127, 0);
     --secondColor: rgba(54, 217, 229, 0.991);
+    --verySmallText: 0.6rem;
+    --SmallSmallText: 0.8rem;
+    --SmallText: 1rem;
+    --regularText: 1.2rem;
+    --regularBigText: 1.4rem;
+    --bigText: 1.6rem;
+    --veryBigText: 2rem;
+    --regularWeight: 300;
+    --strongWeight: 600;
   }
 }
 @media screen and (min-width: 901px) and (max-width: 1200px) {
   :root {
     --mainColor: rgb(20, 3, 114);
     --secondColor: rgba(109, 70, 59, 0.991);
+    --verySmallText: 1rem;
+    --SmallSmallText: 1.1rem;
+    --SmallText: 1.2rem;
+    --regularText: 1.4rem;
+    --regularBigText: 2rem;
+    --bigText: 2.2rem;
+    --veryBigText: 3rem;
+    --regularWeight: 300;
+    --strongWeight: 600;
   }
 }
 @media screen and (min-width: 1201px) and (max-width: 2000px) {
@@ -71,7 +86,7 @@ html {
     --secondColor: rgba(86, 54, 229, 0.991);
   }
 }
-@media screen and (min-width: 2001px)  {
+@media screen and (min-width: 2001px) {
   :root {
     --mainColor: rgb(80, 135, 34);
     --secondColor: rgba(229, 54, 54, 0.991);

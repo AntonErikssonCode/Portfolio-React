@@ -19,9 +19,13 @@
 }
 
 .me-img {
-  width: 400px;
+  /* max-width: 400px;
   height: auto;
   border-radius: 0.5vw;
+ */
+  width: 100%;
+  max-width: 600px;
+  height: auto;
 }
 
 .me-img-container {
@@ -31,8 +35,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 400px;
-  height: auto;
+  width: 40%;
+ 
 }
 .me-text-container {
   width: 60%;
@@ -66,14 +70,15 @@
   width: 100%;
   display: flex;
   justify-content: center;
-  align-items: center;
-  flex-direction: column;
+
+
 }
 .me-links {
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
+ 
 
   gap: 5%;
   margin-top: 5rem;
@@ -125,4 +130,45 @@
   justify-content: center;
   align-items: flex-start;
   flex-direction: column;
+  width: 60%;
+}
+
+@media screen and (min-width: 300px) and (max-width: 1200px) {
+
+  .me-top-section{
+    flex-direction: column;
+    
+  }
+  .me-designer, .me-frontend, .me-cognitive, .me-musician {
+    flex-direction: column;
+    margin-top: 5rem;
+  }
+  .me-icon-alignment {
+   
+    gap: 0rem;
+  }
+  .me-img-container{
+    width: 70%;
+
+  }
+  .me-top-section-text{
+    width: 100%;
+  }
+  
+}
+
+@media screen and (min-width: 300px) and (max-width: 700px) {
+
+  .me-links {
+    flex-direction: column;
+    width: 25%;
+    gap: 1rem;
+  }
+  .me-links-a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  
 }

@@ -50,7 +50,7 @@
 
 .goals-text-text {
   margin-left: 10%;
-  padding: 0rem 10rem 0rem 10rem;
+  padding: 0rem 3vw 0rem 3vw;
 }
 
 .goals-svgImage-bot {
@@ -62,4 +62,13 @@
   height: 300px;
   transform: rotate(180deg);
   margin-top: -300px;
+}
+
+
+
+@media screen and (min-width: 300px) and (max-width: 1200px) {
+
+  .me-top-section{
+    
+  }
 }

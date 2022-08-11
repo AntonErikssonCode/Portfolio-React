@@ -44,6 +44,7 @@
   position: relative;
   width: 20vw;
   border-top-left-radius: 0.5rem;
+  
 }
 
 .imageContainer::after {
@@ -115,4 +116,12 @@
   border-bottom-right-radius: 0.5rem;
 
 
+}
+
+
+@media screen and (min-width: 300px) and (max-width: 1200px) {
+  .imageContainer {
+    display: none;
+  }
+ 
 }

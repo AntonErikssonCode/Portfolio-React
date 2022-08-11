@@ -87,15 +87,17 @@ function TimelineInstance(props) {
      
       
  
-   
+        <div className="timelineInstance-company-and-type">
         <h4 className="timelineInstance-company">{selectedInstance[0].company}</h4>
         <h4 className="timelineInstance-type">{selectedInstance[0].type}</h4>
     
+        </div>
+        
     
-   
+        <div className="timelineInstance-location-and-time">
         <h4 className="timelineInstance-location">{selectedInstance[0].location}</h4>
         <h4 className="timelineInstance-time">{selectedInstance[0].time}</h4>
-      
+        </div>
 
         <ul className="timelineInstance-list">
           {selectedInstance[0].description.map(function (item, i) {

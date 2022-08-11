@@ -28,15 +28,21 @@
   flex-direction: column;
  align-items: center;
  font-size: 3vw;
- gap:1vw
+ gap:1vw;
 
+}
+.img-center-title{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .imgTitle2{
   margin: 0;
   color: white;
   position: absolute;
-  top: 60%;
-  left: 33%;
+  top: 55%;
+  right: auto;
   display: flex;
   flex-direction: column;
  align-items: center;
@@ -49,7 +55,7 @@
   color: white;
   position: absolute;
   top: 13%;
-  left: 25%;
+  right: auto;
   display: flex;
   flex-direction: column;
  align-items: center;

@@ -52,3 +52,13 @@ a {
   font-size: var(--SmallSmallText);
   text-decoration: none;
 }
+
+@media screen and (min-width: 300px) and (max-width: 800px) {
+  .skill {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+}
