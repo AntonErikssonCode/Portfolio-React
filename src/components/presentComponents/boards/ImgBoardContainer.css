@@ -7,7 +7,7 @@
   flex-direction: column;
   z-index: 10;
   gap: 10rem;
- 
+  background: linear-gradient(170deg, black 70%, white 90%);
   margin-top: 20rem;
   position: relative;
   padding: 5%;

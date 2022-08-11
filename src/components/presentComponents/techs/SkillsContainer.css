@@ -6,7 +6,7 @@
   align-items: center;
   gap: 4rem;
   padding: 10rem 0rem 40rem 0rem;
-  background: linear-gradient(170deg, var(--mainColor) 10%, black);
+  background: linear-gradient(170deg, var(--mainColor) 70%, black);
   position: relative;
 }
 

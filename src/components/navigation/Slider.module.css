@@ -24,7 +24,7 @@
   }
  
 }
-@media screen and (min-width: 601px) and (max-width: 900px) {
+@media screen and (min-width: 601px) and (max-width: 1200px) {
   :root{
     --sliderSize: 22rem;
     --sliderWidth: 7rem;
@@ -53,6 +53,17 @@
  
 }
 @media screen and (min-width: 1201px) and (max-width: 2000px) {
+  :root{
+    --sliderSize: 31.6rem;
+    --sliderWidth: 10rem;
+    --sliderMoveLarge: 21.6rem;
+    --sliderMovesmall: 10.8rem;
+    --sliderGap:0.8rem;
+    --borderRadius: 0.6rem;
+    --scaleSize: 0.5;
+    --textSize: 1.2rem;
+
+  }
  
 }
 @media screen and (min-width: 2001px)  {
@@ -66,6 +77,8 @@
   margin: 0rem;
   display: flex;
   justify-content: center;
+  flex-direction: column;
+  
   position: fixed;
   top: 0;
   pointer-events: none;
@@ -85,7 +98,8 @@
   border-radius: var(--borderRadius);
   box-shadow: rgba(0, 0, 0, 0.438) 8px 8px 20px;
   transition: all 0.4s;
-  margin-top: 4rem;
+  
+  
 }
 
 .sliderBar:hover {
@@ -136,13 +150,13 @@
 }
 
 .sliderDivIn {
-  padding-top: 5rem;
+  
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100vw;
-  height: 100vh;
+  height: 50vw;
   animation: AnimateSliderDivIn 0.3s forwards;
 }
 
@@ -152,7 +166,7 @@
   justify-content: center;
   align-items: center;
   width: 100vw;
-  height: 100vh;
+  height: 50vh;
 
   animation: AnimateSliderDivOut 0.3s forwards;
 }

@@ -6,7 +6,7 @@ import MetaTags from "../components/features/MetaTags";
 import PresentContainer from "../components/presentComponents/PresentContainer";
 function PresentPage() {
   const backgroundGradient =
-    "linear-gradient(54deg, rgba(255,51,0,1) 11%, rgba(105,63,255,1) 100%)";
+  "linear-gradient(150deg,var(--mainColor),var(--secondColor)";
   return (
     <div>
  <MetaTags title="Antons Present"/>

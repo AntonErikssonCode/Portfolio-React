@@ -1,6 +1,9 @@
 .titleDiv {
-  position: absolute;
-  top: 10%;
+/*   position: absolute;
+  top: 10%; */
+  padding: 2rem;
+  height: 0vh;
+  margin-top: 20vh;
 }
 
 h3 {
@@ -12,7 +15,7 @@ h1 {
   text-align: center;
   font-weight: 600;
   color: #353239;
-  margin-top: 10rem;
+ 
 }
 
 h1 span span {
@@ -43,11 +46,5 @@ h1 span span:nth-child(5n) { color: blueviolet; } */
     /*     bottom: 0;
  */
     opacity: 1;
-  }
-}
-
-@media screen and (max-width: 500px) {
-  body {
-    transform: scale(0.75);
   }
 }

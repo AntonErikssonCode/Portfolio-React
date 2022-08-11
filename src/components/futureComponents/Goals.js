@@ -9,7 +9,7 @@ function Goals() {
         <div className="goals-main">
           <h3>
             What do I want to be when I <br />
-            grow up?
+            <span className="goals-main-growup">GROW UP?</span>
           </h3>
           <div className="goals-text-text">
             <h4>I dream about an opportunity where I can: </h4>
