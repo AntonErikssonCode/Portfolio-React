@@ -1,6 +1,8 @@
 import "./SliderTimeline.css";
 import { useEffect, useState } from "react";
 import TimlineInstance from "./TimelineInstance";
+import Animate from "../features/Animate";
+
 const monthValues = {
   0: "Januari",
   1: "February",
@@ -47,43 +49,39 @@ function SliderTimeline() {
     }
     var remainder = timeValue % 12;
     setMonth(monthValues[remainder]);
-   
   }, [timeValue]);
 
+ 
   return (
-    <div className="sliderTimeline-container">
- <h3>My Timeline</h3>
-  
-    <div className="sliderTimeline">
-     
-   
-      <div className="sliderTimeline-display">
-        <TimlineInstance time={timeValue} />
+    
+    <div  
+    className="sliderTimeline-container">
+      <h3>My Timeline</h3>
+      <Animate variant={2}>
+      <div className="sliderTimeline">
+        <div className="sliderTimeline-display">
+          <TimlineInstance time={timeValue} />
+        </div>
+        <div className="slider-timeline-center">
+          <div className="sliderTimeline-dates">
+            <h4>
+              {month}-{year}
+            </h4>
+          </div>
+          <input
+            type="range"
+            className="sliderTimeline-slider"
+            min="5"
+            max="104"
+            defaultValue="104"
+            onChange={handleChange}
+          />
+        </div>
       </div>
-      <div className="slider-timeline-center">
+      </Animate>
 
-     
-      <div className="sliderTimeline-dates">
-        <h4>{month}-{year}</h4>
- {/*       
-       <h4>Year: <span className="sliderTimeline-notBold"> {year}</span></h4>
-       <h4>Month:  <span className="sliderTimeline-notBold"> {month}</span></h4> */}
-     </div>
-      <input
-        type="range"
-        className="sliderTimeline-slider"
-        min="5"
-        max="104"
-        defaultValue="104"
-        /* onChange={(event) => setYear(event.target.value)} */
-      
-        onChange={handleChange}
-        
-      />
-     
     </div>
-    </div>
-    </div>
+   
   );
 }
 export default SliderTimeline;

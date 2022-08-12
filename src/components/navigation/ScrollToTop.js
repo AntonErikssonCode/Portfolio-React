@@ -9,7 +9,7 @@ const ScrollToTop = () => {
     if (pathname !== "/future/contact-me") {
       window.scrollTo({
         top: 0,
-        behavior: "smooth"
+        behavior: "auto"
       });
 
     }

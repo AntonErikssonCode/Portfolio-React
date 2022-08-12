@@ -10,6 +10,7 @@
   background-color: var(--secondColor);
   position: relative;
   margin-top: 40rem;
+  padding-top: 5rem;
 }
 
 .projectContainertitle {

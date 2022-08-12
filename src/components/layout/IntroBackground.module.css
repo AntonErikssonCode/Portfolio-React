@@ -38,4 +38,6 @@
   position: absolute;
   bottom: 0;
   transform: rotate(180deg);
+  z-index: 4;
+
 }

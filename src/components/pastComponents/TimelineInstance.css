@@ -1,5 +1,5 @@
 .timelineInstance {
-
+min-height: 500px;
 
   display: flex;
  
@@ -11,17 +11,20 @@
 
 .timelineInstance-left {
   padding: 1rem;
- 
+  width: 30%;
   
  
 }
 
 .timelineInstance-right {
   font-weight: var(--regularWeight);
-  width: 50%;
+  width: 70%;
   
   padding: 2vw;
   padding-top: 0rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 
   
 }
@@ -36,6 +39,7 @@
   width: 100%;
   max-width: 600px;
   height: auto;
+  border-radius: 0.5vw;
   
 
 }
@@ -110,6 +114,12 @@
   }
   .timelineInstance-right {
     width: 90%;
+   
+  }
+  .timelineInstance-left {
+    
+    width: 50%;
+    
    
   }
 }

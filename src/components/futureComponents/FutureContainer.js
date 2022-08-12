@@ -1,9 +1,10 @@
 import './FutureContainer.css'
 import Me from './Me';
-import Contact from './Contact';
+
 import Title from '../features/Title';
 import SvgWave from '../layout/SvgWave';
 import Goals from './Goals';
+import { ContactUs } from './SendMail';
 function FutureContainer(props){
   return(
     <div className='futureContainer'>
@@ -18,7 +19,7 @@ function FutureContainer(props){
     
       </Me>
      
-      <Contact/>
+      <ContactUs/>
       
     
       <SvgWave rotated={true} color="var(--mainColor)" top={false}/>

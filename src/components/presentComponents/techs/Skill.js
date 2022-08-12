@@ -1,5 +1,6 @@
 import "./Skill.css";
 
+import Animate from "../../features/Animate";
 function Skill(props) {
   const name = props.name;
   const image = props.image;
@@ -8,17 +9,18 @@ function Skill(props) {
     return <li key={i}>{item}</li>;
   });
 
-
   return (
-    <div className="skill">
-      <div className="skill-left">
-        <img src={require(`${image}`)} />
+    <Animate variant={0}>
+      <div className="skill">
+        <div className="skill-left">
+          <img src={require(`${image}`)} />
+        </div>
+        <div className="skill-right">
+          <h3>{name}</h3>
+          <ul>{textList}</ul>
+        </div>
       </div>
-      <div className="skill-right">
-        <h3>{name}</h3>
-        <ul>{textList}</ul>
-      </div>
-    </div>
+    </Animate>
   );
 }
 export default Skill;

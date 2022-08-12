@@ -5,7 +5,7 @@ import MetaTags from "../components/features/MetaTags";
 import FutureContainer from "../components/futureComponents/FutureContainer";
 function FuturePage() {
   const backgroundGradient =
-    "linear-gradient(270deg,var(--mainColor),var(--secondColor)";
+    "linear-gradient(300deg,var(--mainBackground),var(--secondBackground)";
     
 
   return (

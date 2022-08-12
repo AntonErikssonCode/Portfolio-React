@@ -7,7 +7,7 @@ import PastContainer from "../components/pastComponents/PastContainer";
 import MetaTags from "../components/features/MetaTags";
 function PastPage() {
   const backgroundGradient =
-     "linear-gradient(30deg,var(--mainColor),var(--secondColor)";
+     "linear-gradient(30deg,var(--mainBackground),var(--secondBackground)";
 
   return (
     <div>

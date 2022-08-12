@@ -1,5 +1,8 @@
-.login-box {
+.contact-container
+{
   width: 40%;
+}.login-box {
+  width: 100%;
   padding: 40px;
   background: linear-gradient(45deg, black, rgb(44, 44, 44));
   box-sizing: border-box;
@@ -90,7 +93,7 @@
     var(--mainColor) 100%
   );
   color: #fff;
-  /*  linear-gradient(54deg, rgba(255,51,0,1) 11%, rgba(105,63,255,1) 100%) */
+ 
   box-shadow: -5px 5px 10px var(--secondColor), -5px 5px 20px var(--secondColor),
     5px -5px 20px var(--mainColor), 5px -5px 10px var(--mainColor);
 }
@@ -193,7 +196,7 @@ input:-webkit-autofill:active {
 
 
 @media screen and (min-width: 300px) and (max-width: 600px) {
-  .login-box {
+  .contact-container {
     width: 90%;
     
   }
@@ -201,30 +204,44 @@ input:-webkit-autofill:active {
 }
 
 @media screen and (min-width: 601px) and (max-width: 900px) {
-  .login-box {
+  .contact-container {
     width: 80%;
     
   }
   
 }
 @media screen and (min-width: 901px) and (max-width: 1200px) {
-  .login-box {
+  .contact-container {
     width: 70%;
     
   }
 
 }
 @media screen and (min-width: 1201px) and (max-width: 2000px) {
-  .login-box {
-    width: 40%;
+  .contact-container {
+    width: 50%;
     
   }
 
 }
 @media screen and (min-width: 2001px)  {
-  .login-box {
+  .contact-container {
     width: 40%;
     
   }
 
+}
+.big-contact-container {
+  width: 100vw;
+  
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  background: linear-gradient(
+    170deg,
+    var(--secondColor) 40%,
+    rgba(0, 0, 0, 0.192) 80%
+  );
+  padding: 10rem 0rem 40rem 0rem;
+ 
 }

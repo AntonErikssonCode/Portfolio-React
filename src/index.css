@@ -3,7 +3,7 @@ body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
-  width: 100%;
+  width: 100vw;
   letter-spacing: 0.05rem;
   background-color: rgb(255, 255, 255);
 }
@@ -19,8 +19,10 @@ html {
 }
 
 :root {
+  --mainBackground: rgb(55, 0, 117);
+--secondBackground: rgb(21, 192, 109);
   --mainColor: rgb(120, 2, 254);
-  --secondColor: rgba(54, 229, 144, 0.991);
+  --secondColor: rgba(54, 229, 144);
   --black: #000;
   --lessBlack: rgb(48, 48, 48);
   --verySmallText: 1rem;

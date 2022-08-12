@@ -1,5 +1,5 @@
 .sliderTimeline-container {
- 
+  padding-top: 10rem;
 }
 
 .sliderTimeline-container h3 {
@@ -49,7 +49,7 @@
   border-radius: 15px;
   overflow: hidden;
   box-shadow: inset 0 0px 3px black;
-  background: rgb(102, 102, 102);
+  background: rgb(172, 172, 172);
 }
 .slider-timeline-center{
   display: flex;
@@ -68,5 +68,5 @@
   cursor: pointer;
   border: 4px solid rgba(255, 255, 255, 0.838);
   box-shadow: -407px 0 0 400px;
-  color: rgb(177, 177, 177);
+  color: var(--mainColor);
 }

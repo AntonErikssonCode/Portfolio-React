@@ -11,9 +11,9 @@ import ScrollToTop from "./components/navigation/ScrollToTop";
   return (
     <BrowserRouter>
       <Layout>
-       {/*  <ScrollToTop /> */}
+        <ScrollToTop />
         <Routes>
-          <Route path="/" exact xact element={<PastPage />} />
+          <Route path="/" exact element={<PastPage />} />
           <Route path="past" exact element={<PastPage />} />
           <Route path="present" exact element={<PresentPage />} />
           <Route path="future" exact element={<FuturePage />} />

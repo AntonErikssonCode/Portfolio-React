@@ -59,6 +59,10 @@ a {
     justify-content: center;
     align-items: center;
   }
+  .skill-left {
+    width: 70%;
+  }
+ 
 
 
 }

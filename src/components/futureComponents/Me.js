@@ -7,7 +7,8 @@ import music from "./music.svg";
 import coding from "./coding.svg";
 import cube from "./cube.svg";
 import brain from "./brain.svg";
- import Quote from "./Quote";
+import Quote from "./Quote";
+import Animate from "../features/Animate";
 
 import SvgWave from "../layout/SvgWave";
 function Me() {
@@ -18,8 +19,9 @@ function Me() {
           <h3>Hello there!</h3>
 
           <div>
+          <Animate variant={2}>
             <div className="me-top-section">
-              <div  className="me-top-section-text">
+              <div className="me-top-section-text">
                 <h4>Who am I?</h4>
                 <p>
                   Well, It’s a difficult task to try to convey a cohesive
@@ -35,6 +37,8 @@ function Me() {
                 <img className="me-img" src={require("./me-small.jpg")}></img>
               </div>
             </div>
+            </Animate>
+            <Animate variant={1}>
             <div className="me-designer me-icon-alignment">
               <div className="me-icon-container">
                 <img src={cube} className="me-icon"></img>
@@ -48,7 +52,8 @@ function Me() {
                 </p>
               </div>
             </div>
-
+            </Animate>
+            <Animate variant={1}>
             <div className="me-frontend me-icon-alignment">
               <div className="me-icon-container">
                 <img src={coding} className="me-icon"></img>
@@ -64,7 +69,8 @@ function Me() {
                 </p>
               </div>
             </div>
-
+            </Animate>
+            <Animate variant={1}>
             <div className="me-cognitive me-icon-alignment">
               <div className="me-icon-container">
                 <img src={brain} className="me-icon"></img>
@@ -80,7 +86,8 @@ function Me() {
                 </p>
               </div>
             </div>
-
+            </Animate>
+             <Animate variant={1}>
             <div className="me-musician me-icon-alignment">
               <div className="me-icon-container">
                 <img src={music} className="me-icon"></img>
@@ -94,12 +101,12 @@ function Me() {
                 </p>
               </div>
             </div>
+            </Animate>
           </div>
         </div>
       </div>
-
+    {/*   <Animate variant={1}> */}
       <div className="me-links-container">
-        {/*     <h4>View My</h4> */}
         <div className="me-links">
           <a className="me-links-a" href={resume} target="_blank">
             RESUME
@@ -112,8 +119,11 @@ function Me() {
           </a>
         </div>
       </div>
-      <Quote/>
-      <SvgWave rotated={true} color="var(--secondColor)" top={false}/>
+    {/*   </Animate> */}
+      <Animate variant={1}>
+        <Quote />
+      </Animate>
+      <SvgWave rotated={true} color="var(--secondColor)" top={false} />
     </div>
   );
 }

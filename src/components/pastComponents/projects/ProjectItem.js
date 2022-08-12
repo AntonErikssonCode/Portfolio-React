@@ -1,8 +1,8 @@
 import useCollapse from "react-collapsed";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import "./ProjectItem.css";
 import ArrowButton from "../../features/ArrowButton";
-
+import Animate from "../../features/Animate";
 function ProjectItem(props) {
   const title = props.title;
   const theme = props.theme;
@@ -16,9 +16,14 @@ function ProjectItem(props) {
   function handleOnClick() {
     setExpanded(!isExpanded);
   }
+  
 
+  
   return (
-    <div className="collapsible">
+    <Animate variant={1}>
+    <div
+      transition={{ duration: 0.5 }}
+    >
       <div
         className={`projectItem ${
           isExpanded ? "projectItem-big" : "projectItem-small"
@@ -27,9 +32,10 @@ function ProjectItem(props) {
       >
         <div className={`itemContent ${"itemContent-" + alignment}`}>
           <div className="imageContainer">
-            <img className={`image ${
-          isExpanded ? "image-border-bot" : " "
-        }`} src={image} />
+            <img
+              className={`image ${isExpanded ? "image-border-bot" : " "}`}
+              src={image}
+            />
           </div>
 
           <div className="rightPart">
@@ -50,6 +56,7 @@ function ProjectItem(props) {
         </div>
       </div>
     </div>
+    </Animate>
   );
 }
 export default ProjectItem;
