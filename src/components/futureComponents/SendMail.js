@@ -45,7 +45,7 @@ export const ContactUs = () => {
     <div className="big-contact-container">
    
     <div className="contact-container">
-      <Animate variant={2}>
+      <Animate variant={3}>
         <div ref={testRef} id="contactSection" className="login-box">
           <h2>Contact Me</h2>
           <form ref={form} onSubmit={sendEmail}>
@@ -56,12 +56,12 @@ export const ContactUs = () => {
                 name="subject" /* placeholder="Subject" */
                 required
               />
-              <label htmlFor="subject">WHAT CAN I DO FOR YOU?</label>
+              <label htmlFor="subject">SUBJECT</label>
             </div>
 
             <div className="user-box">
               <input id="name" type="text" name="name" required />
-              <label htmlFor="name">YOUR NAME OR COMPANY NAME</label>
+              <label htmlFor="name">NAME</label>
             </div>
 
             <div className="user-box">
@@ -81,7 +81,7 @@ export const ContactUs = () => {
                 rows="10"
                 required
               />
-              <label htmlFor="message">SAY SOMETHING...</label>
+              <label htmlFor="message">WHAT CAN I DO FOR YOU?</label>
             </div>
             <div className="formButton-container">
               <button

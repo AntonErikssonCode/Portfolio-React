@@ -20,19 +20,19 @@ function Scene(props) {
 
 
           <Boxes />
-           <spotLight
-            color={"rgba(0,0,0)"}
-            intensity={0.5}
+        {/*    <spotLight
+            color={"rgba(156,25,78)"}
+            intensity={1}
             angle={0.6}
             penumbra={0.5}
             position={[5, 5, 0]}
             castShadow
             shadow-bias={-0.0001}
-          /> *
+          />  */}
           <ambientLight intensity={0.2} />
           <spotLight
             color={"rgb(255, 255,255)"}
-            intensity={2}
+            intensity={1}
             angle={0.9}
             penumbra={0.5}
             position={[-5, 5, 0]}

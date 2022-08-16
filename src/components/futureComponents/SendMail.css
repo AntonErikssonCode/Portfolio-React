@@ -53,7 +53,7 @@
 .login-box .user-box input:focus ~ label,
 .login-box .user-box input:valid ~ label,
 .login-box .user-box textarea:focus ~ label,
-.login-box .user-box textarea:valid ~ label {
+.login-box .user-box textarea:valid ~ label{
   top: -36px;
   left: 0;
   color: var(--secondColor);

@@ -9,9 +9,9 @@ function FutureContainer(props){
   return(
     <div className='futureContainer'>
             <Title
-        topTextSize="4vw"
+        topTextSize="5vw"
         botTextSize="10vw"
-        topText="But What About The "
+        topText="What About The "
         botText="FUTURE"
       />
       <Goals/>

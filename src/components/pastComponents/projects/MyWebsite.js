@@ -64,8 +64,8 @@ function MyWebsite() {
             I decided to scrap the square concept of the navigation and instead
             opt for a horizontal design since it would free up the up and down
             arrow keys and make the page trajectory more streamlined and more
-            suited for a narrative. A horizontal design would be easier to scale
-            if I wanted to add new items later.{" "}
+            suited for a narrative. A horizontal design would be easier to scale for later expansions. 
+{" "}
           </p>
         </div>
       </div>
@@ -102,7 +102,7 @@ function MyWebsite() {
           <ul>
             <li>
               It’s well suited to mediate what I’ve done, what I currently work
-              on and what goals I have, which is information valuable for the
+              on and what goals I have, which is valuable information for the
               user group.{" "}
             </li>
             <li>
@@ -114,7 +114,7 @@ function MyWebsite() {
               landing page for a compelling effect.{" "}
             </li>
             <li>
-              The minimalist amount of choices and usage of the established
+              The minimalist amount of choices/menu-items and usage of the established 
               concept of time reduces cognitive load.{" "}
             </li>
           </ul>
@@ -128,7 +128,7 @@ function MyWebsite() {
 
       <h3>Coding and Iterating </h3>
       <p>
-        I wireframed the website and decided to code it in React,
+        I wireframed  the fundamental outline of the website and decided to code it in React,
         since I wanted a single page scalable application. The main structure of
         the site was kept constant but over the iterations some versions were
         tested. For example I played around with the movement of the slider
@@ -136,7 +136,7 @@ function MyWebsite() {
         visible. While it freed up some space on the top of the screen, feedback
         from peers conveyed that it made the impression less symmetrical and
         that the animation was not perceived as sleek. I therefore decided to
-        keep the slider bar in the middle but increase the opacity and increase
+        keep the bar in the middle but increase the opacity and increase
         the color contrast to keep it popping.{" "}
       </p>
       <h3>Perks of the Final Design</h3>

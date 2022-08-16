@@ -19,7 +19,7 @@ function SkillsContainer() {
           <Skill
             name="HTML"
             image="./HTML-icon-small.png"
-            text={["Fundamental knowledge."]}
+            text={["In-depth knowledge."]}
           ></Skill>
           <Skill
             name="CSS"
@@ -34,7 +34,7 @@ function SkillsContainer() {
             image="./FIGMA-icon-small.png"
             text={[
               "Main tool for wireframing in my masters.",
-              "Made a mookup of this site before coding it.",
+              "Made a mockup of this site before coding it.",
             ]}
           ></Skill>
           <Skill
@@ -42,7 +42,7 @@ function SkillsContainer() {
             image="./FL-icon-small.jpg"
             text={[
               "Engineered spatial and ambient sound for empirical studies. ",
-              "Recorded a bunch of song with friends and family. "
+              "Recorded a bunch of songs with friends and family. "
             ]}
           ></Skill>
         </div>
@@ -55,7 +55,7 @@ function SkillsContainer() {
             image="./REACT-icon-small.png"
             text={[
               "This site was created using React",
-              "Dabbled in mutiple libraries, such as Framer Motion.",
+              "Applied multiple advanced libraries, such as Framer Motion and React Fiber. ",
             ]}
           ></Skill>
           <Skill
@@ -71,7 +71,7 @@ function SkillsContainer() {
             name="PHP"
             image="./PHP-icon-small.png"
             text={[
-              "Used it in a course in conjuction with SQL to create a working blog.",
+              "Used it in a course in conjunction with SQL to create a working blog.",
               <a
                 href="https://utbweb.its.ltu.se/~natrek-1/Uppgift_4V2/index.php?"
                 target="_blank"
@@ -85,8 +85,7 @@ function SkillsContainer() {
             name="SPSS"
             image="./SPSS-icon-small.png"
             text={[
-              "Ran many experiments and studies requiring statistical analysis and SPSS has been the tool of choice.  ",
-            ]}
+              "Conducted many experiments and studies requiring statistical analysis and SPSS has been the tool of choice." ]}
           ></Skill>
         </div>
       </section>

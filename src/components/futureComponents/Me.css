@@ -5,7 +5,8 @@
   align-items: center;
   height: auto;
   text-shadow: none;
-  background: linear-gradient(175deg, white 65%, black 95%);
+ background: linear-gradient(175deg,  white 80%, black);
+   
   position: relative;
   padding-bottom: 10rem;
 }
@@ -148,7 +149,7 @@
     gap: 0rem;
   }
   .me-img-container{
-    width: 70%;
+    width:50%;
 
   }
   .me-top-section-text{

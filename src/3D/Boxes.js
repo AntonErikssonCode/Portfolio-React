@@ -13,16 +13,16 @@ function Box({ color }) {
 
   function getInitialPosition() {
     let v = new Vector3((Math.random() * 2 - 1) * 3, Math.random() * 2.5 + 0.1, (Math.random() * 2 - 1) * 15); 
-    if(v.x < 0) v.x -= 1.75;
-    if(v.x > 0) v.x += 1.75;
+   /*  if(v.x < 0) v.x -= 1.75;
+    if(v.x > 0) v.x += 1.75; */
 
     return v;
   }
 
   function resetPosition() {
-    let v = new Vector3((Math.random() * 2 - 1) * 3, Math.random() * 2.5 + 0.1, Math.random() * 10 + 5 ); 
-    if(v.x < 0) v.x -= 0.2;
-    if(v.x > 0) v.x += 0.2;
+    let v = new Vector3((Math.random() * 2 - 1) * 3, Math.random() * 2.5 + 0.1, Math.random() * 10 + 10 ); 
+/*     if(v.x < 0) v.x -= 0.5;
+    if(v.x > 0) v.x += 0.5; */
 
     setPosition(v);
   }

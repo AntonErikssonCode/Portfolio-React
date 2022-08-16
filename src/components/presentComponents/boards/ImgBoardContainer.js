@@ -22,7 +22,7 @@ function ImgBoardContainer() {
                 <span className="imgTitle2-row2">
                   REACT <span className="notBold">and</span> THREE.JS{" "}
                 </span>{" "}
-                <span className="imgTitle2-row3">ADVANCED WEBDEVELOPMENT</span>
+                <span className="imgTitle2-row3">ADVANCED WEB DEVELOPMENT</span>
               </h3>
             </div>
           </div>
@@ -32,7 +32,8 @@ function ImgBoardContainer() {
               <h3 className="imgTitle3">
                 <span className="imgTitle3-row1">MASTER THESIS RESEARCH </span>
                 <span className="imgTitle3-row2">
-                  <span className="notBold">HOW TO </span>VISUALIZE SOUND{" "}
+                  <span className="notBold"></span>VISUALIZING SOUND 
+{" "}
                   <span className="notBold">IN</span> 3D
                 </span>
               </h3>

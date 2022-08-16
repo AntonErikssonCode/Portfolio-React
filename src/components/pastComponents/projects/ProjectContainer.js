@@ -13,9 +13,9 @@ function ProjectContainer() {
       <div>
         <ProjectItem
           title="The Process Behind the Slider"
-          theme="UX And Webdevelopment"
+          theme="UX And Web Development"
           image={require("./slider-old.gif")}
-          description="Share my decision making processes and the reasoning that went in to the creation of this sites navigational slider. "
+          description="Share my decision making processes and the reasoning that went into the creation of this site's slider navigation."
           alignment="left"
           component = {<MyWebsite/>}
         />

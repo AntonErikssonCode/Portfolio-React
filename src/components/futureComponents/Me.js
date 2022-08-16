@@ -120,7 +120,7 @@ function Me() {
         </div>
       </div>
     {/*   </Animate> */}
-      <Animate variant={1}>
+      <Animate variant={2}>
         <Quote />
       </Animate>
       <SvgWave rotated={true} color="var(--secondColor)" top={false} />
