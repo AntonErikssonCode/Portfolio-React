@@ -13,6 +13,7 @@ function Layout(props) {
     
       <Logo topLeft={true} link={true}/>
       <Slider />
+      <div className="scrollable-top"></div>
       <div className="scene-container">
       <Scene/>
       </div>

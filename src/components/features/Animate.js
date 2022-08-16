@@ -8,7 +8,7 @@ function Animate(props) {
     visible: {
       opacity: 1,
       scale: 1,
-      transition: { duration: 0.5, ease: "linear" },
+      transition: { duration: 0.3, ease: "linear" },
       y: 0,
     },
     hidden: { opacity: 0, y: "100px", scale: 0.1 },

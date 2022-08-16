@@ -76,6 +76,7 @@ function Scene(props) {
           offset={[0.0005, 0.0012]} // color offset
         />
       </EffectComposer> */}
+       
     </>
   );
 }
