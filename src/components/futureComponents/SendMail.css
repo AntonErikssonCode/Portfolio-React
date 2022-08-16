@@ -63,6 +63,7 @@
 
 
 .login-box form button {
+  cursor: pointer;
   color: #fff;
   position: relative;
   display: inline-block;
@@ -239,8 +240,8 @@ input:-webkit-autofill:active {
   justify-content: center;
   background: linear-gradient(
     170deg,
-    var(--secondColor) 40%,
-    rgba(0, 0, 0, 0.192) 80%
+    var(--secondColor) 50%,
+    rgba(0, 0, 0, 0.192) 90%
   );
   padding: 10rem 0rem 40rem 0rem;
  

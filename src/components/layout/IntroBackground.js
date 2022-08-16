@@ -1,7 +1,5 @@
 import classes from "./IntroBackground.module.css";
-import { useMemo } from "react";
 import svgImage from "./wavesOpacity.svg";
-import Scene from "../../3D/Scene";
 function IntroBackground(props) {
   const color = props.color;
 

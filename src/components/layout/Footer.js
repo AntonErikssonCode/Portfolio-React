@@ -1,11 +1,13 @@
 import "./Footer.css";
 import "../../index.css";
 import { Link } from "react-router-dom";
-
+import Logo from "../features/Logo";
 function Footer() {
   return (
     <footer>
+       <Logo topLeft={false} link={false}/>
       <div className="footer-content">
+     
         <div className="footer-content-left">
           <h3>
             <span className="footer-bold">Mail:   </span>
@@ -29,9 +31,9 @@ function Footer() {
         </div>
       </div>
       <Link to={{pathname:"/future/contact-me"}} className="footer-contactMe"><h2 className="footer-contactMe">Contact Me</h2></Link>
-      <h4>I created this website from scratch using react.</h4>
+      <h4>I created this site from scratch using React.</h4>
       <h5>© 2022 Anton Eriksson</h5>
-
+     
     </footer>
   );
 }
