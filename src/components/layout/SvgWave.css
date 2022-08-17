@@ -25,5 +25,45 @@
 }
 
 .SvgWave-bot {
-  bottom: 0;
+  bottom: -1px;
+}
+@media screen and (min-width: 300px) and (max-width: 501px) {
+  .SvgBot svg {
+    
+    height: 50px;
+  }
+  .SvgWave-top {
+    top: 0;
+    margin-top: -49px;
+  }
+}
+@media screen and (min-width: 501px) and (max-width: 800px) {
+  .SvgBot svg {
+    
+    height: 100px;
+  }
+  .SvgWave-top {
+    top: 0;
+    margin-top: -99px;
+  }
+}
+@media screen and (min-width: 801px) and (max-width: 1200px) {
+  .SvgBot svg {
+    
+    height: 150px;
+  }
+  .SvgWave-top {
+    top: 0;
+    margin-top: -149px;
+  }
+}
+@media screen and (min-width: 1201px)  {
+  .SvgBot svg {
+    
+    height: 200px;
+  }
+  .SvgWave-top {
+    top: 0;
+    margin-top: -199px;
+  }
 }

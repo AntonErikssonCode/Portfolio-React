@@ -36,8 +36,11 @@
   background-position: center;
   background-size: cover;
   position: absolute;
-  bottom: 0;
+  bottom: -1px;
   transform: rotate(180deg);
   z-index: 4;
 
+}
+@media screen and (min-width: 300px) and (max-width: 500px) {
+  .IntroBackground{height: 80vh;}
 }

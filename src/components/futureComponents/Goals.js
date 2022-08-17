@@ -8,11 +8,13 @@ function Goals() {
       <SvgWave rotated={true} color="var(--secondColor)" top={true} />
       <div>
         <div className="goals-main">
-          <h3>
-            What do I want to be when I <br />
-            <span className="goals-main-growup">GROW UP?</span>
-          </h3>
           <Animate variant={2}>
+            <div className="goals-main-title">
+            <h3>
+              What do I want to be when I <br />
+              <span className="goals-main-growup">GROW UP?</span>
+            </h3>
+            </div>
             <div className="goals-text-text">
               <h4>I dream about an opportunity where I can: </h4>
               <ul>

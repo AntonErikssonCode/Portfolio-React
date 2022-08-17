@@ -4,11 +4,31 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 20rem;
+  margin-top: 20rem;
+  margin-bottom: 30rem;
+  color: rgb(0, 0, 0);
+}
+.qoute-logo{
+  position: absolute;
+  width: calc(50% + 2rem);
+ border-radius: 1vw;
+
+  box-shadow: rgb(49, 49, 49) 10px 10px 20px;
+  
+}
+.qoute-green{
+  background-color: var(--secondColor);
+  margin-top: -10%;
+  margin-right: 20%;
+}
+.qoute-purple{
+  background-color: var(--mainColor);
+  margin-top: 10%;
+  margin-right: -20%;
 }
 .quote {
   width: 50%;
-  background: linear-gradient(170deg, rgb(255, 255, 255), rgb(227, 227, 227));
+  background-color: white;
   z-index: 2;
  
   padding: 2rem;
@@ -39,7 +59,7 @@
   margin: 1rem;
   
  
-  color: rgb(81, 81, 81);
+  color: rgb(52, 52, 52);
 }
 
 .bold {
@@ -52,9 +72,55 @@
   justify-content: center;
 }
 
-@media screen and (min-width: 300px) and (max-width: 1200px) {
+@media screen and (min-width: 300px) and (max-width: 500px) {
+  .quote {
+    padding: 2.5%;
+    width: 90%;
+  }
+  .qoute-logo{
+    position: absolute;
+    width: calc(50% + 1rem);
+   border-radius: 1vw;
+    height: auto;
+    box-shadow: rgb(49, 49, 49) 10px 10px 20px;
+    
+  }
+  .qoute-green{
+    display: none;
+  }
+  .qoute-purple{
+    display: none;
+  }
+}
+
+@media screen and (min-width: 501px) and (max-width: 800px) {
   .quote {
     padding: 1rem;
     width: 70%;
+  }
+  .qoute-logo{
+    position: absolute;
+    width: calc(50% + 1rem);
+   border-radius: 1vw;
+    height: auto;
+    box-shadow: rgb(49, 49, 49) 10px 10px 20px;
+    
+  }
+  .qoute-green{
+    background-color: var(--secondColor);
+    margin-top: -5%;
+    margin-right: 30%;
+  }
+  .qoute-purple{
+    background-color: var(--mainColor);
+    margin-top: 5%;
+    margin-right: -30%;
+  }
+}
+
+@media screen and (min-width: 801px) {
+  .quote {
+    padding: 2rem;
+    width: 60%;
   }
 }

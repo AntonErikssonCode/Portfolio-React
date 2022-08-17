@@ -114,3 +114,31 @@
   
 }
 
+
+@media screen and (min-width: 300px) and (max-width: 501px) {
+  .ImgBoardContainer{
+    width: 95%;
+    padding: 2.5%;
+    padding-bottom: 40rem;
+    
+  }
+  .imgTitle1, .imgTitle2, .imgTitle3{
+    font-size: 5vw
+
+  }
+  .imgTitle1-row1, .imgTitle1-row3, .imgTitle2-row1, .imgTitle1-row3, .imgTitle3-row1{
+    letter-spacing: 0.1rem;
+  }
+  .imgTitle1-row3, .imgTitle2-row3{
+    font-size: 3vw;
+    letter-spacing: 0.1rem;
+  }
+  
+
+}
+@media screen and (min-width: 501px) and (max-width: 800px) {
+}
+@media screen and (min-width: 801px) and (max-width: 1200px) {
+}
+@media screen and (min-width: 1201px)  {
+}

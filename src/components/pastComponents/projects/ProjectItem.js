@@ -45,11 +45,13 @@ function ProjectItem(props) {
           </div>
         </div>
         <div className={`collapseField `}>
+          <div className="arrow-container">
           {isExpanded ? (
             <ArrowButton upOrDown="down" />
           ) : (
             <ArrowButton upOrDown="up" />
           )}
+          </div>
         </div>
         <div {...getCollapseProps()}>
           <div className="content">{component}</div>

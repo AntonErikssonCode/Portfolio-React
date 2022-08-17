@@ -1,7 +1,7 @@
-.contact-container
-{
+.contact-container {
   width: 40%;
-}.login-box {
+}
+.login-box {
   width: 100%;
   padding: 40px;
   background: linear-gradient(45deg, black, rgb(44, 44, 44));
@@ -26,7 +26,7 @@
 .login-box .user-box textarea {
   width: 100%;
   padding: 10px 0;
-  font-size: var( --SmallText);
+  font-size: var(--SmallText);
 
   font-weight: 100;
   color: #fff;
@@ -53,14 +53,13 @@
 .login-box .user-box input:focus ~ label,
 .login-box .user-box input:valid ~ label,
 .login-box .user-box textarea:focus ~ label,
-.login-box .user-box textarea:valid ~ label{
+.login-box .user-box textarea:valid ~ label {
   top: -36px;
   left: 0;
   color: var(--secondColor);
   font-size: var(--SmallSmallText);
   font-weight: bold;
 }
-
 
 .login-box form button {
   cursor: pointer;
@@ -74,7 +73,7 @@
   text-transform: uppercase;
   overflow: hidden;
   transition: 0.5s;
-  
+
   letter-spacing: 6px;
   border-radius: 5px;
 
@@ -94,7 +93,7 @@
     var(--mainColor) 100%
   );
   color: #fff;
- 
+
   box-shadow: -5px 5px 10px var(--secondColor), -5px 5px 20px var(--secondColor),
     5px -5px 20px var(--mainColor), 5px -5px 10px var(--mainColor);
 }
@@ -189,52 +188,50 @@ input:-webkit-autofill:active {
   transition: background-color 5000s ease-in-out 0s;
   -webkit-text-fill-color: #fff !important;
 }
-.formButton-container{
+.formButton-container {
   display: flex;
   justify-content: center;
-
 }
-
 
 @media screen and (min-width: 300px) and (max-width: 600px) {
   .contact-container {
-    width: 90%;
-    
+    width: 95%;
   }
-
+  .login-box form button {
+    font-size: 1rem;
+  padding: 1rem 1.2rem;
+  }
+  .login-box h2 {
+    font-size: var(--bigText);}
 }
 
 @media screen and (min-width: 601px) and (max-width: 900px) {
   .contact-container {
     width: 80%;
-    
   }
-  
+  .login-box form button {
+    font-size: 1.5rem;
+  padding: 1rem 1.2rem;
+  }
 }
 @media screen and (min-width: 901px) and (max-width: 1200px) {
   .contact-container {
     width: 70%;
-    
   }
-
 }
 @media screen and (min-width: 1201px) and (max-width: 2000px) {
   .contact-container {
     width: 50%;
-    
   }
-
 }
-@media screen and (min-width: 2001px)  {
+@media screen and (min-width: 2001px) {
   .contact-container {
     width: 40%;
-    
   }
-
 }
 .big-contact-container {
   width: 100vw;
-  
+
   display: flex;
   align-self: center;
   justify-content: center;
@@ -244,5 +241,4 @@ input:-webkit-autofill:active {
     rgba(0, 0, 0, 0.192) 90%
   );
   padding: 10rem 0rem 40rem 0rem;
- 
 }

@@ -29,7 +29,14 @@ background: linear-gradient(175deg, var(--secondColor) 60%,  var(--mainBackgroun
   padding-bottom: 500px;
   
 }
-
+.goals-main-title{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+ 
+}
 .goals-main h3 {
   margin: 0rem;
   text-shadow: none;
@@ -38,6 +45,9 @@ background: linear-gradient(175deg, var(--secondColor) 60%,  var(--mainBackgroun
   font-size: var(--veryBigText);
 /*   text-shadow: 1px 1px 7px black;
  */  font-weight: 300;
+ padding-right: 1rem;
+
+
 }
 .goals-main-growup{
   font-weight: 1000;
@@ -83,3 +93,9 @@ width: 70%;
 
 
 
+@media screen and (min-width: 300px) and (max-width: 600px) {
+  .goals-main ul{
+
+  width: 95%;
+  }
+}

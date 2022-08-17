@@ -5,8 +5,7 @@ import { useInView } from "react-intersection-observer";
 
 
 function Title(props) {
-  const topTextSize = props.topTextSize;
-  const botTextSize = props.botTextSize;
+  const type = props.type;
   const topText = props.topText;
   const botText = props.botText;
 
@@ -37,11 +36,11 @@ function Title(props) {
     console.log("in view", inView);
   }, [inView]);
   return (
-    <motion.div ref={ref} animate={titleAnimation} className="title-div">
-      <h2 className="top-text" style={{ fontSize: topTextSize }}>
+    <motion.div ref={ref} animate={titleAnimation} className={`title-div  ${type}`}>
+      <h2 className="top-text" >
         {topText}{" "}
       </h2>
-      <h2 className="bot-text" style={{ fontSize: botTextSize }}>
+      <h2 className="bot-text">
         {botText}
       </h2>
     </motion.div>

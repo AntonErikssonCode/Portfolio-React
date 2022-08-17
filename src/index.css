@@ -45,7 +45,7 @@ html {
     --regularText: 1.2rem;
     --regularBigText: 1.4rem;
     --bigText: 1.6rem;
-    --veryBigText: 2rem;
+    --veryBigText: 3rem;
     --regularWeight: 300;
     --strongWeight: 600;
   }
@@ -54,13 +54,13 @@ html {
 @media screen and (min-width: 601px) and (max-width: 900px) {
   :root {
 
-    --verySmallText: 0.6rem;
-    --SmallSmallText: 0.8rem;
-    --SmallText: 1rem;
+    --verySmallText: 0.9rem;
+    --SmallSmallText: 1rem;
+    --SmallText: 1.1rem;
     --regularText: 1.2rem;
     --regularBigText: 1.4rem;
     --bigText: 1.6rem;
-    --veryBigText: 2rem;
+    --veryBigText: 3rem;
     --regularWeight: 300;
     --strongWeight: 600;
   }

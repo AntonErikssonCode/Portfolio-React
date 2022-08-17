@@ -33,4 +33,17 @@
   justify-content: center;
   align-items: center;
 }
+@media screen and (min-width: 300px) and (max-width: 500px) {
 
+}
+@media screen and (min-width: 300px) and (max-width: 600px) {
+  .skillRow {
+    gap: 5vw;
+  }
+  .skillSection {
+    width: 95%;
+  }
+  .skillSection h3{
+    font-size: var(--bigText);
+  }
+}

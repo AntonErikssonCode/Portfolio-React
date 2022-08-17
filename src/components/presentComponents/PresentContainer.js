@@ -7,8 +7,7 @@ function PresentContainer(props){
   return(
     <div className='presentContainer'>
            <Title
-        topTextSize="5vw"
-        botTextSize="8vw"
+      type="present-title"
         topText="What I Do In The"
         botText="PRESENT"
       />

@@ -11,14 +11,7 @@
   cursor: pointer;
 }
 
-.projectItem-big {
-  width: 90%;
- 
-}
 
-.projectItem-small {
-  width: 80%;
-}
 
 .projectItem:hover {
   color: rgb(255, 255, 255);
@@ -67,7 +60,9 @@
 
 
 }
-
+.arrow-container{
+  margin-top: 2rem;
+}
 .rightPart {
   width: 70%;
   display: flex;
@@ -133,7 +128,20 @@
   }
  
 }
-@media screen and (min-width: 300px) and (max-width: 600px) {
+@media screen and (min-width: 300px) and (max-width: 800px) {
+  .projectItem{
+    width: 95%;
+  }
+}
 
- 
+@media screen and (min-width: 801px)  {
+  
+  .projectItem-big {
+    width: 95%;
+   
+  }
+  
+  .projectItem-small {
+    width: 80%;
+  }
 }

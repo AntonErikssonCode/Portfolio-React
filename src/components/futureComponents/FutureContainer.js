@@ -9,8 +9,7 @@ function FutureContainer(props){
   return(
     <div className='futureContainer'>
             <Title
-        topTextSize="5vw"
-        botTextSize="10vw"
+         type="future-title"
         topText="What About The "
         botText="FUTURE"
       />

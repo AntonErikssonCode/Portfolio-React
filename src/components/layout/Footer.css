@@ -53,10 +53,10 @@ footer h5 {
 }
 
 footer h4 {
-  font-size: var(--regularText);
+  font-size: var(--SmallSmallText);
   letter-spacing: 0.2rem;
   font-weight: var(--regularWeight);
-  padding: 2rem;
+  padding: 1rem;
 }
 
 .footer-contactMe:hover {

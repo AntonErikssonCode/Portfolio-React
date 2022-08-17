@@ -120,10 +120,38 @@
     width: 90%;
    
   }
+  
+}
+@media screen and (min-width: 300px) and (max-width: 501px) {
   .timelineInstance-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
     
+   
+  }
+}
+@media screen and (min-width: 501px) and (max-width: 800px) {
+  .timelineInstance-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    
+   
+  }
+}
+@media screen and (min-width: 801px) and (max-width: 1200px) {
+  .timelineInstance-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 50%;
     
    
   }
 }
+
+
+

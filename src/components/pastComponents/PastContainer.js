@@ -7,8 +7,7 @@ function PastContainer(props) {
   return (
     <div className="pastContainer">
       <Title
-        topTextSize="3.5vw"
-        botTextSize="14vw"
+        type="past-title"
         topText="What I've Done In The "
         botText="PAST"
       />

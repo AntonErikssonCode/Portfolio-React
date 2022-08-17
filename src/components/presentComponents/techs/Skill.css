@@ -16,10 +16,12 @@
 
 .skill-left {
   width: 50%;
+  border-radius: 1vw;
 }
 
 .skill-left img {
   width: 100%;
+  border-radius: 1vw;
 }
 
 .skill-right {
@@ -58,11 +60,18 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
   }
   .skill-left {
-    width: 70%;
+    width: 100%;
+  }
+  .skill-right ul li{
+    font-size: var(--SmallText);
   }
  
-
+  .skill-right{
+    width: 100%;
+  }
 
 }
+@media screen and (min-width: 300px) and (max-width: 500px) {}
