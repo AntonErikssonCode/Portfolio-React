@@ -7,7 +7,8 @@
   --borderRadius: 1rem;
   --scaleSize: 0.4;
   --textSize: 2rem;
-  --AnimateSliderDivOut: -42%;
+  --AnimateSliderDivOut: 42%;
+  
 }
 
 
@@ -19,9 +20,9 @@
     --sliderMovesmall: 5.5rem;
     --sliderGap:0.5rem;
     --borderRadius: 0.2rem;
-    --scaleSize: 0.8;
+    --scaleSize: 1;
     --textSize: 0.5rem;
-    --AnimateSliderDivOut: 45%;
+    --AnimateSliderDivOut: -52%;
   }
   .sliderBar{
     margin-top: -60%;
@@ -36,9 +37,9 @@
     --sliderMovesmall: 5.5rem;
     --sliderGap:0.5rem;
     --borderRadius: 0.2rem;
-    --scaleSize: 0.8;
+    --scaleSize: 0.9;
     --textSize: 0.5rem;
-    --AnimateSliderDivOut: 40%;
+    --AnimateSliderDivOut: -40%;
   }
   .sliderBar{
     margin-top: 0%;
@@ -54,7 +55,7 @@
     --borderRadius: 0.4rem;
     --scaleSize: 0.8;
     --textSize: 0.8rem;
-    --AnimateSliderDivOut: -42%;
+    --AnimateSliderDivOut: 42%;
 
   }
   
@@ -69,7 +70,7 @@
     --borderRadius: 0.6rem;
     --scaleSize: 0.5;
     --textSize: 1.2rem;
-    --AnimateSliderDivOut: -42%;
+    --AnimateSliderDivOut: 42%;
 
   }
  
@@ -84,7 +85,7 @@
     --borderRadius: 0.6rem;
     --scaleSize: 0.5;
     --textSize: 1.2rem;
-    --AnimateSliderDivOut: -42%;
+    --AnimateSliderDivOut: 42%;
 
   }
  
@@ -210,22 +211,24 @@
 
 @keyframes AnimateSliderDivOut {
   0% {
-    top: 0%;
+    bottom: 0%;
     transform: scale(1);
   }
   100% {
-    top: var(--AnimateSliderDivOut);
+    
+    bottom: var(--AnimateSliderDivOut);
     transform: scale(var(--scaleSize));
   }
 }
 
 @keyframes AnimateSliderDivIn {
   0% {
-    top: var(--AnimateSliderDivOut);
+   
+    bottom: var(--AnimateSliderDivOut);
     transform:scale(var(--scaleSize));
   }
   100% {
-    top: 0%;
+    bottom: 0%;
     transform: scale(1);
   }
 }

@@ -75,3 +75,7 @@ footer h4 {
     flex-direction: column;
   }
 }
+
+@media screen and (min-width: 300px) and (max-width: 800px) {
+  footer {padding-bottom: 10rem;}
+}

@@ -4,6 +4,7 @@
   
 }
 
+
 .goals-svgImage-top {
   transform: rotate(180deg);
   width: 100%;
@@ -26,7 +27,7 @@ background: linear-gradient(175deg, var(--secondColor) 60%,  var(--mainBackgroun
   width: 100%;
   height: auto;
   padding: 10rem 0rem;
-  padding-bottom: 500px;
+  padding-bottom: 30rem;
   
 }
 .goals-main-title{
@@ -98,4 +99,11 @@ width: 70%;
 
   width: 95%;
   }
+}
+@media screen and (min-width: 300px) and (max-width: 1000px) {.goals-container {
+  margin-top: 20rem;}
+  .goals-main {
+    padding-bottom: 20rem;
+  }
+  
 }

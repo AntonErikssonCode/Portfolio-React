@@ -4,7 +4,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 20rem;
+  margin-top: 10rem;
   margin-bottom: 30rem;
   color: rgb(0, 0, 0);
 }
@@ -123,4 +123,11 @@
     padding: 2rem;
     width: 60%;
   }
+}
+@media screen and (min-width: 300px) and (max-width: 1000px) {
+  .quote-div {
+    margin-top: 0;
+    margin-bottom: 10rem;
+  }
+ 
 }

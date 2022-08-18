@@ -66,9 +66,12 @@ function Slider() {
     useLayoutEffect(() => {
       function updatePosition() {
         setPosition(window.pageYOffset);
+        
+       
       }
       window.addEventListener("scroll", updatePosition);
       updatePosition();
+     
       return () => window.removeEventListener("scroll", updatePosition);
     }, []);
 
@@ -79,12 +82,13 @@ function Slider() {
     setsilderDown(scrolledDown);
   }, [scrolledDown]);
 
+
   // Animation, navigation and state change of slider
   function clickHandler(click) {
     const slider = document.getElementById("slider");
 
     if (click != sliderState || keyPress) {
-      console.dir(click);
+     
       // PAST
       if (
         (sliderState == "/past" && click == "Present") ||

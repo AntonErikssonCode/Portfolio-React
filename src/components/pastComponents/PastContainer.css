@@ -5,3 +5,9 @@
   z-index: 2000000;
   margin-bottom: 30rem;
 }
+@media screen and (min-width: 300px) and (max-width: 1000px) {
+  .pastContainer{
+
+    margin-bottom: 20rem;
+  }
+}

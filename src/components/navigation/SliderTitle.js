@@ -21,7 +21,7 @@ function SliderTitle() {
   return (
     <div className="titleDiv">
       <h1>
-        <SplitText delay={1} copy="I WILL TELL YOU ABOUT MY" role="heading" />
+        <SplitText delay={3} copy="I WILL TELL YOU ABOUT MY" role="heading" />
       </h1>{" "}
     </div>
   );

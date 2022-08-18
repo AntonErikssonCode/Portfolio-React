@@ -242,3 +242,11 @@ input:-webkit-autofill:active {
   );
   padding: 10rem 0rem 40rem 0rem;
 }
+
+@media screen and (min-width: 300px) and (max-width: 1000px) {
+  .big-contact-container {
+
+    padding-bottom: 20rem;
+  }
+  
+}
