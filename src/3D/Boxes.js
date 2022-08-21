@@ -15,15 +15,15 @@ function Box({ color }) {
     let v = new Vector3((Math.random() * 2 - 1) * 5, Math.random() * 1.5 + 1, (Math.random() * 2 - 1) * 15); 
    /*  if(v.x < 0) v.x -= 1.75;
     if(v.x > 0) v.x += 1.75; */
-    if(v.x < 0) v.x -= 0.5;
-    if(v.x > 0) v.x += 0.5;
+/*     if(v.x < 0) v.x -= 0.5;
+    if(v.x > 0) v.x += 0.5; */
     return v;
   }
 
   function resetPosition() {
     let v = new Vector3((Math.random() * 2 - 1) *5, Math.random() * 1.5 + 1, Math.random() * 10 + 10 ); 
-    if(v.x < 0) v.x -= 0.5;
-    if(v.x > 0) v.x += 0.5;
+ /*    if(v.x < 0) v.x -= 0.5;
+    if(v.x > 0) v.x += 0.5; */
 
     setPosition(v);
   }

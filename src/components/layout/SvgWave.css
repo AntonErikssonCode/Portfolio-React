@@ -22,13 +22,13 @@
 
 .SvgWave-top {
   top: 0;
-  margin-top: -200px;
-}
+/*   margin-top: -200px;
+ */}
 
 .SvgWave-bot {
   bottom: -1px;
 }
-@media screen and (min-width: 300px) and (max-width: 501px) {
+@media screen and (min-width: 300px) and (max-width: 500px) {
   .SvgBot svg, .SvgBot img {
     
     height: 50px;
@@ -39,7 +39,7 @@
   }
 }
 @media screen and (min-width: 501px) and (max-width: 800px) {
-  .SvgBot img {
+  .SvgBot img,  .SvgBot svg{
     
     height: 100px;
   }
@@ -49,7 +49,7 @@
   }
 }
 @media screen and (min-width: 801px) and (max-width: 1200px) {
-  .SvgBot img {
+  .SvgBot img,   .SvgBot svg{
     
     height: 150px;
   }
