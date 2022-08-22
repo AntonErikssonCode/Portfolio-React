@@ -26,8 +26,8 @@ function SliderTimeline() {
   function handleChange(e) {
     setTimeValue(e.target.value);
   }
+
   useEffect(() => {
-    /* console.dir("target value" + e.target.value); */
     if (timeValue < 12) {
       setYear("2014");
     } else if (timeValue >= 12 && timeValue < 24) {
@@ -47,13 +47,12 @@ function SliderTimeline() {
     } else if (timeValue >= 96 && timeValue < 108) {
       setYear("2022");
     }
+
     var remainder = timeValue % 12;
     setMonth(monthValues[remainder]);
   }, [timeValue]);
-
  
   return (
-    
     <div  
     className="sliderTimeline-container">
       <h3>My Timeline</h3>
@@ -79,9 +78,8 @@ function SliderTimeline() {
         </div>
       </div>
       </Animate>
-
     </div>
-   
   );
 }
+
 export default SliderTimeline;

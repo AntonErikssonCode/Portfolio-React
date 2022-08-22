@@ -1,21 +1,19 @@
 import "./SkillsContainer.css";
 import Skill from "./Skill";
 import SvgWave from "../../layout/SvgWave";
+
 function SkillsContainer() {
   return (
     <div className="skillContainer">
-            <SvgWave rotated={true} color="var(--mainColor)" top={true}/>
-
+      <SvgWave rotated={true} color="var(--mainColor)" top={true} />
       <section className="skillSection">
         <h3>Technologies I'm Good At</h3>
         <div className="skillRow">
-      
           <Skill
             name="JavaScript"
             image="./JS-icon-small.png"
             text={["Comfortable with vanilla JS.", "Taken two WebDev-courses."]}
           ></Skill>
-
           <Skill
             name="HTML"
             image="./HTML-icon-small.png"
@@ -29,7 +27,7 @@ function SkillsContainer() {
               "I know how to center a div ;)",
             ]}
           ></Skill>
-            <Skill
+          <Skill
             name="Figma"
             image="./FIGMA-icon-small.png"
             text={[
@@ -42,7 +40,7 @@ function SkillsContainer() {
             image="./FL-icon-small.jpg"
             text={[
               "Engineered spatial and ambient sound for empirical studies. ",
-              "Recorded a bunch of songs with friends and family. "
+              "Recorded a bunch of songs with friends and family. ",
             ]}
           ></Skill>
         </div>
@@ -66,7 +64,6 @@ function SkillsContainer() {
               "Encountered it  back in 2017.",
             ]}
           ></Skill>
-
           <Skill
             name="PHP"
             image="./PHP-icon-small.png"
@@ -85,14 +82,13 @@ function SkillsContainer() {
             name="SPSS"
             image="./SPSS-icon-small.png"
             text={[
-              "Conducted many experiments and studies requiring statistical analysis and SPSS has been the tool of choice." ]}
+              "Conducted many experiments and studies requiring statistical analysis and SPSS has been the tool of choice.",
+            ]}
           ></Skill>
         </div>
       </section>
-
       <section className="skillSection">
         <h3>Technologies I've Used</h3>
-
         <div className="skillRow">
           <Skill
             name="C#"

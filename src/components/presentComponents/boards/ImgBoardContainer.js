@@ -1,6 +1,7 @@
 import "./ImgBoardContainer.css";
 import ImgBoard from "./ImgBoard.js";
 import Animate from "../../features/Animate";
+
 function ImgBoardContainer() {
   return (
     <div className="ImgBoardContainer">
@@ -33,7 +34,6 @@ function ImgBoardContainer() {
                 <span className="imgTitle3-row1">MASTER THESIS RESEARCH </span>
                 <span className="imgTitle3-row2">
                   <span className="notBold"></span>VISUALIZING SOUND 
-{" "}
                   <span className="notBold">IN</span> 3D
                 </span>
               </h3>

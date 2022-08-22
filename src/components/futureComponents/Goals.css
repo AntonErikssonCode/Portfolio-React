@@ -1,9 +1,7 @@
 .goals-container {
   position: relative;
   margin-top: 40rem;
-  
 }
-
 
 .goals-svgImage-top {
   transform: rotate(180deg);
@@ -17,10 +15,12 @@
 }
 
 .goals-main {
-background: linear-gradient(175deg, var(--secondColor) 60%,  var(--mainBackground));
- 
-/*  background-color: var(--secondBackground); color: white;
- */  display: flex;
+  background: linear-gradient(
+    175deg,
+    var(--secondColor) 60%,
+    var(--mainBackground)
+  );
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -28,52 +28,49 @@ background: linear-gradient(175deg, var(--secondColor) 60%,  var(--mainBackgroun
   height: auto;
   padding: 10rem 0rem;
   padding-bottom: 30rem;
-  
 }
-.goals-main-title{
+
+.goals-main-title {
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 1rem;
- 
 }
+
 .goals-main h3 {
   margin: 0rem;
   text-shadow: none;
   margin-top: 0;
   margin-bottom: 3rem;
   font-size: var(--veryBigText);
-/*   text-shadow: 1px 1px 7px black;
- */  font-weight: 300;
- padding-right: 1rem;
-
-
+  font-weight: 300;
+  padding-right: 1rem;
 }
-.goals-main-growup{
+
+.goals-main-growup {
   font-weight: 1000;
 }
 
 .goals-main h4 {
   margin-top: 0;
   font-size: var(--bigText);
-/*   text-shadow: 1px 1px 7px black;
- */  margin-bottom: 0rem;
+  margin-bottom: 0rem;
 }
-.goals-main ul{
+
+.goals-main ul {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  
-width: 70%;
+  width: 70%;
 }
+
 .goals-main ul li {
   font-size: var(--SmallText);
   line-height: 2.2rem;
 }
 
 .goals-text-text {
-  
   padding: 0rem 5vw 0rem 5vw;
   display: flex;
   flex-direction: column;
@@ -92,18 +89,18 @@ width: 70%;
   margin-top: -300px;
 }
 
-
-
 @media screen and (min-width: 300px) and (max-width: 600px) {
-  .goals-main ul{
-
-  width: 95%;
+  .goals-main ul {
+    width: 95%;
   }
 }
-@media screen and (min-width: 300px) and (max-width: 1000px) {.goals-container {
-  margin-top: 20rem;}
+
+@media screen and (min-width: 300px) and (max-width: 1000px) {
+  .goals-container {
+    margin-top: 20rem;
+  }
+
   .goals-main {
     padding-bottom: 20rem;
   }
-  
 }

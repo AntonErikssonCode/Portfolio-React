@@ -1,35 +1,35 @@
 import { useAnimation, motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
-import { useEffect, useState } from "react";
-
+import { useEffect } from "react";
+import "./Animate.css"
 function Animate(props) {
   const type = props.variant;
+  const controls = useAnimation();
+  const [ref, inView] = useInView();
+
   const slideInFromBotScale = {
-    visible: {
-      opacity: 1,
-      scale: 1,
-      transition: { duration: 0.3, ease: "linear" },
-      y: 0,
-    },
-    hidden: { opacity: 0, y: "100px", scale: 0.1 },
+    visible: {opacity: 1, scale: 1,transition: { duration: 0.3, ease: "linear" },y: 0,},
+    hidden: { opacity: 0, y: "100px", scale: 0.1 }
   };
 
   const slideInFromRight = {
     visible: { opacity: 1, scale: 1, transition: { duration: 0.5 }, x: "0%" },
-    hidden: { opacity: 0, scale: 1, x: "-50%" },
+    hidden: { opacity: 0, scale: 1, x: "-50%" }
   };
 
   const slideInFromBot = {
     visible: { opacity: 1, scale: 1, transition: { duration: 0.5 }, y: "0%" },
-    hidden: { opacity: 0, scale: 1, y: "50%" },
+    hidden: { opacity: 0, scale: 1, y: "50%" }
   };
+
   const fadeIn = {
     visible: { opacity: 1, transition: { duration: 1 } },
-    hidden: { opacity: 0 },
+    hidden: { opacity: 0 }
   };
+
   const slideInFromBotScaleSmall = {
     visible: { opacity: 1, scale: 1, transition: { duration: 0.5 }, y: "0%" },
-    hidden: { opacity: 0, scale: 1, y: "50%" },
+    hidden: { opacity: 0, scale: 1, y: "50%" }
   };
 
   const variants = [
@@ -39,12 +39,9 @@ function Animate(props) {
     fadeIn,
     slideInFromBotScaleSmall,
   ];
-  const controls = useAnimation();
-  const [ref, inView] = useInView();
 
   useEffect(() => {
     if (inView) {
-      console.dir(inView)
       controls.start("visible");
     }
   }, [controls, inView]);

@@ -1,22 +1,18 @@
-.ImgBoard-div{
+.ImgBoard-div {
   display: flex;
   justify-content: center;
   flex-direction: column;
 }
 
-.ImgBoardImg{
+.ImgBoardImg {
   max-width: 100%;
   border: 2vw solid rgb(255, 255, 255);
   max-height: 90vh;
   position: relative;
-
-  
- 
-  
 }
-.ImgBoardImgNoTopBorder{
+
+.ImgBoardImgNoTopBorder {
   max-width: 100%;
   border: 2vw solid rgb(255, 255, 255);
   border-top: 0rem;
-
 }

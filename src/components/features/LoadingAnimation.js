@@ -1,11 +1,12 @@
 import React from "react";
 import "./LoadingAnimation.css";
-import {  motion } from "framer-motion";
+import { motion } from "framer-motion";
 
-function LoadingAnimation(props) {
+function LoadingAnimation() {
   window.onbeforeunload = function () {
     window.scrollTo(0, 0);
   };
+
   return (
     <motion.div
       initial={{ opacity: 1, scale: 1 }}
@@ -46,7 +47,7 @@ function LoadingAnimation(props) {
             borderBottomLeftRadius: "50%",
             borderBottomRightRadius: "50%",
             borderTopLeftRadius: "50%",
-            borderTopLeftRadius: "50%"
+            borderTopLeftRadius: "50%",
           }}
           animate={{
             opacity: 1,

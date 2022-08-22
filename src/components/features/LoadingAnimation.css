@@ -5,55 +5,43 @@
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 20000;
+  z-index: 300000000;
   overflow: hidden;
   display: flex;
   justify-content: center;
   align-items: center;
-
- 
-  
 }
-.LoadingAnimation-logo{
- /*  background-color: rgb(57, 57, 57); */
+
+.LoadingAnimation-logo {
   width: 50vw;
   height: 50vw;
   position: relative;
- 
-  
 }
-.LoadingAnimation-box{
-  position: absolute;
- 
-  width: 20%;
-  padding-bottom:20%;
-  border-radius: 1vw;
- 
- 
-}
-.LoadingAnimation-green{
-  background-color: var(--secondColor);
 
-  top:37%;
+.LoadingAnimation-box {
+  position: absolute;
+  width: 20%;
+  padding-bottom: 20%;
+  border-radius: 1vw;
+}
+
+.LoadingAnimation-green {
+  background-color: var(--secondColor);
+  top: 37%;
   left: 37%;
 }
 
-.LoadingAnimation-purple{
+.LoadingAnimation-purple {
   background-color: var(--mainColor);
-  top:43%;
-  left:43%;
-  
-  
+  top: 43%;
+  left: 43%;
 }
-.LoadingAnimation-white{
+
+.LoadingAnimation-white {
   background-color: white;
-  top:41%;
-  left:41%;
+  top: 41%;
+  left: 41%;
   position: absolute;
   width: 18%;
-  padding-bottom:18%;
-/*   border-top-left-radius:  1vw;
-  border-bottom-right-radius:  1vw; */
-  
-
+  padding-bottom: 18%;
 }

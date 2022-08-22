@@ -5,27 +5,24 @@ import PastPage from "./pages/Past";
 import PresentPage from "./pages/Present";
 import Layout from "./components/layout/Layout";
 import { BrowserRouter } from "react-router-dom";
-import { useEffect, useState, useLayoutEffect } from "react";
+import { useState, useLayoutEffect } from "react";
 import ScrollToTop from "./components/navigation/ScrollToTop";
 import LoadingAnimation from "./components/features/LoadingAnimation";
- function App() {
+
+function App() {
   const [loading, setLoading] = useState(false);
   useLayoutEffect(() => {
-    setLoading(true)
+    setLoading(true);
     setTimeout(() => {
-      setLoading(false)
-      
+      setLoading(false);
     }, 3000);
-  }, [])
-  
+  }, []);
+
   return (
-  
     <BrowserRouter>
-      {loading ? <LoadingAnimation/>:null } 
+      {loading ? <LoadingAnimation /> : null}
       <Layout>
-    
         <ScrollToTop />
-      
         <Routes>
           <Route path="/" exact element={<PastPage />} />
           <Route path="past" exact element={<PastPage />} />

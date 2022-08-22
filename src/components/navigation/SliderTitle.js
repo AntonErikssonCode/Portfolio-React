@@ -1,6 +1,4 @@
-import React, { Component, useState, useEffect } from "react";
 import "./SliderTitle.css";
-let instancesCount = 0;
 
 function SplitText(props) {
   return (

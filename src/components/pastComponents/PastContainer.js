@@ -2,8 +2,9 @@ import "./PastContainer.css";
 import ProjectContainer from "./projects/ProjectContainer";
 import Title from "../features/Title";
 import SliderTimeline from "./SliderTimeline";
-import SvgWave from "../layout/SvgWave"
-function PastContainer(props) {
+import SvgWave from "../layout/SvgWave";
+
+function PastContainer() {
   return (
     <div className="pastContainer">
       <Title
@@ -11,13 +12,11 @@ function PastContainer(props) {
         topText="What I've Done In The "
         botText="PAST"
       />
-     
       <ProjectContainer />
       <SliderTimeline />
-
-      <SvgWave rotated={true} color="white" top={false}/>
-    
+      <SvgWave rotated={true} color="white" top={false} />
     </div>
   );
 }
+
 export default PastContainer;

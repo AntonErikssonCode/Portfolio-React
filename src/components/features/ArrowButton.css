@@ -31,6 +31,7 @@
 .down span:first-of-type {
   transform: rotate(-45deg);
 }
+
 .down span:last-of-type {
   transform: rotate(45deg);
 }

@@ -1,23 +1,28 @@
-.layout{
+.layout {
   width: 100vw;
   background-color: rgba(0, 0, 0, 0);
-  height:auto;
+  height: auto;
 }
-.scene-container{
-  position: absolute;
-  width: 100vw;
-  height: 100vh;
- background-color: rgba(0, 0, 0, 0);
- z-index: 3;
-}
-.scrollable-top{
-  position: absolute;
-  width: 100vw;
-  height: 100vh;
- background-color: rgba(0, 0, 0, 0.0);
- z-index: 4;
 
+.scene-container {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0);
+  z-index: 3;
 }
+
+.scrollable-top {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0);
+  z-index: 4;
+}
+
 @media screen and (min-width: 300px) and (max-width: 500px) {
-  .scrollable-top, .scene-container {height: 80vh;}
+  .scrollable-top,
+  .scene-container {
+    height: 80vh;
+  }
 }

@@ -12,6 +12,7 @@ body {
 html {
   font-family: "Inter", sans-serif;
 }
+
 @supports (font-variation-settings: normal) {
   html {
     font-family: "Inter var", sans-serif;
@@ -20,7 +21,7 @@ html {
 
 :root {
   --mainBackground: rgb(55, 0, 117);
---secondBackground: rgb(21, 192, 109);
+  --secondBackground: rgb(21, 192, 109);
   --mainColor: rgb(120, 2, 254);
   --secondColor: rgba(54, 229, 144);
   --black: #000;
@@ -35,10 +36,9 @@ html {
   --regularWeight: 300;
   --strongWeight: 600;
 }
+
 @media screen and (min-width: 300px) and (max-width: 600px) {
   :root {
- 
-
     --verySmallText: 0.6rem;
     --SmallSmallText: 0.8rem;
     --SmallText: 1rem;
@@ -53,7 +53,6 @@ html {
 
 @media screen and (min-width: 601px) and (max-width: 900px) {
   :root {
-
     --verySmallText: 0.9rem;
     --SmallSmallText: 1rem;
     --SmallText: 1.1rem;
@@ -65,9 +64,9 @@ html {
     --strongWeight: 600;
   }
 }
+
 @media screen and (min-width: 901px) and (max-width: 1200px) {
   :root {
-
     --verySmallText: 1rem;
     --SmallSmallText: 1.1rem;
     --SmallText: 1.2rem;
@@ -79,13 +78,4 @@ html {
     --strongWeight: 600;
   }
 }
-@media screen and (min-width: 1201px) and (max-width: 2000px) {
-  :root {
 
-  }
-}
-@media screen and (min-width: 2001px) {
-  :root {
-
-  }
-}

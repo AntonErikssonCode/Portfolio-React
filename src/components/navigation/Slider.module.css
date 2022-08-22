@@ -1,96 +1,92 @@
-:root{
+:root {
   --sliderSize: 47rem;
   --sliderWidth: 15rem;
   --sliderMovesmall: 16rem;
   --sliderMoveLarge: 32rem;
-  --sliderGap:1rem;
+  --sliderGap: 1rem;
   --borderRadius: 1rem;
   --scaleSize: 0.4;
   --textSize: 2rem;
   --AnimateSliderDivOut: 42%;
-  
 }
 
-
 @media screen and (min-width: 300px) and (max-width: 450px) {
-  :root{
+  :root {
     --sliderSize: 16rem;
     --sliderWidth: 5rem;
     --sliderMoveLarge: 11rem;
     --sliderMovesmall: 5.5rem;
-    --sliderGap:0.5rem;
+    --sliderGap: 0.5rem;
     --borderRadius: 0.2rem;
     --scaleSize: 1;
     --textSize: 0.5rem;
     --AnimateSliderDivOut: -52%;
   }
-  .sliderBar{
+
+  .sliderBar {
     margin-top: -60%;
   }
- 
 }
+
 @media screen and (min-width: 451px) and (max-width: 800px) {
-  :root{
+  :root {
     --sliderSize: 16rem;
     --sliderWidth: 5rem;
     --sliderMoveLarge: 11rem;
     --sliderMovesmall: 5.5rem;
-    --sliderGap:0.5rem;
+    --sliderGap: 0.5rem;
     --borderRadius: 0.2rem;
     --scaleSize: 0.9;
     --textSize: 0.5rem;
     --AnimateSliderDivOut: -40%;
   }
-  .sliderBar{
+
+  .sliderBar {
     margin-top: 0%;
   }
 }
+
 @media screen and (min-width: 801px) and (max-width: 1200px) {
-  :root{
+  :root {
     --sliderSize: 22rem;
     --sliderWidth: 7rem;
     --sliderMoveLarge: 15rem;
     --sliderMovesmall: 7.5rem;
-    --sliderGap:0.5rem;
+    --sliderGap: 0.5rem;
     --borderRadius: 0.4rem;
     --scaleSize: 0.8;
     --textSize: 0.8rem;
     --AnimateSliderDivOut: 42%;
-
   }
-  
 }
+
 @media screen and (min-width: 901px) and (max-width: 1200px) {
-  :root{
-    --sliderSize: 31.6rem;
-    --sliderWidth: 10rem;
-    --sliderMoveLarge: 21.6rem;
-    --sliderMovesmall: 10.8rem;
-    --sliderGap:0.8rem;
-    --borderRadius: 0.6rem;
-    --scaleSize: 0.5;
-    --textSize: 1.2rem;
+  :root {
+    --sliderSize: 22rem;
+    --sliderWidth: 7rem;
+    --sliderMoveLarge: 15rem;
+    --sliderMovesmall: 7.5rem;
+    --sliderGap: 0.5rem;
+    --borderRadius: 0.4rem;
+    --scaleSize: 0.8;
+    --textSize: 0.8rem;
     --AnimateSliderDivOut: 42%;
-
   }
- 
 }
+
 @media screen and (min-width: 1201px) and (max-width: 2000px) {
-  :root{
+  :root {
     --sliderSize: 31.6rem;
     --sliderWidth: 10rem;
     --sliderMoveLarge: 21.6rem;
     --sliderMovesmall: 10.8rem;
-    --sliderGap:0.8rem;
+    --sliderGap: 0.8rem;
     --borderRadius: 0.6rem;
     --scaleSize: 0.5;
     --textSize: 1.2rem;
     --AnimateSliderDivOut: 42%;
-
   }
- 
 }
-
 
 .sliderBackground {
   z-index: 100;
@@ -100,30 +96,26 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
-  
+  z-index: 2000000;
   position: fixed;
   top: 0;
   pointer-events: none;
 }
 
 .sliderBar {
- 
   cursor: pointer;
   pointer-events: auto;
   backdrop-filter: blur(6px);
-  z-index: 20;
+  z-index: 2000000;
   background-color: rgba(255, 255, 255, 0.155);
-  height:  var(--sliderWidth);
-  width: var( --sliderSize);
+  height: var(--sliderWidth);
+  width: var(--sliderSize);
   display: flex;
-  
   gap: var(--sliderGap);
-  padding:var(--sliderGap);
+  padding: var(--sliderGap);
   border-radius: var(--borderRadius);
   box-shadow: rgba(0, 0, 0, 0.438) 8px 8px 20px;
   transition: all 0.4s;
-  
-  
 }
 
 .sliderBar:hover {
@@ -133,7 +125,7 @@
 .sliderStates {
   color: rgba(223, 223, 223, 0.92);
   background-color: rgba(205, 25, 25, 0);
-  height:  var(--sliderWidth);
+  height: var(--sliderWidth);
   width: var(--sliderWidth);
   display: flex;
   justify-content: center;
@@ -159,8 +151,8 @@
 .slider {
   color: rgb(255, 255, 255);
   background: linear-gradient(-45deg, rgb(0, 0, 0) 0%, rgb(82, 82, 82) 100%);
-  height:  var(--sliderWidth);
-  width:  var(--sliderWidth);
+  height: var(--sliderWidth);
+  width: var(--sliderWidth);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -168,14 +160,12 @@
   transform: translateX(0);
   transition: transform 0.5s ease;
   transform: opacity 0.5s;
-  border-radius:var(--borderRadius);
+  border-radius: var(--borderRadius);
   box-shadow: rgba(0, 0, 0, 0.438) 4px 4px 10px;
   font-size: var(--textSize);
-
 }
 
 .sliderDivIn {
-  
   position: relative;
   display: flex;
   justify-content: center;
@@ -193,7 +183,6 @@
   width: 100vw;
   height: 50vh;
   animation: AnimateSliderDivOut 0.3s forwards;
-
 }
 
 .sliderBarOut {
@@ -215,7 +204,6 @@
     transform: scale(1);
   }
   100% {
-    
     bottom: var(--AnimateSliderDivOut);
     transform: scale(var(--scaleSize));
   }
@@ -223,9 +211,8 @@
 
 @keyframes AnimateSliderDivIn {
   0% {
-   
     bottom: var(--AnimateSliderDivOut);
-    transform:scale(var(--scaleSize));
+    transform: scale(var(--scaleSize));
   }
   100% {
     bottom: 0%;

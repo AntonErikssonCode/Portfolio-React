@@ -14,7 +14,11 @@
 .mailSent-modal {
   padding: 2rem;
   font-size: var(--bigText);
-  background: linear-gradient(39deg, var(--secondColor), var(--secondBackground));
+  background: linear-gradient(
+    39deg,
+    var(--secondColor),
+    var(--secondBackground)
+  );
   border-radius: 0.5rem;
   color: white;
   text-shadow: inset 5px 5px 5px;
@@ -27,25 +31,20 @@
 }
 
 @keyframes modal-bounce {
-  
-  0%{
+  0% {
     transform: translateX(-200%);
     opacity: 0;
   }
-  30%{
+  30% {
     transform: translateX(0%);
     opacity: 1;
-
   }
-
-  70%{
+  70% {
     transform: translateX(0%);
     opacity: 1;
-
   }
-  100%{
+  100% {
     transform: translateX(200%);
     opacity: 0;
-    
   }
 }

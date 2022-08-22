@@ -8,35 +8,37 @@
   margin-bottom: 30rem;
   color: rgb(0, 0, 0);
 }
-.qoute-logo{
+
+.qoute-logo {
   position: absolute;
   width: calc(50% + 2rem);
- border-radius: 1vw;
-
+  border-radius: 1vw;
   box-shadow: rgb(49, 49, 49) 10px 10px 20px;
-  
 }
-.qoute-green{
+
+.qoute-green {
   background-color: var(--secondColor);
   margin-top: -10%;
   margin-right: 20%;
 }
-.qoute-purple{
+
+.qoute-purple {
   background-color: var(--mainColor);
   margin-top: 10%;
   margin-right: -20%;
 }
+
 .quote {
   width: 50%;
   background-color: white;
   z-index: 2;
- 
   padding: 2rem;
   display: flex;
   flex-direction: column;
   box-shadow: rgb(49, 49, 49) 10px 10px 20px;
   border-radius: 0.5rem;
 }
+
 .quote-bot {
   display: flex;
   justify-content: center;
@@ -44,21 +46,21 @@
   align-items: center;
   margin: 0;
 }
+
 .quote p {
   font-size: var(--SmallText);
   line-height: 2.2rem;
 }
+
 .quote h4 {
   margin: 0;
   margin-top: 3rem;
   font-size: var(--regularText);
- 
 }
+
 .quote h5 {
-  font-size:  var(--regularText);
+  font-size: var(--regularText);
   margin: 1rem;
-  
- 
   color: rgb(52, 52, 52);
 }
 
@@ -66,7 +68,7 @@
   font-weight: var(--strongWeight);
 }
 
-.quote-icon{
+.quote-icon {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -77,18 +79,20 @@
     padding: 2.5%;
     width: 90%;
   }
-  .qoute-logo{
+
+  .qoute-logo {
     position: absolute;
     width: calc(50% + 1rem);
-   border-radius: 1vw;
+    border-radius: 1vw;
     height: auto;
     box-shadow: rgb(49, 49, 49) 10px 10px 20px;
-    
   }
-  .qoute-green{
+
+  .qoute-green {
     display: none;
   }
-  .qoute-purple{
+
+  .qoute-purple {
     display: none;
   }
 }
@@ -98,20 +102,22 @@
     padding: 1rem;
     width: 70%;
   }
-  .qoute-logo{
+
+  .qoute-logo {
     position: absolute;
     width: calc(50% + 1rem);
-   border-radius: 1vw;
+    border-radius: 1vw;
     height: auto;
     box-shadow: rgb(49, 49, 49) 10px 10px 20px;
-    
   }
-  .qoute-green{
+
+  .qoute-green {
     background-color: var(--secondColor);
     margin-top: -5%;
     margin-right: 30%;
   }
-  .qoute-purple{
+
+  .qoute-purple {
     background-color: var(--mainColor);
     margin-top: 5%;
     margin-right: -30%;
@@ -124,10 +130,10 @@
     width: 60%;
   }
 }
+
 @media screen and (min-width: 300px) and (max-width: 1000px) {
   .quote-div {
     margin-top: 0;
     margin-bottom: 10rem;
   }
- 
 }

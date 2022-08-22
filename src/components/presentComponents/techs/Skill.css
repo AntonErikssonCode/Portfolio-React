@@ -2,7 +2,7 @@
   background: linear-gradient(5deg, black, rgb(44, 44, 44));
   max-width: 400px;
   min-height: 200px;
-  border: 0.5rem rgba(31, 31, 31, 0.995) solid;
+  border: 0.5rem rgb(0, 0, 0) solid;
   color: white;
   display: flex;
   transition: transform 0.3s;
@@ -22,7 +22,7 @@
 .skill-left img {
   width: 100%;
   height: 100% ;
-  border-radius: 1vw;
+
 }
 
 .skill-right {

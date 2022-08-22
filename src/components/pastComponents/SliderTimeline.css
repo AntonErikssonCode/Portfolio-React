@@ -3,9 +3,8 @@
 }
 
 .sliderTimeline-container h3 {
-  
   color: white;
-  font-size:var(--veryBigText);
+  font-size: var(--veryBigText);
   margin-bottom: 2rem;
   margin-top: 0;
   text-shadow: 1px 1px 7px black;
@@ -15,7 +14,6 @@
 
 .sliderTimeline {
   width: 100%;
-  
   background-color: white;
   width: 80%;
   margin: 0rem auto;
@@ -37,18 +35,16 @@
 }
 
 .sliderTimeline h3 {
-  font-size:var(--bigText);
+  font-size: var(--bigText);
 }
-.slider-timeline-center{
+
+.slider-timeline-center {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   width: 100%;
-  
-  
 }
-
 
 .sliderTimeline-slider {
   margin: 2rem;
@@ -59,70 +55,52 @@
   border-radius: 15px;
   overflow: hidden;
   box-shadow: inset 0 0px 3px black;
-
-
   overflow: hidden;
-  
   -webkit-appearance: none;
-  background-color:  rgb(209, 209, 209);
-/*  
- */}
-
+  background-color: rgb(209, 209, 209);
+}
 
 .sliderTimeline-slider::-webkit-slider-runnable-track {
   height: 10px;
   -webkit-appearance: none;
- 
   margin-top: -11px;
-  
   cursor: pointer;
 }
-.sliderTimeline-slider::-webkit-slider-thumb {
 
+.sliderTimeline-slider::-webkit-slider-thumb {
   -webkit-appearance: none;
   margin-right: -10px;
   cursor: ew-resize;
   background: #848484;
   box-shadow: -610px 0 0 600px var(--secondColor);
-  /* cursor: pointer; */
   border-radius: 50%;
   width: 20px;
   height: 20px;
   border: 4px solid rgba(114, 114, 114, 0.838);
-
- 
 }
-
 
 .sliderTimeline-slider::-moz-range-progress {
   height: 20px;
   -webkit-appearance: none;
- 
   margin-top: -11px;
-  
   cursor: pointer;
-  background-color:var(--secondColor); 
+  background-color: var(--secondColor);
 }
-.sliderTimeline-slider::-moz-range-track {  
 
-}
-.sliderTimeline-slider::-moz-range-thumb{
+.sliderTimeline-slider::-moz-range-thumb {
   -webkit-appearance: none;
   margin-right: -10px;
   cursor: ew-resize;
   background: #848484;
   box-shadow: -610px 0 0 600px var(--secondColor);
-  /* cursor: pointer; */
   border-radius: 50%;
   width: 12px;
   height: 12px;
   border: 4px solid rgba(114, 114, 114, 0.838);
-
 }
 
 @media screen and (min-width: 300px) and (max-width: 801px) {
-  .sliderTimeline{
+  .sliderTimeline {
     width: 95%;
   }
 }
-

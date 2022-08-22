@@ -14,10 +14,11 @@
   padding-bottom: 30rem;
 }
 
-.imgContainer {
+.imgContainer{
   position: relative;
 }
-.imgTitle1 {
+
+.imgTitle1{
   margin: 0;
   color: white;
   position: absolute;
@@ -29,12 +30,14 @@
   font-size: 3vw;
   gap: 1vw;
 }
+
 .img-center-title {
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 .imgTitle2 {
   margin: 0;
   color: white;
@@ -47,6 +50,7 @@
   font-size: 3vw;
   gap: 1vw;
 }
+
 .imgTitle3 {
   margin: 0;
   color: white;
@@ -59,12 +63,10 @@
   font-size: 3vw;
   gap: 1vw;
 }
+
 .imgTitle1-row1 {
   font-weight: 300;
   letter-spacing: 0.4rem;
-}
-
-.imgTitle1-row2 {
 }
 
 .imgTitle1-row3 {
@@ -78,14 +80,12 @@
   letter-spacing: 0.4rem;
 }
 
-.imgTitle2-row2 {
-}
-
 .imgTitle2-row3 {
   font-size: 1.6vw;
   font-weight: 300;
   letter-spacing: 0.4rem;
 }
+
 .notBold {
   font-weight: 300;
 }
@@ -95,18 +95,11 @@
   letter-spacing: 0.4rem;
 }
 
-.imgTitle3-row2 {
-}
-
-@media screen and (min-width: 300px) and (max-width: 1000px) {
-  
-}
 @media screen and (min-width: 300px) and (max-width: 501px) {
   .ImgBoardContainer {
     width: 95%;
     padding: 2.5%;
     padding-bottom: 20rem;
-   
   }
 
   .imgTitle1,
@@ -114,6 +107,7 @@
   .imgTitle3 {
     font-size: 5vw;
   }
+
   .imgTitle1-row1,
   .imgTitle1-row3,
   .imgTitle2-row1,
@@ -121,16 +115,14 @@
   .imgTitle3-row1 {
     letter-spacing: 0.1rem;
   }
+
   .imgTitle1-row3,
   .imgTitle2-row3 {
     font-size: 3vw;
     letter-spacing: 0.1rem;
   }
-  .imgTitle1 {left:5%;}
-}
-@media screen and (min-width: 501px) and (max-width: 800px) {
-}
-@media screen and (min-width: 801px) and (max-width: 1200px) {
-}
-@media screen and (min-width: 1201px) {
+
+  .imgTitle1 {
+    left: 5%;
+  }
 }

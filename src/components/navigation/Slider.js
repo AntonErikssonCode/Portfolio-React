@@ -12,8 +12,6 @@ function Slider() {
   const sliderDiv = useRef();
   const sliderRef = useRef();
   const { pathname } = useLocation();
-  
-  
 
   // Set Up Navigation
   const navigate = useNavigate();
@@ -32,7 +30,7 @@ function Slider() {
     }
   }
 
-  //Set load in  position based on url
+  //Set onload position based on url
   useEffect(() => {
     const slider = document.getElementById("slider");
     if (pathname == "/present") {
@@ -66,12 +64,10 @@ function Slider() {
     useLayoutEffect(() => {
       function updatePosition() {
         setPosition(window.pageYOffset);
-        
-       
       }
       window.addEventListener("scroll", updatePosition);
       updatePosition();
-     
+
       return () => window.removeEventListener("scroll", updatePosition);
     }, []);
 
@@ -82,13 +78,11 @@ function Slider() {
     setsilderDown(scrolledDown);
   }, [scrolledDown]);
 
-
   // Animation, navigation and state change of slider
   function clickHandler(click) {
     const slider = document.getElementById("slider");
 
     if (click != sliderState || keyPress) {
-     
       // PAST
       if (
         (sliderState == "/past" && click == "Present") ||
@@ -120,6 +114,7 @@ function Slider() {
         setSliderState("/past");
         navigateTo("past");
       }
+
       if (
         (sliderState == "/present" && click == "Future") ||
         (sliderState == "/present" && click == "right")
@@ -129,6 +124,7 @@ function Slider() {
         setSliderState("/future");
         navigateTo("future");
       }
+
       // FUTURE
       if (
         (sliderState == "/future" && click == "Past") ||
@@ -139,6 +135,7 @@ function Slider() {
         setSliderState("/past");
         navigateTo("past");
       }
+
       if (
         (sliderState == "/future" && click == "Present") ||
         (sliderState == "/future" && click == "left")
@@ -150,12 +147,12 @@ function Slider() {
       }
     }
   }
+
   return (
     <div
       ref={sliderBackground}
       className={
         classes.sliderBackground
-        /*  silderDown ? classes.sliderAnimateOut : classes.sliderAnimateIn */
       }
     >
       {silderDown ? "" : <SliderTitle />}

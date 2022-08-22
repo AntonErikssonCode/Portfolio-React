@@ -20,128 +20,85 @@
 }
 
 @media screen and (min-width: 300px) and (max-width: 500px) {
-  
   .past-title .top-text {
-   font-size:8vw;
-    
+    font-size: 8vw;
   }
   .past-title .bot-text {
-    font-size: 33vw ;
-    
+    font-size: 33vw;
   }
   .present-title .top-text {
-    font-size:11vw;
-     
-   }
-   .present-title .bot-text {
-     font-size: 19vw ;
-     
-   }
-   .future-title .top-text {
-    font-size:11vw;
-     
-   }
-   .future-title .bot-text {
-     font-size: 22vw ;
-     
-   }
-  
-  
-  
+    font-size: 11vw;
+  }
+  .present-title .bot-text {
+    font-size: 19vw;
+  }
+  .future-title .top-text {
+    font-size: 11vw;
+  }
+  .future-title .bot-text {
+    font-size: 22vw;
+  }
 }
 
 @media screen and (min-width: 501px) and (max-width: 800px) {
-  
   .past-title .top-text {
-   font-size:6.5vw;
-    
+    font-size: 6.5vw;
   }
   .past-title .bot-text {
-    font-size: 25vw ;
-    
+    font-size: 25vw;
   }
   .present-title .top-text {
-    font-size:9.5vw;
-     
-   }
-   .present-title .bot-text {
-     font-size: 16vw ;
-     
-   }
-   .future-title .top-text {
-    font-size:9vw;
-     
-   }
-   .future-title .bot-text {
-     font-size: 18vw ;
-     
-   }
-  
- 
-
-  
-  
+    font-size: 9.5vw;
+  }
+  .present-title .bot-text {
+    font-size: 16vw;
+  }
+  .future-title .top-text {
+    font-size: 9vw;
+  }
+  .future-title .bot-text {
+    font-size: 18vw;
+  }
 }
 
 @media screen and (min-width: 801px) and (max-width: 1200px) {
-  
   .past-title .top-text {
-   font-size:3.8vw;
-    
+    font-size: 3.8vw;
   }
   .past-title .bot-text {
-    font-size: 15vw ;
-    
+    font-size: 15vw;
   }
   .present-title .top-text {
-    font-size:5.5vw;
-     
-   }
-   .present-title .bot-text {
-     font-size: 9vw ;
-     
-   }
-   .future-title .top-text {
-    font-size:5.2vw;
-     
-   }
-   .future-title .bot-text {
-     font-size: 10vw ;
-     
-   }
- 
-
-  
-  
+    font-size: 5.5vw;
+  }
+  .present-title .bot-text {
+    font-size: 9vw;
+  }
+  .future-title .top-text {
+    font-size: 5.2vw;
+  }
+  .future-title .bot-text {
+    font-size: 10vw;
+  }
 }
-@media screen and (min-width: 1201px)  {
-  
+
+@media screen and (min-width: 1201px) {
   .past-title .top-text {
-   font-size:3.8vw;
-    
+    font-size: 3.8vw;
   }
   .past-title .bot-text {
-    font-size: 15vw ;
-    
+    font-size: 15vw;
   }
- 
   .present-title .top-text {
-    font-size:5vw;
-     
-   }
-   .present-title .bot-text {
-     font-size: 8.5vw ;
-     
-   }
-   .future-title .top-text {
-    font-size:5.2vw;
-     
-   }
-   .future-title .bot-text {
-     font-size: 10vw ;
-     
-   }
-
-  
-  
+    font-size: 5vw;
+  }
+  .present-title .bot-text {
+    font-size: 8.5vw;
+  }
+  .future-title .top-text {
+    font-size: 5.2vw;
+  }
+  .future-title .bot-text {
+    font-size: 10vw;
+  }
 }

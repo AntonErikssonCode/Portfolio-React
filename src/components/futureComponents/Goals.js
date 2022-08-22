@@ -1,7 +1,7 @@
 import "./Goals.css";
-
 import SvgWave from "../layout/SvgWave";
 import Animate from "../features/Animate";
+
 function Goals() {
   return (
     <div className="goals-container">
@@ -10,10 +10,10 @@ function Goals() {
         <div className="goals-main">
           <Animate variant={2}>
             <div className="goals-main-title">
-            <h3>
-              What do I want to be when I <br />
-              <span className="goals-main-growup">GROW UP?</span>
-            </h3>
+              <h3>
+                What do I want to be when I <br />
+                <span className="goals-main-growup">GROW UP?</span>
+              </h3>
             </div>
             <div className="goals-text-text">
               <h4>I dream about an opportunity where I can: </h4>

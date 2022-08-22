@@ -1,39 +1,23 @@
 .timelineInstance {
-
-
   display: flex;
- 
   margin: 0;
-
-
-  
 }
 
 .timelineInstance-left {
   padding: 1rem;
   width: 30%;
   height: auto;
- 
 }
 
 .timelineInstance-right {
   font-weight: var(--regularWeight);
   width: 70%;
-  
   padding: 2vw;
   padding-top: 0rem;
   padding-bottom: 0rem;
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
-
-  
-}
-
-.timelineInstance-right  h4{
-
-
-  
 }
 
 .timelineInstance-left-img {
@@ -41,30 +25,27 @@
   max-width: 600px;
   height: auto;
   border-radius: 0.5vw;
-  
-
 }
 
 .timelineInstance-name {
   margin-top: 1rem;
   margin-bottom: 1rem;
-
   font-size: var(--bigText);
-
 }
-.timelineInstance-company-and-type, .timelineInstance-location-and-time{
+
+.timelineInstance-company-and-type,
+.timelineInstance-location-and-time {
   display: flex;
   justify-content: space-between;
   margin-bottom: 2rem;
-
 }
-.timelineInstance-company-and-type{
+
+.timelineInstance-company-and-type {
   font-size: var(--SmallText);
-
 }
-.timelineInstance-location-and-time{
-  font-size: var(--SmallSmallText);
 
+.timelineInstance-location-and-time {
+  font-size: var(--SmallSmallText);
 }
 
 .timelineInstance-name-container,
@@ -72,7 +53,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
 
 .timelineInstance-type {
@@ -88,7 +68,6 @@
 .timelineInstance-location {
   margin: 0;
   font-weight: var(--regularWeight);
-
 }
 
 .timelineInstance-company {
@@ -97,61 +76,49 @@
 }
 
 .timelineInstance-list {
-
   font-size: var(--SmallSmallText);
 }
 
 .timelineInstance-lessons {
-
   font-weight: var(--strongWeight);
   font-size: var(--SmallSmallText);
 }
 
-.timelineInstance-list-item {
- 
-}
 @media screen and (min-width: 300px) and (max-width: 1200px) {
   .timelineInstance {
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
+
   .timelineInstance-right {
     width: 90%;
-   
   }
-  
 }
+
 @media screen and (min-width: 300px) and (max-width: 501px) {
   .timelineInstance-left {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 90%;
-    
-   
   }
 }
+
 @media screen and (min-width: 501px) and (max-width: 800px) {
   .timelineInstance-left {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 90%;
-    
-   
   }
 }
+
 @media screen and (min-width: 801px) and (max-width: 1200px) {
   .timelineInstance-left {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 50%;
-    
-   
   }
 }
-
-
-

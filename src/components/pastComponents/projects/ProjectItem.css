@@ -11,8 +11,6 @@
   cursor: pointer;
 }
 
-
-
 .projectItem:hover {
   color: rgb(255, 255, 255);
   transform: scale(1.01);
@@ -27,7 +25,6 @@
 .itemContent-right {
   flex-direction: row-reverse;
   justify-content: space-between;
- 
 }
 
 .itemContent-left {
@@ -38,7 +35,6 @@
   position: relative;
   width: 20vw;
   border-top-left-radius: 0.5rem;
-  
 }
 
 .imageContainer::after {
@@ -55,14 +51,15 @@
   border-top-left-radius: 0.5rem;
   border-bottom-left-radius: 0.5rem;
 }
-.image-border-bot{
+
+.image-border-bot {
   border-bottom-left-radius: 0rem;
-
-
 }
-.arrow-container{
+
+.arrow-container {
   margin-top: 2rem;
 }
+
 .rightPart {
   width: 70%;
   display: flex;
@@ -90,9 +87,11 @@
   background: linear-gradient(45deg, black, rgba(0, 0, 0, 0.6));
   margin-top: 0rem;
 }
+
 .collapsible .header {
   cursor: pointer;
 }
+
 .collapseField {
   height: 4rem;
   margin-top: -4rem;
@@ -100,47 +99,37 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  
 }
 
-
-.projectItem-border{
-
-}
-.content{
+.content {
   border-bottom-left-radius: 0.5rem;
   border-bottom-right-radius: 0.5rem;
-
-
 }
-
 
 @media screen and (min-width: 300px) and (max-width: 1200px) {
   .imageContainer {
     display: none;
   }
+
   .rightPart {
     width: 100%;
     display: flex;
     flex-direction: column;
-   
     padding: 1rem 2rem;
   }
- 
 }
+
 @media screen and (min-width: 300px) and (max-width: 800px) {
-  .projectItem{
+  .projectItem {
     width: 95%;
   }
 }
 
-@media screen and (min-width: 801px)  {
-  
+@media screen and (min-width: 801px) {
   .projectItem-big {
     width: 95%;
-   
   }
-  
+
   .projectItem-small {
     width: 80%;
   }

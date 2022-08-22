@@ -2,23 +2,21 @@ import "./Me.css";
 import resume from "./resume.pdf";
 import grades from "./grades.pdf";
 import thesis from "./thesis.pdf";
-
 import music from "./music.svg";
 import coding from "./coding.svg";
 import cube from "./cube.svg";
 import brain from "./brain.svg";
 import Quote from "./Quote";
 import Animate from "../features/Animate";
-import React, { useState, useEffect, useRef } from "react";
+import React from "react";
 import SvgWave from "../layout/SvgWave";
-function Me() {
 
+function Me() {
   return (
     <div className="me-main">
       <div className="me-container">
         <div className="me-text-container">
           <h3>Hello there!</h3>
-
           <div>
             <Animate variant={2}>
               <div className="me-top-section">
@@ -34,15 +32,8 @@ function Me() {
                     some of mine.
                   </p>
                 </div>
-
-                <div    className="me-img-container">
-                <img
-                    className="me-img"
-                 
-                    src={require("./me-small.jpg")}
-                  ></img>
-                 
-               
+                <div className="me-img-container">
+                  <img className="me-img" src={require("./me-small.jpg")}></img>
                 </div>
               </div>
             </Animate>
@@ -114,7 +105,7 @@ function Me() {
           </div>
         </div>
       </div>
-      {/*   <Animate variant={1}> */}
+      <Animate variant={2}>
       <div className="me-links-container">
         <div className="me-links">
           <a className="me-links-a" href={resume} target="_blank">
@@ -128,7 +119,7 @@ function Me() {
           </a>
         </div>
       </div>
-      {/*   </Animate> */}
+      </Animate>
       <Animate variant={2}>
         <Quote />
       </Animate>
@@ -136,4 +127,5 @@ function Me() {
     </div>
   );
 }
+
 export default Me;

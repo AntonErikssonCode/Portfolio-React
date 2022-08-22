@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./MailSent.css";
+
 const MailSent = () => {
   const [showElement, setShowElement] = React.useState(true);
   useEffect(() => {
@@ -10,9 +11,15 @@ const MailSent = () => {
 
   return (
     <div>
-      {showElement ? <div className="mailSent-backdrop">
-        <div className="mailSent-modal"><h3>MAIL SENT</h3></div>
-      </div> : <></>}
+      {showElement ? (
+        <div className="mailSent-backdrop">
+          <div className="mailSent-modal">
+            <h3>MAIL SENT</h3>
+          </div>
+        </div>
+      ) : (
+        <></>
+      )}
     </div>
   );
 };

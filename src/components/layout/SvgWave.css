@@ -4,11 +4,12 @@
   width: 100%;
   overflow: hidden;
   line-height: 0;
-  z-index: 1000000;
+  z-index: 200;
   background-color: rgba(0, 0, 142, 0);
 }
 
-.SvgBot svg , .SvgBot img{
+.SvgBot svg,
+.SvgBot img {
   position: relative;
   display: block;
   width: calc(100% + 1.3px);
@@ -19,18 +20,18 @@
   transform: rotate(180deg);
 }
 
-
 .SvgWave-top {
   top: 0;
-/*   margin-top: -200px;
- */}
+
+}
 
 .SvgWave-bot {
   bottom: -1px;
 }
+
 @media screen and (min-width: 300px) and (max-width: 500px) {
-  .SvgBot svg, .SvgBot img {
-    
+  .SvgBot svg,
+  .SvgBot img {
     height: 50px;
   }
   .SvgWave-top {
@@ -38,9 +39,10 @@
     margin-top: -49px;
   }
 }
+
 @media screen and (min-width: 501px) and (max-width: 800px) {
-  .SvgBot img,  .SvgBot svg{
-    
+  .SvgBot img,
+  .SvgBot svg {
     height: 100px;
   }
   .SvgWave-top {
@@ -48,9 +50,10 @@
     margin-top: -99px;
   }
 }
+
 @media screen and (min-width: 801px) and (max-width: 1200px) {
-  .SvgBot img,   .SvgBot svg{
-    
+  .SvgBot img,
+  .SvgBot svg {
     height: 150px;
   }
   .SvgWave-top {
@@ -58,9 +61,9 @@
     margin-top: -149px;
   }
 }
-@media screen and (min-width: 1201px)  {
-  .SvgBot img{
-    
+
+@media screen and (min-width: 1201px) {
+  .SvgBot img {
     height: 200px;
   }
   .SvgWave-top {

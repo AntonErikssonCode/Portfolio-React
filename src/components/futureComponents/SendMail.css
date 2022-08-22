@@ -27,7 +27,6 @@
   width: 100%;
   padding: 10px 0;
   font-size: var(--SmallText);
-
   font-weight: 100;
   color: #fff;
   margin-bottom: 80px;
@@ -36,9 +35,11 @@
   outline: none;
   background: transparent;
 }
+
 .login-box .user-box textarea {
   resize: none;
 }
+
 .login-box .user-box label {
   position: absolute;
   top: 0;
@@ -68,15 +69,12 @@
   display: inline-block;
   padding: 10px 20px;
   background-color: rgba(255, 255, 255, 0);
-
   text-decoration: none;
   text-transform: uppercase;
   overflow: hidden;
   transition: 0.5s;
-
   letter-spacing: 6px;
   border-radius: 5px;
-
   font-size: 2.2rem;
   padding: 1rem 1.5rem;
   background: linear-gradient(45deg, black, var(--lessBlack));
@@ -93,7 +91,6 @@
     var(--mainColor) 100%
   );
   color: #fff;
-
   box-shadow: -5px 5px 10px var(--secondColor), -5px 5px 20px var(--secondColor),
     5px -5px 20px var(--mainColor), 5px -5px 10px var(--mainColor);
 }
@@ -181,6 +178,7 @@
     bottom: 100%;
   }
 }
+
 input:-webkit-autofill,
 input:-webkit-autofill:hover,
 input:-webkit-autofill:focus,
@@ -193,45 +191,8 @@ input:-webkit-autofill:active {
   justify-content: center;
 }
 
-@media screen and (min-width: 300px) and (max-width: 600px) {
-  .contact-container {
-    width: 95%;
-  }
-  .login-box form button {
-    font-size: 1rem;
-  padding: 1rem 1.2rem;
-  }
-  .login-box h2 {
-    font-size: var(--bigText);}
-}
-
-@media screen and (min-width: 601px) and (max-width: 900px) {
-  .contact-container {
-    width: 80%;
-  }
-  .login-box form button {
-    font-size: 1.5rem;
-  padding: 1rem 1.2rem;
-  }
-}
-@media screen and (min-width: 901px) and (max-width: 1200px) {
-  .contact-container {
-    width: 70%;
-  }
-}
-@media screen and (min-width: 1201px) and (max-width: 2000px) {
-  .contact-container {
-    width: 50%;
-  }
-}
-@media screen and (min-width: 2001px) {
-  .contact-container {
-    width: 40%;
-  }
-}
 .big-contact-container {
   width: 100vw;
-
   display: flex;
   align-self: center;
   justify-content: center;
@@ -243,10 +204,52 @@ input:-webkit-autofill:active {
   padding: 10rem 0rem 40rem 0rem;
 }
 
+@media screen and (min-width: 300px) and (max-width: 600px) {
+  .contact-container {
+    width: 95%;
+  }
+
+  .login-box form button {
+    font-size: 1rem;
+    padding: 1rem 1.2rem;
+  }
+
+  .login-box h2 {
+    font-size: var(--bigText);
+  }
+}
+
+@media screen and (min-width: 601px) and (max-width: 900px) {
+  .contact-container {
+    width: 80%;
+  }
+
+  .login-box form button {
+    font-size: 1.5rem;
+    padding: 1rem 1.2rem;
+  }
+}
+
+@media screen and (min-width: 901px) and (max-width: 1200px) {
+  .contact-container {
+    width: 70%;
+  }
+}
+
+@media screen and (min-width: 1201px) and (max-width: 2000px) {
+  .contact-container {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 2001px) {
+  .contact-container {
+    width: 40%;
+  }
+}
+
 @media screen and (min-width: 300px) and (max-width: 1000px) {
   .big-contact-container {
-
     padding-bottom: 20rem;
   }
-  
 }
