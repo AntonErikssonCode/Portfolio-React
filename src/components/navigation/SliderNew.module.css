@@ -8,6 +8,7 @@
   --scaleSize: 0.4;
   --textSize: 2vw;
   --AnimateSliderDivOut: 50vh;
+  --barDivision:3;
 }
 
 @media screen and (min-width: 300px) and (max-width: 450px) {
@@ -21,6 +22,7 @@
     --scaleSize: 1;
     --textSize: 0.5rem;
     --AnimateSliderDivOut: -52%;
+    --barDivision:1.5;
   }
 
   
@@ -37,6 +39,7 @@
     --scaleSize: 0.9;
     --textSize: 0.5rem;
     --AnimateSliderDivOut: -40%;
+    --barDivision:1.5;
   }
 
   .sliderBar {
@@ -55,6 +58,7 @@
     --scaleSize: 0.8;
     --textSize: 0.8rem;
     --AnimateSliderDivOut: 42%;
+    --barDivision:3;
   }
 }
 
@@ -69,6 +73,7 @@
     --scaleSize: 0.5;
     --textSize: 1.2rem;
     --AnimateSliderDivOut: 42%;
+    --barDivision:3;
   }
 }
 
@@ -100,7 +105,7 @@
   align-items: center;
 }
 .sliderBarDown {
-  height: calc(var(--sliderWidth) / 3);
+  height: calc(var(--sliderWidth) / var(--barDivision));
 }
 .sliderBarDiv {
   display: flex;
@@ -121,7 +126,7 @@
 
 .sliderBarDivDown {
   animation: sliderBarDivDownAnimation 0.5s forwards;
-  padding: calc(var(--sliderGap)/3);
+  padding: calc(var(--sliderGap)/var(--barDivision));
 }
 
 @keyframes sliderBarDivDownAnimation {
@@ -134,14 +139,14 @@
   50% {
     width: var(--sliderSize);
     background-color: rgba(255, 255, 255, 0.85);
-    height: calc(var(--sliderWidth) / 3);
+    height: calc(var(--sliderWidth) / var(--barDivision));
   }
  
 
   100% {
     width:100vw;
     background-color: rgba(255, 255, 255, 0.85);
-    height: calc(var(--sliderWidth) / 3);
+    height: calc(var(--sliderWidth) / var(--barDivision));
     border-radius: 0;
   }
 }
@@ -153,20 +158,20 @@
   0% {
     width:100vw;
     background-color: rgba(255, 255, 255, 0.85);
-    height: calc(var(--sliderWidth) / 3);
+    height: calc(var(--sliderWidth) / var(--barDivision));
     border-radius: 0;
   }
   
   40% {
     width: var(--sliderSize);
     background-color: rgba(255, 255, 255, 0.85);
-    height: calc(var(--sliderWidth) / 3);
+    height: calc(var(--sliderWidth) / var(--barDivision));
     border-radius: 0;
   }
   60% {
     width: var(--sliderSize);
     background-color: rgba(255, 255, 255, 0.85);
-    height: calc(var(--sliderWidth) / 3);
+    height: calc(var(--sliderWidth) / var(--barDivision));
     border-radius: 0;
   }
 
@@ -251,7 +256,7 @@
 
 .sliderStatesDown {
   color: rgba(0, 0, 0, 0.678);
-  height: calc(var(--sliderWidth) / 3);
+  height: calc(var(--sliderWidth) / var(--barDivision));
 }
 
 .sliderSelectorDown{
@@ -266,12 +271,12 @@
 @keyframes sliderSelectorUpAnimation {
   0% {
     border-radius: 0.2rem;
-    height: calc(var(--sliderWidth) / 3);
+    height: calc(var(--sliderWidth) / var(--barDivision));
    
   }
    50% {
     border-radius: 0.2rem;
-    height: calc(var(--sliderWidth) / 3);
+    height: calc(var(--sliderWidth) / var(--barDivision));
    
   }
   
@@ -289,13 +294,13 @@
 
   50% {
     border-radius: 0.2rem;
-    height: calc(var(--sliderWidth) / 3);
+    height: calc(var(--sliderWidth) / var(--barDivision));
    
     
   }
   100% {
     border-radius: 0.2rem;
-    height: calc(var(--sliderWidth) / 3);
+    height: calc(var(--sliderWidth) /var(--barDivision));
    
     
   }
