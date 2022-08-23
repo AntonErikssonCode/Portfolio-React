@@ -43,7 +43,7 @@
 .me-text-container h3 {
   margin-top: 0;
   margin-bottom: 0rem;
-  font-size: 7rem;
+  font-size: var(  --veryBigText);
   text-shadow: none;
   margin-bottom: 3rem;
 }
@@ -93,11 +93,12 @@
   font-size: var(--regularText);
   padding: 1rem 1.5rem;
   background: linear-gradient(45deg, black, var(--lessBlack));
-  border-radius: 0.5vw;
+  border-radius: 0.2rem;
   box-shadow: rgb(49, 49, 49) 5px 5px 10px;
   border: 2px rgba(255, 255, 255, 0.069) solid;
   font-weight: 500;
   transition: all 0.3s;
+  letter-spacing: 4px;
 }
 
 .me-links-a:hover {
@@ -160,7 +161,7 @@
   .me-links {
     flex-direction: column;
     gap: 1rem;
-    width: 35%;
+    width: 60%;
   }
 
   .me-text-container h3 {
@@ -172,11 +173,13 @@
     align-items: center;
     justify-content: center;
     width: 100%;
+    
   }
   
   .me-links-a {
     font-size: var(--SmallText);
-    padding: 0.6rem 1rem;
+    padding: 0.6rem 2rem;
+   
   }
 }
 

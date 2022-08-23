@@ -1,8 +1,8 @@
-import Slider from "../navigation/Slider";
+/* import Slider from "../navigation/Slider"; */
 import "./Layout.css";
 import Scene from "../../3D/Scene";
 import Logo from "../features/Logo";
-
+import Slider from "../navigation/SliderNew";
 function Layout(props) {
   return (
     <div className="layout">

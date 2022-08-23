@@ -26,12 +26,14 @@
 .sliderTimeline-dates {
   display: flex;
   gap: 0rem 10vw;
-  height: 60px;
+
   font-size: var(--regularText);
 }
 
 .sliderTimeline-dates h4 {
   font-weight: var(--regularWeight);
+  margin: 1rem;
+
 }
 
 .sliderTimeline h3 {
@@ -48,6 +50,7 @@
 
 .sliderTimeline-slider {
   margin: 2rem;
+  margin-top: 0rem;
   width: 50%;
   height: 20px;
   -webkit-appearance: none;
@@ -99,8 +102,21 @@
   border: 4px solid rgba(114, 114, 114, 0.838);
 }
 
-@media screen and (min-width: 300px) and (max-width: 801px) {
+@media screen and (min-width: 300px) and (max-width: 800px) {
   .sliderTimeline {
     width: 95%;
+  }
+}
+@media screen and (min-width: 801px) and (max-width: 1200px)  {
+  .sliderTimeline {
+    width: 80%;
+  }
+}
+
+
+
+@media screen and (min-width: 1201px)  {
+  .sliderTimeline {
+    width: 70%;
   }
 }

@@ -23,7 +23,7 @@ footer img {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: var(--SmallText);
+  font-size: var(--SmallSmallText);
   gap: 5vw;
   margin-top: 5rem;
 }
@@ -33,7 +33,7 @@ footer img {
 }
 
 footer h5 {
-  font-size: var(--SmallText);
+  font-size: var(--SmallSmallText);
   font-weight: var(--regularWeight);
 }
 
@@ -65,7 +65,7 @@ footer h4 {
   transition: transform 0.5s;
   text-decoration: none;
   color: white;
-  font-size: var(--bigText);
+  font-size: var(--regularText);
 }
 
 @media screen and (min-width: 300px) and (max-width: 800px) {

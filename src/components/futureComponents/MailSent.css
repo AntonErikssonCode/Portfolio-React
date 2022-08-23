@@ -1,24 +1,27 @@
+
+
 .mailSent-backdrop {
   width: 100vw;
   height: 100vh;
-  background-color: rgba(0, 0, 0, 0.854);
+  background-color: rgba(0, 0, 0, 0.8);
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 2000000000;
+  z-index: 20000001;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .mailSent-modal {
-  padding: 2rem;
+  padding: 3rem 2rem;
   font-size: var(--bigText);
   background: linear-gradient(
     39deg,
     var(--secondColor),
     var(--secondBackground)
   );
+
   border-radius: 0.5rem;
   color: white;
   text-shadow: inset 5px 5px 5px;
@@ -27,7 +30,11 @@
   justify-content: center;
   align-items: center;
   animation: modal-bounce 3s;
-  z-index: 2000000000;
+  z-index: 20000001;
+}
+
+.mailSent-modal h3{
+  margin: 0;
 }
 
 @keyframes modal-bounce {

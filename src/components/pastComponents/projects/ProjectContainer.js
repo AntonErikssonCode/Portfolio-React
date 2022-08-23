@@ -18,7 +18,13 @@ function ProjectContainer() {
           component={<MyWebsite />}
         />
       </div>
+      <div className={classes.moreProjects}>
+      <h4>More Projects Coming Soon</h4>
+
+      </div>
+      
       <SvgWave rotated={true} color="black" top={false} />
+
     </div>
   );
 }

@@ -30,7 +30,7 @@ function Title(props) {
         },
       });
     }
-    console.log("in view", inView);
+    
   }, [inView]);
   return (
     <motion.div

@@ -6,10 +6,17 @@ function Quote() {
   const [height, setHeight] = useState(0);
   const ref = useRef(null);
 
-  useEffect(() => {
-    setHeight(ref.current.clientHeight);
-  });
 
+useEffect(() => {
+        setHeight(ref.current.clientHeight);
+
+    function handleResize() {
+      setHeight(ref.current.clientHeight);
+    
+}
+
+    window.addEventListener('resize', handleResize)
+  })
   return (
     <div className="quote-div">
       <div ref={ref} className="quote">

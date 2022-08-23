@@ -2,13 +2,18 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
+  
 }
 
 .ImgBoardImg {
   max-width: 100%;
   border: 2vw solid rgb(255, 255, 255);
-  max-height: 90vh;
+  max-height: 95vh;
   position: relative;
+  border-radius: 0.5vw;
+  object-fit: cover;
+   box-shadow: rgba(0, 0, 0, 0.708) 8px 8px 20px;
+
 }
 
 .ImgBoardImgNoTopBorder {

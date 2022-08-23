@@ -11,25 +11,25 @@
 
 .qoute-logo {
   position: absolute;
-  width: calc(50% + 2rem);
+  width: calc(40% + 2rem);
   border-radius: 1vw;
   box-shadow: rgb(49, 49, 49) 10px 10px 20px;
 }
 
 .qoute-green {
   background-color: var(--secondColor);
-  margin-top: -10%;
-  margin-right: 20%;
+  margin-top: -2.5%;
+  margin-right: 5%;
 }
 
 .qoute-purple {
   background-color: var(--mainColor);
-  margin-top: 10%;
-  margin-right: -20%;
+  margin-top: 2.5%;
+  margin-right: -5%;
 }
 
 .quote {
-  width: 50%;
+ 
   background-color: white;
   z-index: 2;
   padding: 2rem;
@@ -72,12 +72,13 @@
   display: flex;
   align-items: center;
   justify-content: center;
+ 
 }
 
 @media screen and (min-width: 300px) and (max-width: 500px) {
   .quote {
-    padding: 2.5%;
-    width: 90%;
+    padding: 1.5rem;
+    width: 80%;
   }
 
   .qoute-logo {
@@ -100,7 +101,7 @@
 @media screen and (min-width: 501px) and (max-width: 800px) {
   .quote {
     padding: 1rem;
-    width: 70%;
+    width: 50%;
   }
 
   .qoute-logo {
@@ -114,20 +115,20 @@
   .qoute-green {
     background-color: var(--secondColor);
     margin-top: -5%;
-    margin-right: 30%;
+    margin-right: 10%;
   }
 
   .qoute-purple {
     background-color: var(--mainColor);
     margin-top: 5%;
-    margin-right: -30%;
+    margin-right: -10%;
   }
 }
 
 @media screen and (min-width: 801px) {
   .quote {
     padding: 2rem;
-    width: 60%;
+    width: 40%;
   }
 }
 

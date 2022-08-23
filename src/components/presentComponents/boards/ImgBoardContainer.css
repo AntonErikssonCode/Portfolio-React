@@ -1,5 +1,5 @@
 .ImgBoardContainer {
-  width: 90%;
+  width: 95%;
   height: auto;
   margin: 0;
   font-size: 4.5rem;
@@ -10,8 +10,9 @@
   background: linear-gradient(170deg, black 70%, white 90%);
   margin-top: 20rem;
   position: relative;
-  padding: 5%;
+  padding: 2.5%;
   padding-bottom: 30rem;
+  
 }
 
 .imgContainer{
@@ -94,7 +95,11 @@
   font-weight: 300;
   letter-spacing: 0.4rem;
 }
-
+.images{
+  display: flex;
+  flex-direction: column;
+  gap: 2vw;
+}
 @media screen and (min-width: 300px) and (max-width: 501px) {
   .ImgBoardContainer {
     width: 95%;

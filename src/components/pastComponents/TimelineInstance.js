@@ -109,8 +109,12 @@ function TimelineInstance(props) {
       </div>
       <div className="timelineInstance-right">
         <div className="timelineInstance-name-container">
-          {" "}
+        <img
+          className="timelineInstance-header-img"
+          src={require(`${selectedInstance[0].image}`)}
+        />
           <h4 className="timelineInstance-name">{selectedInstance[0].name}</h4>
+          
         </div>
         <div className="timelineInstance-company-and-type">
           <h4 className="timelineInstance-company">

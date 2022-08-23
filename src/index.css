@@ -26,17 +26,17 @@ html {
   --secondColor: rgba(54, 229, 144);
   --black: #000;
   --lessBlack: rgb(48, 48, 48);
-  --verySmallText: 1rem;
-  --SmallSmallText: 1.2rem;
-  --SmallText: 1.6rem;
-  --regularText: 1.8rem;
-  --regularBigText: 2.2rem;
-  --bigText: 3rem;
-  --veryBigText: 5rem;
+  --verySmallText: 14px;
+  --SmallSmallText: 14px;
+  --SmallText: 16px;
+  --regularText: 18px;
+  --regularBigText: 20px;
+  --bigText: 34px;
+  --veryBigText: 4rem;
   --regularWeight: 300;
   --strongWeight: 600;
 }
-
+/* 
 @media screen and (min-width: 300px) and (max-width: 600px) {
   :root {
     --verySmallText: 0.6rem;
@@ -71,11 +71,12 @@ html {
     --SmallSmallText: 1.1rem;
     --SmallText: 1.2rem;
     --regularText: 1.4rem;
-    --regularBigText: 2rem;
-    --bigText: 2.2rem;
+    --regularBigText: 1.6rem;
+    --bigText: 1.8rem;
     --veryBigText: 3rem;
     --regularWeight: 300;
     --strongWeight: 600;
   }
 }
 
+ */

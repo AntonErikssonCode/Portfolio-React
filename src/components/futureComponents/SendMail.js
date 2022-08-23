@@ -77,7 +77,7 @@ export const ContactUs = () => {
                   id="message"
                   name="message"
                   type="text"
-                  rows="10"
+                  rows="6"
                   required
                 />
                 <label htmlFor="message">WHAT CAN I DO FOR YOU?</label>
@@ -101,6 +101,7 @@ export const ContactUs = () => {
         </Animate>
       </div>
       {sent ? <MailSent /> : ""}
+   
     </div>
   );
 };
