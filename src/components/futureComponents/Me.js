@@ -27,7 +27,7 @@ function Me() {
                     representation of oneself in a few lines on a webpage. I
                     could tell you that I’m 27 years old and moved to Gothenburg
                     five years ago, but it would hardly represent the
-                    multidisciplinary nature of my passions and competens. We
+                    multidisciplinary nature of my passions and competence. We
                     all have multiple aspects to our character, and here are
                     some of mine.
                   </p>
