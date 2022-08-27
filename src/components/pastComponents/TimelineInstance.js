@@ -13,7 +13,7 @@ const data = [
     ],
     type: "Working",
     location: "Norrköping",
-    image: "./personal-assistant.jpg",
+    image: "./assets/personal-assistant.jpg",
   },
   {
     start: 12,
@@ -21,13 +21,13 @@ const data = [
     name: "Personal Assistant",
     company: "Norrköping Municiplaity ",
     time: "January 2015 - August 2015",
-    lessons: "Responsibility & Empathy",
+    lessons: "Responsibility",
     description: [
       "Assisted disabled children with their needs and everyday tasks.",
     ],
     type: "Working",
     location: "Norrköping",
-    image: "./personal-assistant.jpg",
+    image: "./assets/personal-assistant.jpg",
   },
   {
     start: 20,
@@ -42,7 +42,7 @@ const data = [
     ],
     type: "Personal Development",
     location: "Asia, Australia & Canada",
-    image: "./travel.jpg",
+    image: "./assets/travel.jpg",
   },
   {
     start: 36,
@@ -57,7 +57,7 @@ const data = [
     ],
     type: "Working",
     location: "Norrköping & Gothenburg",
-    image: "./phone.jpg",
+    image: "./assets/phone.jpg",
   },
   {
     start: 56,
@@ -74,7 +74,7 @@ const data = [
     ],
     type: "Studying",
     location: "Gothenburg",
-    image: "./brain.jpg",
+    image: "./assets/brain.jpg",
   },
   {
     start: 91,
@@ -89,7 +89,7 @@ const data = [
     ],
     type: "Studying",
     location: "Gothenburg",
-    image: "./design-small.png",
+    image: "./assets/design-small.png",
   },
 ];
 

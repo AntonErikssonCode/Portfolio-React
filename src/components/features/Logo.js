@@ -1,6 +1,6 @@
 import classes from "./Logo.module.css";
 import { Link } from "react-router-dom";
-import LogoImg from "./LogoImg.svg";
+import LogoImg from "../../assets/svg/LogoImg.svg"
 
 function Logo(props) {
   const topLeft = props.topLeft;

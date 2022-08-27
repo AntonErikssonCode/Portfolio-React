@@ -24,7 +24,7 @@ function Footer() {
               rel="noreferrer"
               href={"https://www.linkedin.com/in/anton-eriksson-4b907b19b/"}
             >
-              <img src={require("./linkedin_line.png")} />
+              <img src={require("../../assets/icon/linkedin_line.png")} />
               LinkedIn
             </a>
           </h3>
@@ -34,7 +34,7 @@ function Footer() {
               rel="noreferrer"
               href={"https://github.com/AntonErikssonCode"}
             >
-              <img src={require("./github_fill.png")} />
+              <img src={require("../../assets/icon/github_fill.png")} />
               GitHub
             </a>
           </h3>

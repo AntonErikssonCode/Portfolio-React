@@ -8,7 +8,7 @@ function ImgBoardContainer() {
       <Animate variant={3}>
         <div className="images">
           <div className="imgContainer">
-            <ImgBoard img="./writing-new.jpg" topBorder={true} />
+            <ImgBoard img="./assets/writing-new.jpg" topBorder={true} />
             <h3 className="imgTitle1">
               <span className="imgTitle1-row1">MASTER IN </span>
               <span className="imgTitle1-row2">INTERACTION DESIGN </span>{" "}
@@ -16,7 +16,7 @@ function ImgBoardContainer() {
             </h3>
           </div>
           <div className="imgContainer">
-            <ImgBoard img="./web-new.jpg" topBorder={true} />
+            <ImgBoard img="./assets/web-new.jpg" topBorder={true} />
             <div className="img-center-title">
               <h3 className="imgTitle2">
                 <span className="imgTitle2-row1">LEARNING </span>
@@ -28,7 +28,7 @@ function ImgBoardContainer() {
             </div>
           </div>
           <div className="imgContainer">
-            <ImgBoard img="./piano-new.jpg" topBorder={true} />
+            <ImgBoard img="./assets/piano-new.jpg" topBorder={true} />
             <div className="img-center-title">
               <h3 className="imgTitle3">
                 <span className="imgTitle3-row1">MASTER THESIS RESEARCH </span>

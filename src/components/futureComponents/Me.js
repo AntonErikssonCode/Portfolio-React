@@ -1,11 +1,11 @@
 import "./Me.css";
-import resume from "./resume.pdf";
-import grades from "./grades.pdf";
-import thesis from "./thesis.pdf";
-import music from "./music.svg";
-import coding from "./coding.svg";
-import cube from "./cube.svg";
-import brain from "./brain.svg";
+import resume from "../../assets/pdf/resume.pdf";
+import grades from "../../assets/pdf/grades.pdf";
+import thesis from "../../assets/pdf/thesis.pdf";
+import music from "../../assets/svg/music.svg";
+import coding from "../../assets/svg/coding.svg";
+import cube from "../../assets/svg/cube.svg";
+import brain from "../../assets/svg/brain.svg";
 import Quote from "./Quote";
 import Animate from "../features/Animate";
 import React from "react";
@@ -33,7 +33,7 @@ function Me() {
                   </p>
                 </div>
                 <div className="me-img-container">
-                  <img className="me-img" src={require("./me-small.jpg")}></img>
+                  <img className="me-img" src={require("../../assets/img/me-small.jpg")}></img>
                 </div>
               </div>
             </Animate>

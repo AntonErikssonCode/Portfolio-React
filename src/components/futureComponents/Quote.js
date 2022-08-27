@@ -1,6 +1,6 @@
 import "./Quote.css";
 import React, { useState, useEffect, useRef } from "react";
-import svgTest from "./testimonial.png";
+import svgTest from "../../assets/icon/testimonial.png";
 
 function Quote() {
   const [height, setHeight] = useState(0);

@@ -1,10 +1,10 @@
 import "./MyWebsite.css";
 
 function MyWebsite() {
-  const sliderOld = require("./slider-old.gif");
-  const sliderFigma = require("./slider-figma.JPG");
-  const sliderInspiration = require("./slider-inspiration.gif");
-  const sliderFigma2 = require("./slider-figma2.JPG");
+  const sliderOld = require("../../../assets/project1/slider-old.gif");
+  const sliderFigma = require("../../../assets/project1/slider-figma.JPG");
+  const sliderInspiration = require("../../../assets/project1/slider-inspiration.gif");
+  const sliderFigma2 = require("../../../assets/project1/slider-figma2.JPG");
 
   return (
     <div className="MyWebsite-container">
