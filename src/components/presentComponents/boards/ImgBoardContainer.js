@@ -33,9 +33,22 @@ function ImgBoardContainer() {
               <h3 className="imgTitle3">
                 <span className="imgTitle3-row1">MASTER THESIS RESEARCH </span>
                 <span className="imgTitle3-row2">
-                  <span className="notBold"></span>VISUALIZING SOUND 
+                  <span className="notBold"></span>VISUALIZING SOUND
                   <span className="notBold"> IN</span> 3D
                 </span>
+              </h3>
+            </div>
+          </div>
+          <div className="imgContainer">
+            <ImgBoard img="./assets/crypto-new.jpg" topBorder={true} />
+            <div className="img-center-title">
+              <h3 className="imgTitle4">
+                <span className="imgTitle4-row1"><span className="bold">Developing</span> <span className="notBold">The</span></span>
+                <span className="imgTitle4-row2">
+                  <span className="notBold">Frontend For A <span className="bold">Blockchain Exhange</span></span>
+
+                </span>
+                <span   className=" notBold imgTitle4-row3">Using Ethers.js</span>
               </h3>
             </div>
           </div>
