@@ -8,6 +8,7 @@ function Slider() {
   const [sliderState, setSliderState] = useState("/past");
   const [silderDown, setsilderDown] = useState(true);
   const [keyPress, setKeyPress] = useState(false);
+  const [scrollTo, setScrollTo] = useState(0);
   const sliderBackground = useRef();
   const sliderDiv = useRef();
   const sliderRef = useRef();
@@ -102,6 +103,7 @@ function Slider() {
         setSliderState("/future");
         slider.firstChild.innerHTML = "FUTURE";
         navigateTo("future");
+        
       }
 
       // PRESENT
