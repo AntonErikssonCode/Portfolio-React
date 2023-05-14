@@ -1,5 +1,5 @@
 .MyWebsite-container {
-  color: white;
+  
   padding: 5rem 10rem;
 }
 
@@ -13,7 +13,7 @@
 .MyWebsite-container p,
 .MyWebsite-container q,
 .MyWebsite-container ul li {
-  font-size: var(--SmallText);
+  font-size: var(--regularText);
   font-weight: var(--regularWeight);
   margin: 0;
   padding: 0;

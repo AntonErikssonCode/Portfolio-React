@@ -1,7 +1,8 @@
 .projectItem {
   margin: auto;
-  background: linear-gradient(45deg, black, rgb(44, 44, 44));
-  color: rgb(188, 188, 188);
+/*   background: linear-gradient(45deg, black, rgb(44, 44, 44)); */
+background-color: white;
+/*   color: rgb(188, 188, 188); */
   box-shadow: rgba(0, 0, 0, 0.708) 8px 8px 20px;
   transition: all 0.2s;
   border-top-right-radius: 0.5rem;
@@ -9,10 +10,17 @@
   border-bottom-left-radius: 0.5rem;
   border-bottom-right-radius: 0.5rem;
   cursor: pointer;
+  color: black;
+  margin-bottom: 2rem;
+  
 }
-
+.projectItem h3{
+  text-align: none;
+  text-shadow: none;
+}
 .projectItem:hover {
-  color: rgb(255, 255, 255);
+  /* color: rgb(255, 255, 255); */
+  color: black;
   transform: scale(1.01);
 }
 
@@ -74,7 +82,8 @@
 .rightPartTheme {
   font-size: var(--regularBigText);
   margin: 0;
-  color: rgb(188, 188, 188);
+ /*  color: rgb(188, 188, 188); */
+ color: black;
 }
 
 .rightPartDescription {

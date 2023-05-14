@@ -64,6 +64,24 @@ function SkillsContainer() {
               "Encountered it  back in 2017.",
             ]}
           ></Skill>
+              <Skill
+            name="Flutter"
+            image="./assets/Flutter-small.jpg"
+            text={[
+              "Created a online Co-Located mobile game.",
+             
+            ]}
+          ></Skill>
+              <Skill
+            name="Firebase"
+            image="./assets/Firebase-small.png"
+            text={[
+              "Firebase Realtime Database implementation in a mobile game",
+              "Website Deployment",
+              "Forwarding Emails",
+             
+            ]}
+          ></Skill>
           <Skill
             name="PHP"
             image="./assets/PHP-icon-small.png"

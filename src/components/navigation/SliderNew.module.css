@@ -121,7 +121,7 @@
   padding: var(--sliderGap);
   border-radius: var(--borderRadius);
   box-shadow: rgba(0, 0, 0, 0.438) 8px 8px 20px;
-  transition: all 0.8s;
+  transition: all 0.2s;
 }
 
 .sliderBarDivDown {

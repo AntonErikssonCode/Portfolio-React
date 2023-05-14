@@ -35,3 +35,10 @@
     padding-bottom: 20rem;
   }
 }
+
+.project-column{
+/*   display: flex;
+  margin: 5rem;
+  flex-direction: column;
+  gap: 5rem; */
+}

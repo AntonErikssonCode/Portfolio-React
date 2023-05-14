@@ -1,6 +1,6 @@
-import "./MyWebsite.css";
+import "./Projects.css";
 
-function MyWebsite() {
+function ProjectDnD() {
   const sliderOld = require("../../../assets/project1/slider-old.gif");
   const sliderFigma = require("../../../assets/project1/slider-figma.JPG");
   const sliderInspiration = require("../../../assets/project1/slider-inspiration.gif");
@@ -147,4 +147,4 @@ function MyWebsite() {
   );
 }
 
-export default MyWebsite;
+export default ProjectDnD;
