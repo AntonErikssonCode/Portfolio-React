@@ -14,11 +14,10 @@ function ProjectPawly() {
             The Task
           </h3>
           <p>
-            Create a sleek website with an intuitive flow and storydriven
-            trajectory.
+            Create a design that can help childern to stay active. 
           </p>
-          <h3>Potential Users</h3>
-          <p>Recruiters, employers & students. </p>
+          <h3>Main Stakholder</h3>
+          <p>Generation Pepp </p>
           <h3>Inspiration </h3>
           <p>
             I wanted to create an alluring navigational system for my personal
