@@ -21,7 +21,7 @@ const monthValues = {
 function SliderTimeline() {
   const [year, setYear] = useState(2014);
   const [month, setMonth] = useState("June");
-  const [timeValue, setTimeValue] = useState(104);
+  const [timeValue, setTimeValue] = useState(113);
 
   function handleChange(e) {
     setTimeValue(e.target.value);

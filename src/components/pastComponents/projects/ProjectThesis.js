@@ -87,7 +87,7 @@ function ProjectThesis() {
         </div>
       </div>
 
-      <h3 className="noMarginTop">Results</h3>
+      <h3 className="">Results</h3>
       <div className="projectThesis-results">
         <div className="portfolio-img portfolio-img-fullsize">
           <img src={happy} />

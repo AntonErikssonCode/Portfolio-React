@@ -14,6 +14,14 @@ function SkillsContainer() {
             image="./assets/JS-icon-small.png"
             text={["Comfortable with vanilla JS.", "Taken two WebDev-courses."]}
           ></Skill>
+              <Skill
+            name="React"
+            image="./assets/REACT-icon-small.png"
+            text={[
+              "This site was created using React",
+              "Applied multiple advanced libraries, such as Framer Motion and React Fiber. ",
+            ]}
+          ></Skill>
           <Skill
             name="HTML"
             image="./assets/HTML-icon-small.png"
@@ -48,14 +56,7 @@ function SkillsContainer() {
       <section className="skillSection">
         <h3>Technologies I Know</h3>
         <div className="skillRow">
-          <Skill
-            name="React"
-            image="./assets/REACT-icon-small.png"
-            text={[
-              "This site was created using React",
-              "Applied multiple advanced libraries, such as Framer Motion and React Fiber. ",
-            ]}
-          ></Skill>
+      
           <Skill
             name="Python"
             image="./assets/PYTHON-icon-small.png"
