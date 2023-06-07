@@ -1,148 +1,107 @@
 import "./Projects.css";
+import "./ProjectThesis.css";
+
 
 function ProjectThesis() {
   const cover = require("../../../assets/project2/cover.jpg");
-  const sliderFigma = require("../../../assets/project1/slider-figma.JPG");
-  const sliderInspiration = require("../../../assets/project1/slider-inspiration.gif");
-  const sliderFigma2 = require("../../../assets/project1/slider-figma2.JPG");
+  const agg = require("../../../assets/project2/agg.JPG");
+  const happy = require("../../../assets/project2/happy.JPG");
+  const sad = require("../../../assets/project2/sad.JPG");
+  const example = require("../../../assets/project2/example2.JPG");
+  const masterThesis = require("../../../assets/pdf/masterThesis.pdf");
 
   return (
     <div className="MyWebsite-container">
       <div className="MyWebsite-inspiration-container">
         <div>
           <h3 className="MyWebsite-inspiration-firstTitle noMarginTop">
-            The Task
+            Introduction
           </h3>
           <p>
-            Create a sleek website with an intuitive flow and storydriven
-            trajectory.
+            I am delighted to share with you my Master Thesis passion project—an
+            ambitious endeavor to visualize music's emotions in 3D. Despite its
+            inherent complexity, I embraced the challenge wholeheartedly, driven
+            by the aim of unraveling the intricate connection between music and
+            emotion.
           </p>
-          <h3>Potential Users</h3>
-          <p>Recruiters, employers & students. </p>
-          <h3>Inspiration </h3>
+          <h3 className="project-link-container" >
+        <a
+        className="project-link"
+          href="https://github.com/AntonErikssonCode/VibifyEnv"
+          target="_blank"
+          rel="noopener noreferrer"
+
+        >
+          View Code
+        </a>
+      </h3>
+      
+      <h3 className=" noMarginTop project-link-container" >
+        <a
+        className="project-link"
+          href={masterThesis}
+          target="_blank"
+          rel="noopener noreferrer"
+
+        >
+          View Thesis
+        </a>
+      </h3>
+          <h3>Abstract</h3>
           <p>
-            I wanted to create an alluring navigational system for my personal
-            webpage and avoid a bland navbar. I was inspired by the minimalistic
-            style of the game 2048 and came up with a concept to have a
-            joystick-like container where a box can be moved around, using the
-            arrow keys, which determines the content of the page.{" "}
+            Abstract This project aimed to develop a 3D music visualizer using
+            affect estimation and real-time audio features. Methods used during
+            the project ranged from research through design, focus groups,
+            prototyping, and an experimental survey. The final iteration of the
+            visualizer could generate 3D scenes based on the music and extracted
+            affect values, which participants found to be visually pleasing and
+            fitting to the music. However, the visualizer struggled to
+            accurately communicate the affect values visually, which is
+            attributed to the lacking aesthetic profile and the subsequent
+            implementation. Despite this, the project successfully manifested an
+            affect-based visualizer that offers potential for further
+            development. Future research is needed to investigate the use of
+            abstract means for communicating emotions, and standardization of
+            measures and language is required for this multidisciplinary domain.
           </p>
-        </div>
-        <div className="portfolio-img portfolio-img-1">
-          <img src={sliderInspiration} />
-        </div>
-      </div>
-      <h3>User Feedback</h3>
-      <div className="MyWebsite-userfeedback-container">
-        <div className="portfolio-img portfolio-img-2">
-          <img src={cover} />
-        </div>
-        <div className="MyWebsite-userfeedback-container-left">
-          <p>
-            An evening was spent with vanilla JavaScript to create a mockup of
-            this concept and I decided to show it to my student peers to get
-            some user feedback. While they approved of the general concept I
-            gained some valuable insights:{" "}
-          </p>
+          <h3>Methods Used </h3>
           <ul>
-            <li>
-              Removing the option of scrolling with the up and down arrow keys
-              decreases accessibility.{" "}
-            </li>
-            <li>
-              The page traversal is not transparent enough, meaning it's unclear
-              where the selector moves when you use the keys.{" "}
-            </li>
-            <li>
-              Scalability might be an issue if each position in the container
-              merely represents a single portfolio piece.{" "}
-            </li>
+            <li>Double Diamond Model</li>
+            <li>Research Through Design</li>
+            <li> Focus Group</li>
+            <li>Brainstorming</li>
+            <li>Importance/Difficulty Matrix</li>
+            <li>MoSCoW analysis</li>
+            <li>Prototyping</li>
+            <li>Coding</li>
           </ul>
-          <p>
-            I decided to scrap the square concept of the navigation and instead
-            opt for a horizontal design since it would free up the up and down
-            arrow keys and make the page trajectory more streamlined and more
-            suited for a narrative. A horizontal design would be easier to scale
-            for later expansions.{" "}
-          </p>
-        </div>
-      </div>
-      <p>
-        While it's enjoyable to develop unique controls, the user experience
-        will suffer if the user is incapable of intuitively discovering how to
-        use the product. It might not be worth it to try to reinvent the wheel
-        but I still wanted to put my twist on the traditional horizontal navbar.{" "}
-      </p>
-      <div className="MyWebsite-quote-container">
-        <q>
-          Users spend most of their time on other sites. This means that users
-          prefer your site to work the same way as all the other sites they
-          already know.
-        </q>
-        <address>Jacob’s Law</address>
-      </div>
-      <h3 className="noMarginTop">Figma Mockup</h3>
-      <div className="MyWebsite-figmaMockup-container">
-        <div className="portfolio-img portfolio-img-3">
-          <img src={sliderFigma} />
-        </div>
-        <div>
-          <p>
-            I used figma to redesign the navbar in its new horizontal mode. A
-            slider moving from one side to the other reminded me of a storyline
-            evolving and decided to have the slider states consist of different
-            tempuses instead of separate portfolio pieces. This change yield
-            multiple advantages:
-          </p>
+          <h3>Tech Used</h3>
           <ul>
-            <li>
-              It’s well suited to mediate what I’ve done, what I currently work
-              on and what goals I have, which is valuable information for the
-              user group.{" "}
-            </li>
-            <li>
-              The different states are easier to scale and can each contain
-              several relevant sections.{" "}
-            </li>
-            <li>
-              I can include the semantic values of the slider states in the
-              landing page for a compelling effect.{" "}
-            </li>
-            <li>
-              The minimalist amount of choices/menu-items and usage of the
-              established concept of time reduces cognitive load.{" "}
-            </li>
+            <li>JS</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Essentia.js</li>
+            <li>Meyda</li>
+            <li>Three.js</li>
           </ul>
         </div>
       </div>
-      <div className="centerDiv imgMargin">
-        <div className="portfolio-img portfolio-img-4">
-          <img src={sliderFigma2} />
+
+      <h3 className="noMarginTop">Results</h3>
+      <div className="projectThesis-results">
+        <div className="portfolio-img portfolio-img-fullsize">
+          <img src={happy} />
         </div>
+        <div className="portfolio-img portfolio-img-fullsize">
+          <img src={sad} />
+        </div>
+        <div className="portfolio-img portfolio-img-fullsize">
+          <img src={agg} />
+        </div>
+        <div></div>
       </div>
-      <h3>Coding and Iterating </h3>
-      <p>
-        I wireframed the fundamental outline of the website and decided to code
-        it in React, since I wanted a single page scalable application. The main
-        structure of the site was kept constant but over the iterations some
-        versions were tested. For example I played around with the movement of
-        the slider and tested if displacing it to one of the top corners would
-        make it more visible. While it freed up some space on the top of the
-        screen, feedback from peers conveyed that it made the impression less
-        symmetrical and that the animation was not perceived as sleek. I
-        therefore decided to keep the bar in the middle but increase the opacity
-        and increase the color contrast to keep it popping.{" "}
-      </p>
-      <h3>Perks of the Final Design</h3>
-      <p>The final design of the slider bar:</p>
-      <ul>
-        <li>Informs the user which page is selected</li>
-        <li>Is aesthetically pleasing</li>
-        <li>Is a part of a narrative</li>
-        <li>Radiates pliancy</li>
-        <li>Is accessible and makes arrow key navigation possible</li>
-        <li>Is interactive and responsive</li>
-      </ul>
+
+      
     </div>
   );
 }

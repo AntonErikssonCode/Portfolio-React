@@ -3,6 +3,9 @@ import ProjectItem from "./ProjectItem";
 import ProjectSlider from "./ProjectSlider";
 import SvgWave from "../../layout/SvgWave";
 import ProjectDiscopop from "./ProjectDiscopop";
+import ProjectDnd from "./ProjectDnD";
+import ProjectPawly from "./ProjectPawly";
+import ProjectThesis from "./ProjectThesis";
 
 function ProjectContainer() {
   return (
@@ -16,7 +19,7 @@ function ProjectContainer() {
           image={require("../../../assets/project2/cover.jpg")}
           description="Journeying through the development of an affect-based music visualizer "
           alignment="left"
-          component={<ProjectSlider />}
+          component={<ProjectThesis />}
         />
         
       <ProjectItem
@@ -25,7 +28,7 @@ function ProjectContainer() {
           image={require("../../../assets/project5/cover.jpg")}
           description="Hobby project where users can upload and change thier DnD Characters."
           alignment="right"
-          component={<ProjectSlider />}
+          component={<ProjectDnd />}
         />
 
       <ProjectItem
@@ -34,7 +37,7 @@ function ProjectContainer() {
           image={require("../../../assets/project3/cover.png")}
           description="A design concept for an app that promotes physical activity among children. "
           alignment="left"
-          component={<ProjectSlider />}
+          component={<ProjectPawly />}
         />
           <ProjectItem
           title="Discopop: Colocated Mobile Game"
@@ -42,7 +45,7 @@ function ProjectContainer() {
           image={require("../../../assets/project4/cover.png")}
           description="The design of a colocated mobile game using Flutter and Firebase Real Time Database. "
           alignment="right"
-          component={<ProjectSlider />}
+          component={<ProjectDiscopop />}
         />
         <ProjectItem
           title="The Process Behind the Slider"

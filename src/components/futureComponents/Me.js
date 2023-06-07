@@ -2,6 +2,7 @@ import "./Me.css";
 import resume from "../../assets/pdf/resume.pdf";
 import grades from "../../assets/pdf/grades.pdf";
 import thesis from "../../assets/pdf/thesis.pdf";
+import masterThesis from "../../assets/pdf/masterThesis.pdf";
 import music from "../../assets/svg/music.svg";
 import coding from "../../assets/svg/coding.svg";
 import cube from "../../assets/svg/cube.svg";
@@ -116,6 +117,9 @@ function Me() {
           </a>
           <a className="me-links-a" href={thesis} target="_blank">
             BCs THESIS
+          </a>
+          <a className="me-links-a" href={masterThesis} target="_blank">
+            MCs THESIS
           </a>
         </div>
       </div>
