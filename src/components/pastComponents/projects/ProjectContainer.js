@@ -13,7 +13,7 @@ function ProjectContainer() {
       <ProjectItem
           title="Applying Affect Estimates in 3D Music Visualization"
           theme="Music Visualization"
-          image={require("../../../assets/project1/slider-old.gif")}
+          image={require("../../../assets/project2/cover.jpg")}
           description="Journeying through the development of an affect-based music visualizer "
           alignment="left"
           component={<ProjectSlider />}
@@ -22,7 +22,7 @@ function ProjectContainer() {
       <ProjectItem
           title="DnD Character Log"
           theme="Web Design And NoSql"
-          image={require("../../../assets/project1/slider-old.gif")}
+          image={require("../../../assets/project5/cover.jpg")}
           description="Hobby project where users can upload and change thier DnD Characters."
           alignment="right"
           component={<ProjectSlider />}
@@ -31,7 +31,7 @@ function ProjectContainer() {
       <ProjectItem
           title="Pawly: Virtual Dog"
           theme="Augmented Reality and Concept Design"
-          image={require("../../../assets/project1/slider-old.gif")}
+          image={require("../../../assets/project3/cover.png")}
           description="A design concept for an app that promotes physical activity among children. "
           alignment="left"
           component={<ProjectSlider />}
@@ -39,7 +39,7 @@ function ProjectContainer() {
           <ProjectItem
           title="Discopop: Colocated Mobile Game"
           theme="Game Development and Mobile Design "
-          image={require("../../../assets/project1/slider-old.gif")}
+          image={require("../../../assets/project4/cover.png")}
           description="The design of a colocated mobile game using Flutter and Firebase Real Time Database. "
           alignment="right"
           component={<ProjectSlider />}

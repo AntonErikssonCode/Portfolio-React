@@ -46,37 +46,38 @@ function SliderTimeline() {
       setYear("2021");
     } else if (timeValue >= 96 && timeValue < 108) {
       setYear("2022");
+    } else if (timeValue >= 108 && timeValue < 120) {
+      setYear("2023");
     }
 
     var remainder = timeValue % 12;
     setMonth(monthValues[remainder]);
   }, [timeValue]);
- 
+
   return (
-    <div  
-    className="sliderTimeline-container">
+    <div className="sliderTimeline-container">
       <h3>My Timeline</h3>
       <Animate variant={2}>
-      <div className="sliderTimeline">
-        <div className="sliderTimeline-display">
-          <TimlineInstance time={timeValue} />
-        </div>
-        <div className="slider-timeline-center">
-          <div className="sliderTimeline-dates">
-            <h4>
-              {month}-{year}
-            </h4>
+        <div className="sliderTimeline">
+          <div className="sliderTimeline-display">
+            <TimlineInstance time={timeValue} />
           </div>
-          <input
-            type="range"
-            className="sliderTimeline-slider"
-            min="5"
-            max="104"
-            defaultValue="104"
-            onChange={handleChange}
-          />
+          <div className="slider-timeline-center">
+            <div className="sliderTimeline-dates">
+              <h4>
+                {month}-{year}
+              </h4>
+            </div>
+            <input
+              type="range"
+              className="sliderTimeline-slider"
+              min="5"
+              max="113"
+              defaultValue="113"
+              onChange={handleChange}
+            />
+          </div>
         </div>
-      </div>
       </Animate>
     </div>
   );

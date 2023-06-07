@@ -30,7 +30,7 @@ function ProjectItem(props) {
           <div className={`itemContent ${"itemContent-" + alignment}`}>
             <div className="imageContainer">
               <img
-                className={`image ${isExpanded ? "image-border-bot" : " "}`}
+                className={`${"image-" + alignment} ${isExpanded ? "image-border-bot" : " "}`}
                 src={image}
               />
             </div>

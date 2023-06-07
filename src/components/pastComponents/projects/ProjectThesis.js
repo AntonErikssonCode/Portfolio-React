@@ -1,7 +1,7 @@
 import "./Projects.css";
 
 function ProjectThesis() {
-  const sliderOld = require("../../../assets/project1/slider-old.gif");
+  const cover = require("../../../assets/project2/cover.jpg");
   const sliderFigma = require("../../../assets/project1/slider-figma.JPG");
   const sliderInspiration = require("../../../assets/project1/slider-inspiration.gif");
   const sliderFigma2 = require("../../../assets/project1/slider-figma2.JPG");
@@ -35,7 +35,7 @@ function ProjectThesis() {
       <h3>User Feedback</h3>
       <div className="MyWebsite-userfeedback-container">
         <div className="portfolio-img portfolio-img-2">
-          <img src={sliderOld} />
+          <img src={cover} />
         </div>
         <div className="MyWebsite-userfeedback-container-left">
           <p>
