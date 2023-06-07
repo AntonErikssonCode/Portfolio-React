@@ -20,7 +20,7 @@ function App() {
 
   return (
     <BrowserRouter>
-    {/*   {loading ? <LoadingAnimation /> : null} */}
+      {loading ? <LoadingAnimation /> : null}
       <Layout>
         <ScrollToTop />
         <Routes>
