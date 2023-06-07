@@ -78,7 +78,7 @@ const data = [
   },
   {
     start: 91,
-    end: 116,
+    end: 113,
     name: "MSc Interaction Design ",
     company: "Chalmers University of Technology",
     time: "August 2021 - Present",

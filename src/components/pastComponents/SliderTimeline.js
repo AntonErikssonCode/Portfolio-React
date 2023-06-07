@@ -46,7 +46,7 @@ function SliderTimeline() {
       setYear("2021");
     } else if (timeValue >= 96 && timeValue < 108) {
       setYear("2022");
-    } else if (timeValue >= 108 && timeValue < 120) {
+    } else if (timeValue >= 108 && timeValue < 113) {
       setYear("2023");
     }
 

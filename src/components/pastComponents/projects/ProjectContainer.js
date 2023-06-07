@@ -25,7 +25,7 @@ function ProjectContainer() {
       <ProjectItem
           title="DnD Character Log"
           theme="Web Design And NoSql"
-          image={require("../../../assets/project5/cover.jpg")}
+          image={require("../../../assets/project5/cover1.jpg")}
           description="Hobby project where users can upload and change thier DnD Characters."
           alignment="right"
           component={<ProjectDnd />}
