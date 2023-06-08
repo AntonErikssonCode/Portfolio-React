@@ -1,5 +1,8 @@
 {
   "projects": {
-    "default": "antonerikssonsportfolio"
-  }
+    "default": "antonerikssonsportfolio",
+    "AntonErikssonPortfolio": "antonerikssonsportfolio"
+  },
+  "targets": {},
+  "etags": {}
 }

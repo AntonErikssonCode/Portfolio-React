@@ -23,7 +23,7 @@ function ProjectContainer() {
         />
         
       <ProjectItem
-          title="DnD Character Log"
+          title="NPC Character Log"
           theme="Web Design And NoSql"
           image={require("../../../assets/project5/cover1.jpg")}
           description="Hobby project where users can upload and change thier DnD Characters."
@@ -40,15 +40,15 @@ function ProjectContainer() {
           component={<ProjectPawly />}
         />
           <ProjectItem
-          title="Discopop: Colocated Mobile Game"
+          title="Discopop: Co-Located Mobile Game"
           theme="Game Development and Mobile Design "
           image={require("../../../assets/project4/cover.png")}
-          description="The design of a colocated mobile game using Flutter and Firebase Real Time Database. "
+          description="The design of a co-located mobile game using Flutter and Firebase Real Time Database. "
           alignment="right"
           component={<ProjectDiscopop />}
         />
         <ProjectItem
-          title="The Process Behind the Slider"
+          title="The Slider"
           theme="UX And Web Development"
           image={require("../../../assets/project1/slider-old.gif")}
           description="Share my decision making processes and the reasoning that went into the creation of this site's slider navigation."
