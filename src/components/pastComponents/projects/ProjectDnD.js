@@ -39,7 +39,7 @@ function ProjectDnD() {
           <img src={selected} />
         </div>
         <div className="portfolio-img portfolio-img-fullsize">
-          <img src={main} />
+          <img src={add} />
         </div>
         <div></div>
       </div>
