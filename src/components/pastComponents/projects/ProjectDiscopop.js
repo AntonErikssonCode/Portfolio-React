@@ -13,7 +13,7 @@ function ProjectDiscopop() {
                 The Task
               </h3>
               <p>
-              Our mission was to craft an engaging and entertaining collocated mobile application that would captivate users.
+              Our mission was to craft an engaging and entertaining co-located mobile application that would captivate users.
               </p>
               <h3>Responsibility</h3>
               <p>In this project, I embraced the role of the sole coder, shouldering the entire responsibility for mastering Flutter, Firebase RealTime Database, and mobile game development. Despite the demanding time constraints of just two weeks, I am proud to declare that I successfully executed the project with utmost proficiency.</p>
